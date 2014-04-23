@@ -1,0 +1,10 @@
+{
+    "arma2": [
+        {"name": "USMC Woodland", "file": "usmc_woodland.sqm"},
+        {"name": "Russia Woodland", "file": "ru_woodland.sqm"}
+    ],
+    "arma3": [
+        {"name": "BLUFOR", "file": "blufor.sqm"},
+        {"name": "OPFOR", "file": "opfor.sqm"}
+    ]
+}
