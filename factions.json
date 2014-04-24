@@ -1,9 +1,11 @@
 {
     "arma2": {
+        "HULL_EMPTY_DEFAULT": "hull_empty_default.sqm",
         "USMC Woodland": "usmc_woodland.sqm",
         "Russia Woodland": "ru_woodland.sqm"
     },
     "arma3": {
+        "HULL_EMPTY_DEFAULT": "hull3_empty_default.sqm",
         "BLUFOR": "blufor.sqm",
         "OPFOR": "opfor.sqm"
     }
