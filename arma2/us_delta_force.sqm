@@ -1,0 +1,365 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"ace_sys_viewblock",
+		"acex_usnavy_men_usmc",
+		"acex_ru_men_naval",
+		"cacharacters2",
+		"acex_ru_c_men",
+		"cacharacters_e",
+		"ace_c_men",
+		"CACharacters_BAF",
+		"rw_characters",
+		"ace_sys_vehicledamage",
+		"CAWheeled_E",
+		"acex_veh_stryker",
+		"CATracked_E",
+		"CAAir",
+		"acex_usnavy_veh_ah1",
+		"CAWheeled",
+		"CAWheeled2_Kamaz",
+		"CAWheeled2_BTR90",
+		"ace_c_vehicle",
+		"CAAir2",
+		"cawheeled_d_baf",
+		"CATracked",
+		"CAWheeled2_MTVR",
+		"CAWheeled2_LAV25",
+		"CATracked2_BMP3",
+		"CAWheeled2_V3S",
+		"caair_e_mi8",
+		"CATracked_BAF",
+		"CAAir_BAF",
+		"caair_e_ch_47f",
+		"CAAir_E_AH64D",
+		"RW_Wheeled",
+		"RW_Wheeled2_LAV25",
+		"RW_Tracked",
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters_e",
+		"takistan"
+	};
+	randomSeed=3165154;
+	class Intel
+	{
+		briefingName="hull-framework";
+		briefingDescription="hull-framework";
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=8;
+		minute=0;
+	};
+	class Groups
+	{
+		items=4;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1460.8879,537.93219,865.96179};
+					azimut=1.4615099;
+					special="NONE";
+					id=0;
+					side="WEST";
+					vehicle="US_Delta_Force_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""SOF SL"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="US Delta Force Leader";
+				};
+				class Item1
+				{
+					position[]={1463.2327,539.24768,862.9281};
+					azimut=1.4615099;
+					special="NONE";
+					id=1;
+					side="WEST";
+					vehicle="US_Delta_Force_Medic_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""SOFM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="US Delta Force Medic";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1459.5784,543.69971,842.62512};
+					azimut=1.4615099;
+					special="NONE";
+					id=2;
+					side="WEST";
+					vehicle="US_Delta_Force_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""SOF1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="US Delta Force 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1461.9221,544.09888,839.59045};
+					azimut=1.4615099;
+					special="NONE";
+					id=3;
+					side="WEST";
+					vehicle="US_Delta_Force_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="US Delta Force 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1464.6702,543.4776,839.37659};
+					azimut=1.4615099;
+					special="NONE";
+					id=4;
+					side="WEST";
+					vehicle="US_Delta_Force_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="US Delta Force 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1468.1028,542.62,839.26086};
+					azimut=1.4615099;
+					special="NONE";
+					id=5;
+					side="WEST";
+					vehicle="US_Delta_Force_Assault_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="US Delta Force 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item2
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1459.8079,546.37183,817.88611};
+					azimut=1.4615099;
+					special="NONE";
+					id=6;
+					side="WEST";
+					vehicle="US_Delta_Force_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""SOF2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="US Delta Force 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1462.1526,545.00641,814.85242};
+					azimut=1.4615099;
+					special="NONE";
+					id=7;
+					side="WEST";
+					vehicle="US_Delta_Force_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="US Delta Force 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1464.8997,543.81134,814.64001};
+					azimut=1.4615099;
+					special="NONE";
+					id=8;
+					side="WEST";
+					vehicle="US_Delta_Force_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="US Delta Force 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1468.3342,542.32709,814.52283};
+					azimut=1.4615099;
+					special="NONE";
+					id=9;
+					side="WEST";
+					vehicle="US_Delta_Force_Assault_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="US Delta Force 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item3
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1459.2424,539.19427,793.37292};
+					azimut=1.4615099;
+					special="NONE";
+					id=10;
+					side="WEST";
+					vehicle="US_Delta_Force_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""SOF3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="US Delta Force 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1461.5862,537.20087,790.33875};
+					azimut=1.4615099;
+					special="NONE";
+					id=11;
+					side="WEST";
+					vehicle="US_Delta_Force_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="US Delta Force 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1464.3342,535.82074,790.12585};
+					azimut=1.4615099;
+					special="NONE";
+					id=12;
+					side="WEST";
+					vehicle="US_Delta_Force_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="US Delta Force 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1467.7688,534.08167,790.00867};
+					azimut=1.4615099;
+					special="NONE";
+					id=13;
+					side="WEST";
+					vehicle="US_Delta_Force_Assault_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="US Delta Force 3 Rifleman (AT)";
+				};
+			};
+		};
+	};
+	class Markers
+	{
+		items=1;
+		class Item0
+		{
+			position[]={106.41798,311.17209,2316.0652};
+			name="1_3_2_5_1";
+			type="Empty";
+			a=0;
+			b=0;
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=13119962;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=15231874;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=1525827;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
