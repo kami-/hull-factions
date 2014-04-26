@@ -1,0 +1,2312 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"ace_sys_viewblock",
+		"acex_usnavy_men_usmc",
+		"acex_ru_men_naval",
+		"cacharacters2",
+		"cacharacters_pmc",
+		"acex_ru_c_men",
+		"cacharacters_e",
+		"CACharacters_BAF",
+		"rw_characters",
+		"ace_sys_vehicledamage",
+		"acex_veh_stryker",
+		"CAAir",
+		"acex_usnavy_veh_ah1",
+		"CAWheeled",
+		"CAWheeled2_Kamaz",
+		"CAWheeled2_BTR90",
+		"ace_c_vehicle",
+		"CAAir2",
+		"cawheeled_d_baf",
+		"caair_pmc_ka60",
+		"CAWheeled2_MTVR",
+		"CAWheeled2_LAV25",
+		"CATracked2_BMP3",
+		"CAWheeled2_V3S",
+		"CATracked_BAF",
+		"CAAir_BAF",
+		"cawheeled_e_v3s",
+		"cawheeled_e_btr40",
+		"cawheeled_e_brdm2",
+		"catracked_e_t55",
+		"CAAir_E_UH1H_EP1",
+		"caair_e_ch_47f",
+		"CAAir_E_AH64D",
+		"RW_Wheeled",
+		"RW_Wheeled2_LAV25",
+		"RW_Tracked",
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters_e",
+		"cacharacters_pmc",
+		"cawheeled_e_btr40",
+		"cawheeled_e_v3s",
+		"cawheeled_e_brdm2",
+		"catracked_e_t55",
+		"CAAir_E_UH1H_EP1",
+		"caair_pmc_ka60",
+		"takistan"
+	};
+	randomSeed=3165154;
+	class Intel
+	{
+		briefingName="hull-framework";
+		briefingDescription="hull-framework";
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=8;
+		minute=0;
+	};
+	class Groups
+	{
+		items=40;
+		class Item0
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={105.50912,517.92316,609.43097};
+					azimut=0.32468101;
+					special="NONE";
+					id=0;
+					side="GUER";
+					vehicle="TK_GUE_Warlord_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.5;
+					init="[this, [""CO""], [""CO"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="TK Local Commander";
+				};
+				class Item1
+				{
+					position[]={107.49057,519.02887,607.4173};
+					azimut=0.32468101;
+					special="NONE";
+					id=1;
+					side="GUER";
+					vehicle="TK_GUE_Bonesetter_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""CoM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="TK Local Medic";
+				};
+			};
+		};
+		class Item1
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={106.17026,520.39722,595.14288};
+					azimut=0.32468101;
+					special="NONE";
+					id=2;
+					side="GUER";
+					vehicle="TK_GUE_Warlord_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.5;
+					init="[this, [""DC""], [""DC"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="TK Local Deputy Commander";
+				};
+				class Item1
+				{
+					position[]={109.04526,521.77539,592.74347};
+					azimut=0.32468101;
+					special="NONE";
+					id=3;
+					side="GUER";
+					vehicle="TK_GUE_Bonesetter_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""DcM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="TK Local Medic";
+				};
+			};
+		};
+		class Item2
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={134.58237,533.31927,579.51935};
+					azimut=0.32468101;
+					special="NONE";
+					id=4;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""ASL"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="TK Local Alpha Squad Leader";
+				};
+				class Item1
+				{
+					position[]={137.45737,534.84729,577.11945};
+					azimut=0.32468101;
+					special="NONE";
+					id=5;
+					side="GUER";
+					vehicle="TK_GUE_Bonesetter_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""AM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="TK Local Alpha Medic";
+				};
+			};
+		};
+		class Item3
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={133.74936,538.95001,553.30316};
+					azimut=0.32468101;
+					special="NONE";
+					id=6;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="TK Local Alpha 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={136.62387,540.69019,550.90326};
+					azimut=0.32468101;
+					special="NONE";
+					id=7;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Local Alpha 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={138.96811,541.67975,550.80853};
+					azimut=0.32468101;
+					special="NONE";
+					id=8;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_2_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Local Alpha 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={141.48715,542.7312,550.75824};
+					azimut=0.32468101;
+					special="NONE";
+					id=9;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AT_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Local Alpha 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item4
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={132.67221,544.92975,527.05804};
+					azimut=0.32468101;
+					special="NONE";
+					id=10;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A2"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="TK Local Alpha 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={135.54721,546.68433,524.65863};
+					azimut=0.32468101;
+					special="NONE";
+					id=11;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Local Alpha 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={137.89096,547.70258,524.5639};
+					azimut=0.32468101;
+					special="NONE";
+					id=12;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_2_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Local Alpha 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={140.41,548.79156,524.51312};
+					azimut=0.32468101;
+					special="NONE";
+					id=13;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AT_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Local Alpha 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item5
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={133.22299,550.15588,503.85736};
+					azimut=0.32468101;
+					special="NONE";
+					id=14;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A3"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="TK Local Alpha 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={136.09799,552.17017,501.45795};
+					azimut=0.32468101;
+					special="NONE";
+					id=15;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Local Alpha 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={138.44174,553.31213,501.36322};
+					azimut=0.32468101;
+					special="NONE";
+					id=16;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_2_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Local Alpha 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={140.96127,554.4903,501.31244};
+					azimut=0.32468101;
+					special="NONE";
+					id=17;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AT_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Local Alpha 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item6
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={164.05991,544.26202,579.67511};
+					azimut=0.32468101;
+					special="NONE";
+					id=18;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""BSL"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="TK Local Bravo Squad Leader";
+				};
+				class Item1
+				{
+					position[]={166.93491,545.7312,577.2757};
+					azimut=0.32468101;
+					special="NONE";
+					id=19;
+					side="GUER";
+					vehicle="TK_GUE_Bonesetter_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""BM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="TK Local Bravo Medic";
+				};
+			};
+		};
+		class Item7
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={163.18393,550.60297,553.13715};
+					azimut=0.32468101;
+					special="NONE";
+					id=20;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B1"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="TK Local Bravo 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={166.05795,552.28259,550.73773};
+					azimut=0.32468101;
+					special="NONE";
+					id=21;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Local Bravo 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={168.40268,553.15222,550.64252};
+					azimut=0.32468101;
+					special="NONE";
+					id=22;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_2_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Local Bravo 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={170.92123,554.07269,550.59125};
+					azimut=0.32468101;
+					special="NONE";
+					id=23;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AT_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Local Bravo 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item8
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={163.71518,557.66504,527.35297};
+					azimut=0.32468101;
+					special="NONE";
+					id=24;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="TK Local Bravo 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={166.59018,559.4129,524.95355};
+					azimut=0.32468101;
+					special="NONE";
+					id=25;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Local Bravo 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={168.93393,560.35211,524.85834};
+					azimut=0.32468101;
+					special="NONE";
+					id=26;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_2_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Local Bravo 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={171.45248,561.36163,524.80756};
+					azimut=0.32468101;
+					special="NONE";
+					id=27;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AT_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Local Bravo 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item9
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={163.23862,563.79016,503.0434};
+					azimut=0.32468101;
+					special="NONE";
+					id=28;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B3"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="TK Local Bravo 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={166.11313,565.62781,500.64398};
+					azimut=0.32468101;
+					special="NONE";
+					id=29;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Local Bravo 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={168.45737,566.62988,500.54926};
+					azimut=0.32468101;
+					special="NONE";
+					id=30;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_2_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Local Bravo 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={170.97592,567.67908,500.49799};
+					azimut=0.32468101;
+					special="NONE";
+					id=31;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AT_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Local Bravo 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item10
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={194.94077,554.2287,580.28546};
+					azimut=0.32468101;
+					special="NONE";
+					id=32;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""CSL"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="TK Local Charlie Squad Leader";
+				};
+				class Item1
+				{
+					position[]={197.81577,555.96167,577.88605};
+					azimut=0.32468101;
+					special="NONE";
+					id=33;
+					side="GUER";
+					vehicle="TK_GUE_Bonesetter_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""CM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="TK Local Charlie Medic";
+				};
+			};
+		};
+		class Item11
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={195.29623,562.2019,553.36615};
+					azimut=0.32468101;
+					special="NONE";
+					id=34;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C1"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="TK Local Charlie 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={198.17075,563.97778,550.96625};
+					azimut=0.32468101;
+					special="NONE";
+					id=35;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Local Charlie 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={200.51498,564.89105,550.87152};
+					azimut=0.32468101;
+					special="NONE";
+					id=36;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_2_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Local Charlie 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={203.03354,565.94165,550.82123};
+					azimut=0.32468101;
+					special="NONE";
+					id=37;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AT_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Local Charlie 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item12
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={194.94418,569.85315,527.61273};
+					azimut=0.32468101;
+					special="NONE";
+					id=38;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C2"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="TK Local Charlie 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={197.8187,571.7356,525.21283};
+					azimut=0.32468101;
+					special="NONE";
+					id=39;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Local Charlie 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={200.16342,572.69788,525.11761};
+					azimut=0.32468101;
+					special="NONE";
+					id=40;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_2_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Local Charlie 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={202.68198,573.71716,525.06732};
+					azimut=0.32468101;
+					special="NONE";
+					id=41;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AT_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Local Charlie 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item13
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={195.74594,577.26636,503.53314};
+					azimut=0.32468101;
+					special="NONE";
+					id=42;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="TK Local Charlie 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={198.62045,579.25909,501.13324};
+					azimut=0.32468101;
+					special="NONE";
+					id=43;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Local Charlie 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={200.96518,580.34796,501.03851};
+					azimut=0.32468101;
+					special="NONE";
+					id=44;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_2_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Local Charlie 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={203.48373,581.56049,500.98773};
+					azimut=0.32468101;
+					special="NONE";
+					id=45;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AT_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Local Charlie 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item14
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={225.931,565.75342,578.56281};
+					azimut=0.32468101;
+					special="NONE";
+					id=54;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""DSL"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="TK Local Delta Squad Leader";
+				};
+				class Item1
+				{
+					position[]={228.806,567.70203,576.16339};
+					azimut=0.32468101;
+					special="NONE";
+					id=55;
+					side="GUER";
+					vehicle="TK_GUE_Bonesetter_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""DM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="TK Local Delta Medic";
+				};
+			};
+		};
+		class Item15
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={226.28647,574.78528,551.64349};
+					azimut=0.32468101;
+					special="NONE";
+					id=56;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D1"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="TK Local Delta 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={229.16098,576.80017,549.24359};
+					azimut=0.32468101;
+					special="NONE";
+					id=57;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Local Delta 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={231.50525,577.87604,549.14886};
+					azimut=0.32468101;
+					special="NONE";
+					id=58;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_2_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Local Delta 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={234.0238,579.06854,549.09857};
+					azimut=0.32468101;
+					special="NONE";
+					id=59;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AT_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Local Delta 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item16
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={225.93442,583.0658,525.89008};
+					azimut=0.32468101;
+					special="NONE";
+					id=60;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D2"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="TK Local Delta 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={228.80893,585.40619,523.49017};
+					azimut=0.32468101;
+					special="NONE";
+					id=61;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Local Delta 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={231.15369,586.59943,523.39496};
+					azimut=0.32468101;
+					special="NONE";
+					id=62;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_2_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Local Charlie 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={233.67224,588.0304,523.34467};
+					azimut=0.32468101;
+					special="NONE";
+					id=63;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AT_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Local Delta 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item17
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={226.73618,592.50745,501.81049};
+					azimut=0.32468101;
+					special="NONE";
+					id=64;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D3"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="TK Local Delta 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={229.61072,595.07538,499.41058};
+					azimut=0.32468101;
+					special="NONE";
+					id=65;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Local Delta 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={231.95544,596.45917,499.31586};
+					azimut=0.32468101;
+					special="NONE";
+					id=66;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_2_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Local Delta 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={234.474,597.99597,499.26508};
+					azimut=0.32468101;
+					special="NONE";
+					id=67;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AT_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Local Delta 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item18
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={266.21179,583.23871,576.83575};
+					azimut=0.32468101;
+					special="NONE";
+					id=70;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_MG_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MMGG""], [""MMG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Local Medium MG Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={269.08582,585.56036,574.43683};
+					azimut=0.32468101;
+					special="NONE";
+					id=71;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_4_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MMGAG""]] call hull_unit_fnc_init;";
+					description="TK Local Medium MG Team 1 Assistant Gunner";
+				};
+			};
+		};
+		class Item19
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={267.76843,591.65082,559.93365};
+					azimut=0.32468101;
+					special="NONE";
+					id=72;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_MG_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MMGG""], [""MMG2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Local Medium MG Team 2 Gunner";
+				};
+				class Item1
+				{
+					position[]={270.64246,594.26703,557.53485};
+					azimut=0.32468101;
+					special="NONE";
+					id=73;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_4_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MMGAG""]] call hull_unit_fnc_init;";
+					description="TK Local Medium MG Team 2 Assistant Gunner";
+				};
+			};
+		};
+		class Item20
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={266.88464,604.89618,530.89178};
+					azimut=0.32468101;
+					special="NONE";
+					id=74;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AT_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MATG""], [""MAT1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Local Medium AT Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={269.75867,607.66772,528.49188};
+					azimut=0.32468101;
+					special="NONE";
+					id=75;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_4_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAG""]] call hull_unit_fnc_init;";
+					description="TK Local Medium AT Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={265.69226,605.29187,528.5661};
+					azimut=0.32468101;
+					special="NONE";
+					id=76;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_4_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAC""]] call hull_unit_fnc_init;";
+					description="TK Local Medium AT Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item21
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={266.15027,610.18018,518.44208};
+					azimut=0.32468101;
+					special="NONE";
+					id=77;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AT_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MATG""], [""MAT2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Local Medium AT Team 2 Gunner";
+				};
+				class Item1
+				{
+					position[]={269.02429,612.87549,516.04218};
+					azimut=0.32468101;
+					special="NONE";
+					id=78;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_4_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAG""]] call hull_unit_fnc_init;";
+					description="TK Local Medium AT Team 2 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={264.95789,610.48254,516.11639};
+					azimut=0.32468101;
+					special="NONE";
+					id=79;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_4_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAC""]] call hull_unit_fnc_init;";
+					description="TK Local Medium AT Team 2 Ammo Carrier";
+				};
+			};
+		};
+		class Item22
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={268.79333,599.16272,545.55219};
+					azimut=0.32468101;
+					special="NONE";
+					id=80;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_MG_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""HMGG""], [""HMG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Local Heavy MG Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={271.66736,601.80438,543.15228};
+					azimut=0.32468101;
+					special="NONE";
+					id=81;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_4_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HMGAG""]] call hull_unit_fnc_init;";
+					description="TK Local Heavy MG Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={267.12146,599.43286,543.07611};
+					azimut=0.32468101;
+					special="NONE";
+					id=91;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_4_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HMGAC""]] call hull_unit_fnc_init;";
+					description="TK Local Heavy MG Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item23
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={287.4364,613.28278,535.52509};
+					azimut=0.32468101;
+					special="NONE";
+					id=82;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_AT_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""HATG""], [""HAT1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Local Heavy AT Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={290.3114,615.79718,533.12567};
+					azimut=0.32468101;
+					special="NONE";
+					id=83;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_4_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HATAG""]] call hull_unit_fnc_init;";
+					description="TK Local Heavy AT Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={285.35046,613.526,532.7829};
+					azimut=0.32468101;
+					special="NONE";
+					id=92;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_4_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HATAG""]] call hull_unit_fnc_init;";
+					description="TK Local Heavy AT Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item24
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={288.27478,596.75592,571.13153};
+					azimut=0.32468101;
+					special="NONE";
+					id=84;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_Sniper_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SN""], [""ST1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Local Sniper Team 1 Sniper";
+				};
+				class Item1
+				{
+					position[]={291.14783,599.71851,568.12665};
+					azimut=0.32468101;
+					special="NONE";
+					id=85;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_4_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""SP""]] call hull_unit_fnc_init;";
+					description="TK Local Sniper Team 1 Spotter";
+				};
+			};
+		};
+		class Item25
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={287.91052,601.43555,560.96893};
+					azimut=0.32468101;
+					special="NONE";
+					id=86;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_2_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MTRG""], [""MTR1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Local Mortar Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={290.78455,604.07849,558.57001};
+					azimut=0.32468101;
+					special="NONE";
+					id=87;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_2_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MTRAG""]] call hull_unit_fnc_init;";
+					description="TK Local Mortar Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={286.41443,601.77631,558.68866};
+					azimut=0.32468101;
+					special="NONE";
+					id=90;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_2_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MTRAC""]] call hull_unit_fnc_init;";
+					description="TK Local Mortar Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item26
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={288.74939,607.71973,548.76776};
+					azimut=0.32468101;
+					special="NONE";
+					id=88;
+					side="GUER";
+					vehicle="Soldier_Engineer_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""ENG""], [""ENG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Local Exchange Engineer Team 1 Leader (PMC)";
+				};
+				class Item1
+				{
+					position[]={291.62634,610.24109,546.36786};
+					azimut=0.32468101;
+					special="NONE";
+					id=89;
+					side="GUER";
+					vehicle="Soldier_Engineer_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""ENGA""]] call hull_unit_fnc_init;";
+					description="TK Local Exchange Engineer Team 1 Assistant (PMC)";
+				};
+			};
+		};
+		class Item27
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={127.84995,556.38361,458.36102};
+					azimut=0.32468101;
+					special="NONE";
+					id=93;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="TK Local IFV 1 Commander";
+				};
+				class Item1
+				{
+					position[]={129.88998,557.68695,455.91766};
+					azimut=0.32468101;
+					special="NONE";
+					id=94;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="TK Local IFV 1 Driver";
+				};
+				class Item2
+				{
+					position[]={132.87631,559.14917,455.92889};
+					azimut=0.32468101;
+					special="NONE";
+					id=95;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="TK Local IFV 1 Gunner";
+				};
+			};
+		};
+		class Item28
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={153.81528,569.0899,457.22821};
+					azimut=0.32468101;
+					special="NONE";
+					id=96;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="TK Local IFV 2 Commander";
+				};
+				class Item1
+				{
+					position[]={155.85532,570.38879,454.78485};
+					azimut=0.32468101;
+					special="NONE";
+					id=97;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="TK Local IFV 2 Driver";
+				};
+				class Item2
+				{
+					position[]={158.84164,571.84644,454.79608};
+					azimut=0.32468101;
+					special="NONE";
+					id=98;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="TK Local IFV 2 Gunner";
+				};
+			};
+		};
+		class Item29
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={178.55893,581.27161,457.06171};
+					azimut=0.32468101;
+					special="NONE";
+					id=99;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="TK Local IFV 3 Commander";
+				};
+				class Item1
+				{
+					position[]={180.59897,582.68555,454.61835};
+					azimut=0.32468101;
+					special="NONE";
+					id=100;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="TK Local IFV 3 Driver";
+				};
+				class Item2
+				{
+					position[]={183.5853,584.2179,454.63007};
+					azimut=0.32468101;
+					special="NONE";
+					id=101;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init; ";
+					description="TK Local IFV 3 Gunner";
+				};
+			};
+		};
+		class Item30
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={218.77719,604.99072,456.30267};
+					azimut=0.32468101;
+					special="NONE";
+					id=105;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK4"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="TK Local IFV 4 Commander";
+				};
+				class Item1
+				{
+					position[]={220.81723,607.02686,453.85931};
+					azimut=0.32468101;
+					special="NONE";
+					id=106;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="TK Local IFV 4 Driver";
+				};
+				class Item2
+				{
+					position[]={223.80356,608.8728,453.87103};
+					azimut=0.32468101;
+					special="NONE";
+					id=107;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init; ";
+					description="TK Local IFV 4 Gunner";
+				};
+			};
+		};
+		class Item31
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={124.77719,561.43164,422.64453};
+					azimut=0.32468101;
+					special="NONE";
+					id=109;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="TK Local Tank 1 Commander";
+				};
+				class Item1
+				{
+					position[]={126.58578,563.1778,420.38574};
+					azimut=0.32468101;
+					special="NONE";
+					id=110;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="TK Local Tank 1 Driver";
+				};
+				class Item2
+				{
+					position[]={129.05063,564.45099,420.58545};
+					azimut=0.32468101;
+					special="NONE";
+					id=111;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="TK Local Tank 1 Gunner";
+				};
+			};
+		};
+		class Item32
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={149.13022,574.88153,421.23169};
+					azimut=0.32468101;
+					special="NONE";
+					id=113;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="TK Local Tank 2 Commander";
+				};
+				class Item1
+				{
+					position[]={150.93881,576.98383,418.9729};
+					azimut=0.32468101;
+					special="NONE";
+					id=114;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init; ";
+					description="TK Local Tank 2 Driver";
+				};
+				class Item2
+				{
+					position[]={153.40366,578.48468,419.17261};
+					azimut=0.32468101;
+					special="NONE";
+					id=115;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="TK Local Tank 2 Gunner";
+				};
+			};
+		};
+		class Item33
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={176.99155,594.2525,419.08252};
+					azimut=0.32468101;
+					special="NONE";
+					id=117;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK3"", ""ColorGreen""]] call hull_unit_fnc_init; ";
+					description="TK Local Tank 3 Commander";
+				};
+				class Item1
+				{
+					position[]={178.80014,597.07788,416.82373};
+					azimut=0.32468101;
+					special="NONE";
+					id=118;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="TK Local Tank 3 Driver";
+				};
+				class Item2
+				{
+					position[]={181.26498,598.61566,417.02344};
+					azimut=0.32468101;
+					special="NONE";
+					id=119;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="TK Local Tank 3 Gunner";
+				};
+			};
+		};
+		class Item34
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={213.01352,618.32745,417.52222};
+					azimut=0.32468101;
+					special="NONE";
+					id=121;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK4"", ""ColorBrown""]] call hull_unit_fnc_init; ";
+					description="TK Local Tank 4 Commander";
+				};
+				class Item1
+				{
+					position[]={214.82211,620.93555,415.26343};
+					azimut=0.32468101;
+					special="NONE";
+					id=122;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="TK Local Tank 4 Driver";
+				};
+				class Item2
+				{
+					position[]={217.28696,622.3194,415.46313};
+					azimut=0.32468101;
+					special="NONE";
+					id=123;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init; ";
+					description="TK Local Tank 4 Gunner";
+				};
+			};
+		};
+		class Item35
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={254.48865,646.76917,407.54663};
+					azimut=0.32468101;
+					special="NONE";
+					id=125;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Local Transport Helo 1 Pilot";
+				};
+				class Item1
+				{
+					position[]={257.25525,648.90527,405.71997};
+					azimut=0.32468101;
+					special="NONE";
+					id=126;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="TK Local Transport Helo 1 Crewman";
+				};
+			};
+		};
+		class Item36
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={282.26013,656.28296,405.94067};
+					azimut=0.32468101;
+					special="NONE";
+					id=127;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH2"", ""ColorOrange""]] call hull_unit_fnc_init; ";
+					description="TK Local Transport Helo 2 Pilot";
+				};
+				class Item1
+				{
+					position[]={285.02722,657.1781,404.11353};
+					azimut=0.32468101;
+					special="NONE";
+					id=128;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init; ";
+					description="TK Local Transport Helo 2 Crewman";
+				};
+			};
+		};
+		class Item37
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={307.6156,659.04004,405.4707};
+					azimut=0.32468101;
+					special="NONE";
+					id=131;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH3"", ""ColorOrange""]] call hull_unit_fnc_init; ";
+					description="TK Local Transport Helo 3 Pilot";
+				};
+				class Item1
+				{
+					position[]={310.38269,658.79657,403.64355};
+					azimut=0.32468101;
+					special="NONE";
+					id=132;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="TK Local Transport Helo 3 Crewman";
+				};
+			};
+		};
+		class Item38
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={332.65802,653.03821,405.62622};
+					azimut=0.32468101;
+					special="NONE";
+					id=134;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH4"", ""ColorOrange""]] call hull_unit_fnc_init; ";
+					description="TK Local Transport Helo 4 Pilot";
+				};
+				class Item1
+				{
+					position[]={335.42511,652.45386,403.79907};
+					azimut=0.32468101;
+					special="NONE";
+					id=135;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init; ";
+					description="TK Local Transport Helo 4 Crewman";
+				};
+			};
+		};
+		class Item39
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={332.7298,647.89624,440.30609};
+					azimut=0.32468101;
+					special="NONE";
+					id=137;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""AH1"", ""ColorRed""]] call hull_unit_fnc_init;  ";
+					description="TK Local Attack Helo 1 Pilot";
+				};
+				class Item1
+				{
+					position[]={335.4964,647.62476,438.47894};
+					azimut=0.32468101;
+					special="NONE";
+					id=138;
+					side="GUER";
+					vehicle="TK_GUE_Soldier_5_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init; ";
+					description="TK Local Attack Helo 1 Gunner";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=23;
+		class Item0
+		{
+			position[]={101.84506,514.9682,618.36066};
+			azimut=0.32468101;
+			id=46;
+			side="EMPTY";
+			vehicle="BTR40_TK_GUE_EP1";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item1
+		{
+			position[]={99.861176,516.99969,601.62921};
+			azimut=0.32468101;
+			id=47;
+			side="EMPTY";
+			vehicle="BTR40_TK_GUE_EP1";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item2
+		{
+			position[]={129.86655,536.53778,556.81683};
+			azimut=0.32468101;
+			id=48;
+			side="EMPTY";
+			vehicle="V3S_TK_GUE_EP1";
+			skill=0.1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item3
+		{
+			position[]={158.34018,548.09296,555.98773};
+			azimut=0.32468101;
+			id=49;
+			side="EMPTY";
+			vehicle="V3S_TK_GUE_EP1";
+			skill=0.1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item4
+		{
+			position[]={190.3226,559.79401,555.38812};
+			azimut=0.32468101;
+			id=50;
+			side="EMPTY";
+			vehicle="V3S_TK_GUE_EP1";
+			skill=0.1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item5
+		{
+			position[]={129.3851,530.59174,583.84698};
+			azimut=0.32468101;
+			id=51;
+			side="EMPTY";
+			vehicle="BTR40_TK_GUE_EP1";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item6
+		{
+			position[]={158.71616,541.37469,584.39972};
+			azimut=0.32468101;
+			id=52;
+			side="EMPTY";
+			vehicle="BTR40_TK_GUE_EP1";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item7
+		{
+			position[]={189.35678,551.37988,583.86652};
+			azimut=0.32468101;
+			id=53;
+			side="EMPTY";
+			vehicle="BTR40_TK_GUE_EP1";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item8
+		{
+			position[]={221.31284,572.11884,553.66547};
+			azimut=0.32468101;
+			id=68;
+			side="EMPTY";
+			vehicle="V3S_TK_GUE_EP1";
+			skill=0.2;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item9
+		{
+			position[]={220.34702,562.46637,582.14386};
+			azimut=0.32468101;
+			id=69;
+			side="EMPTY";
+			vehicle="BTR40_TK_GUE_EP1";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item10
+		{
+			position[]={131.18491,557.15106,465.24139};
+			azimut=0.32468101;
+			id=102;
+			side="EMPTY";
+			vehicle="BRDM2_TK_GUE_EP1";
+			skill=0.1;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item11
+		{
+			position[]={156.76889,569.65875,464.09442};
+			azimut=0.32468101;
+			id=103;
+			side="EMPTY";
+			vehicle="BRDM2_TK_GUE_EP1";
+			skill=0.1;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item12
+		{
+			position[]={182.06284,581.98267,463.15985};
+			azimut=0.32468101;
+			id=104;
+			side="EMPTY";
+			vehicle="BRDM2_TK_GUE_EP1";
+			skill=0.1;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item13
+		{
+			position[]={222.2811,605.29126,462.40082};
+			azimut=0.32468101;
+			id=108;
+			side="EMPTY";
+			vehicle="BRDM2_TK_GUE_EP1";
+			skill=0.2;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item14
+		{
+			position[]={130.22299,561.63629,431.16547};
+			azimut=0.32468101;
+			id=112;
+			side="EMPTY";
+			vehicle="T55_TK_GUE_EP1";
+			skill=0.1;
+		};
+		class Item15
+		{
+			position[]={154.57602,574.42676,429.75262};
+			azimut=0.32468101;
+			id=116;
+			side="EMPTY";
+			vehicle="T55_TK_GUE_EP1";
+			skill=0.2;
+		};
+		class Item16
+		{
+			position[]={182.43735,592.13336,427.60352};
+			azimut=0.32468101;
+			id=120;
+			side="EMPTY";
+			vehicle="T55_TK_GUE_EP1";
+			skill=0.2;
+		};
+		class Item17
+		{
+			position[]={218.45932,616.33276,426.04321};
+			azimut=0.32468101;
+			id=124;
+			side="EMPTY";
+			vehicle="T55_TK_GUE_EP1";
+			skill=0.2;
+		};
+		class Item18
+		{
+			position[]={256.75964,643.20251,419.33081};
+			azimut=0.32468101;
+			id=129;
+			side="EMPTY";
+			vehicle="UH1H_TK_GUE_EP1";
+			skill=0.1;
+		};
+		class Item19
+		{
+			position[]={283.17908,653.46533,418.54321};
+			azimut=0.32468101;
+			id=130;
+			side="EMPTY";
+			vehicle="UH1H_TK_GUE_EP1";
+			skill=0.1;
+		};
+		class Item20
+		{
+			position[]={308.53455,657.6958,418.07324};
+			azimut=0.32468101;
+			id=133;
+			side="EMPTY";
+			vehicle="UH1H_TK_GUE_EP1";
+			skill=0.2;
+		};
+		class Item21
+		{
+			position[]={333.57697,651.77734,418.22876};
+			azimut=0.32468101;
+			id=136;
+			side="EMPTY";
+			vehicle="UH1H_TK_GUE_EP1";
+			skill=0.2;
+		};
+		class Item22
+		{
+			position[]={333.92023,645.05023,449.96332};
+			azimut=0.32468101;
+			id=139;
+			side="EMPTY";
+			vehicle="Ka60_GL_PMC";
+			skill=0.1;
+		};
+	};
+	class Markers
+	{
+		items=1;
+		class Item0
+		{
+			position[]={106.41798,311.17209,2316.0652};
+			name="1_3_2_5_1";
+			type="Empty";
+			a=0;
+			b=0;
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=13119962;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=15231874;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=1525827;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
