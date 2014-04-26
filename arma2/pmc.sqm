@@ -1,0 +1,2300 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"ace_sys_viewblock",
+		"acex_usnavy_men_usmc",
+		"acex_ru_men_naval",
+		"cacharacters_pmc",
+		"CACharacters_BAF",
+		"rw_characters",
+		"ace_sys_vehicledamage",
+		"acex_veh_stryker",
+		"acex_usnavy_veh_ah1",
+		"CAWheeled",
+		"CAWheeled2_Kamaz",
+		"CAWheeled2_BTR90",
+		"ace_c_vehicle",
+		"CAAir2",
+		"cawheeled_d_baf",
+		"CATracked",
+		"caair_pmc_ka60",
+		"CAWheeled2_MTVR",
+		"CAWheeled2_LAV25",
+		"CATracked2_BMP3",
+		"CATracked_BAF",
+		"CAAir_BAF",
+		"caair_e_ch_47f",
+		"CAAir_E_AH64D",
+		"RW_Wheeled",
+		"RW_Wheeled2_LAV25",
+		"RW_Tracked",
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters_pmc",
+		"cawheeled_d_baf",
+		"CAWheeled",
+		"CATracked",
+		"caair_pmc_ka60",
+		"takistan"
+	};
+	randomSeed=3165154;
+	class Intel
+	{
+		briefingName="hull-framework";
+		briefingDescription="hull-framework";
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=8;
+		minute=0;
+	};
+	class Groups
+	{
+		items=40;
+		class Item0
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={97.559906,480.79413,1329.1255};
+					azimut=0.32468101;
+					special="NONE";
+					id=0;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.5;
+					init="[this, [""CO""], [""CO"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="PMC Commander";
+				};
+				class Item1
+				{
+					position[]={99.54184,480.27109,1327.1118};
+					azimut=0.32468101;
+					special="NONE";
+					id=1;
+					side="GUER";
+					vehicle="Soldier_Medic_PMC";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""CoM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="PMC Medic";
+				};
+			};
+		};
+		class Item1
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={98.221527,483.23456,1314.8374};
+					azimut=0.32468101;
+					special="NONE";
+					id=2;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.5;
+					init="[this, [""DC""], [""DC"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="PMC Deputy Commander";
+				};
+				class Item1
+				{
+					position[]={101.09604,482.26016,1312.438};
+					azimut=0.32468101;
+					special="NONE";
+					id=3;
+					side="GUER";
+					vehicle="Soldier_Medic_PMC";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""DcM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="PMC Medic";
+				};
+			};
+		};
+		class Item2
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={126.63315,470.51636,1299.2134};
+					azimut=0.32468101;
+					special="NONE";
+					id=4;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""ASL"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="PMC Alpha Squad Leader";
+				};
+				class Item1
+				{
+					position[]={129.50815,469.01825,1296.814};
+					azimut=0.32468101;
+					special="NONE";
+					id=5;
+					side="GUER";
+					vehicle="Soldier_Medic_PMC";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""AM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="PMC Alpha Medic";
+				};
+			};
+		};
+		class Item3
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={125.80014,471.05133,1272.9976};
+					azimut=0.32468101;
+					special="NONE";
+					id=6;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="PMC Alpha 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={128.67465,469.35501,1270.5981};
+					azimut=0.32468101;
+					special="NONE";
+					id=7;
+					side="GUER";
+					vehicle="Soldier_MG_PKM_PMC";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="PMC Alpha 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={131.01938,467.94592,1270.5034};
+					azimut=0.32468101;
+					special="NONE";
+					id=8;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="PMC Alpha 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={133.53745,466.49063,1270.4526};
+					azimut=0.32468101;
+					special="NONE";
+					id=9;
+					side="GUER";
+					vehicle="Soldier_AT_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="PMC Alpha 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item4
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={124.72299,472.79111,1246.7524};
+					azimut=0.32468101;
+					special="NONE";
+					id=10;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A2"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="PMC Alpha 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={127.59799,471.5199,1244.353};
+					azimut=0.32468101;
+					special="NONE";
+					id=11;
+					side="GUER";
+					vehicle="Soldier_MG_PKM_PMC";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="PMC Alpha 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={129.94223,470.42157,1244.2583};
+					azimut=0.32468101;
+					special="NONE";
+					id=12;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="PMC Alpha 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={132.46127,469.26617,1244.2075};
+					azimut=0.32468101;
+					special="NONE";
+					id=13;
+					side="GUER";
+					vehicle="Soldier_AT_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="PMC Alpha 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item5
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={125.27426,474.23148,1223.5522};
+					azimut=0.32468101;
+					special="NONE";
+					id=14;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A3"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="PMC Alpha 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={128.14926,473.86731,1221.1523};
+					azimut=0.32468101;
+					special="NONE";
+					id=15;
+					side="GUER";
+					vehicle="Soldier_MG_PKM_PMC";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="PMC Alpha 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={130.49301,473.16037,1221.0576};
+					azimut=0.32468101;
+					special="NONE";
+					id=16;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="PMC Alpha 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={133.01157,472.54111,1221.0068};
+					azimut=0.32468101;
+					special="NONE";
+					id=17;
+					side="GUER";
+					vehicle="Soldier_AT_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="PMC Alpha 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item6
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={156.11069,456.51718,1299.3696};
+					azimut=0.32468101;
+					special="NONE";
+					id=18;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""BSL"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="PMC Bravo Squad Leader";
+				};
+				class Item1
+				{
+					position[]={158.98569,455.1503,1296.9702};
+					azimut=0.32468101;
+					special="NONE";
+					id=19;
+					side="GUER";
+					vehicle="Soldier_Medic_PMC";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""BM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="PMC Bravo Medic";
+				};
+			};
+		};
+		class Item7
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={155.23471,455.98514,1272.8315};
+					azimut=0.32468101;
+					special="NONE";
+					id=20;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B1"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="PMC Bravo 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={158.10971,454.82614,1270.4321};
+					azimut=0.32468101;
+					special="NONE";
+					id=21;
+					side="GUER";
+					vehicle="Soldier_MG_PKM_PMC";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="PMC Bravo 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={160.45346,453.82208,1270.3374};
+					azimut=0.32468101;
+					special="NONE";
+					id=22;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="PMC Bravo 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={162.97202,452.75778,1270.2866};
+					azimut=0.32468101;
+					special="NONE";
+					id=23;
+					side="GUER";
+					vehicle="Soldier_AT_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="PMC Bravo 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item8
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={155.76596,461.45547,1247.0474};
+					azimut=0.32468101;
+					special="NONE";
+					id=24;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="PMC Bravo 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={158.64096,461.38907,1244.6479};
+					azimut=0.32468101;
+					special="NONE";
+					id=25;
+					side="GUER";
+					vehicle="Soldier_MG_PKM_PMC";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="PMC Bravo 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={160.98471,460.77286,1244.5532};
+					azimut=0.32468101;
+					special="NONE";
+					id=26;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="PMC Bravo 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={163.50375,460.11191,1244.5024};
+					azimut=0.32468101;
+					special="NONE";
+					id=27;
+					side="GUER";
+					vehicle="Soldier_AT_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="PMC Bravo 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item9
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={155.2894,469.4118,1222.7383};
+					azimut=0.32468101;
+					special="NONE";
+					id=28;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B3"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="PMC Bravo 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={158.16391,470.0788,1220.3384};
+					azimut=0.32468101;
+					special="NONE";
+					id=29;
+					side="GUER";
+					vehicle="Soldier_MG_PKM_PMC";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="PMC Bravo 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={160.50815,469.92419,1220.2437};
+					azimut=0.32468101;
+					special="NONE";
+					id=30;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="PMC Bravo 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={163.02719,469.72122,1220.1929};
+					azimut=0.32468101;
+					special="NONE";
+					id=31;
+					side="GUER";
+					vehicle="Soldier_AT_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="PMC Bravo 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item10
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={186.99155,444.61209,1299.98};
+					azimut=0.32468101;
+					special="NONE";
+					id=32;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""CSL"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="PMC Charlie Squad Leader";
+				};
+				class Item1
+				{
+					position[]={189.86655,444.04962,1297.5806};
+					azimut=0.32468101;
+					special="NONE";
+					id=33;
+					side="GUER";
+					vehicle="Soldier_Medic_PMC";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""CM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="PMC Charlie Medic";
+				};
+			};
+		};
+		class Item11
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={187.34702,447.41678,1273.061};
+					azimut=0.32468101;
+					special="NONE";
+					id=34;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C1"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="PMC Charlie 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={190.22202,447.59695,1270.6616};
+					azimut=0.32468101;
+					special="NONE";
+					id=35;
+					side="GUER";
+					vehicle="Soldier_MG_PKM_PMC";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="PMC Charlie 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={192.56577,447.37854,1270.5669};
+					azimut=0.32468101;
+					special="NONE";
+					id=36;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="PMC Charlie 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={195.08481,447.15686,1270.5156};
+					azimut=0.32468101;
+					special="NONE";
+					id=37;
+					side="GUER";
+					vehicle="Soldier_AT_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="PMC Charlie 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item12
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={186.99545,456.98599,1247.3071};
+					azimut=0.32468101;
+					special="NONE";
+					id=38;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C2"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="PMC Charlie 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={189.86948,458.20477,1244.9077};
+					azimut=0.32468101;
+					special="NONE";
+					id=39;
+					side="GUER";
+					vehicle="Soldier_MG_PKM_PMC";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="PMC Charlie 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={192.2142,458.27048,1244.813};
+					azimut=0.32468101;
+					special="NONE";
+					id=40;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="PMC Charlie 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={194.73276,458.32181,1244.7617};
+					azimut=0.32468101;
+					special="NONE";
+					id=41;
+					side="GUER";
+					vehicle="Soldier_AT_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="PMC Charlie 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item13
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={187.79721,468.77579,1223.228};
+					azimut=0.32468101;
+					special="NONE";
+					id=42;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="PMC Charlie 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={190.67123,470.19543,1220.8276};
+					azimut=0.32468101;
+					special="NONE";
+					id=43;
+					side="GUER";
+					vehicle="Soldier_MG_PKM_PMC";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="PMC Charlie 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={193.01596,470.46011,1220.7329};
+					azimut=0.32468101;
+					special="NONE";
+					id=44;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="PMC Charlie 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={195.53452,470.68106,1220.6821};
+					azimut=0.32468101;
+					special="NONE";
+					id=45;
+					side="GUER";
+					vehicle="Soldier_AT_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="PMC Charlie 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item14
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={222.35776,436.65289,1299.4067};
+					azimut=0.32468101;
+					special="NONE";
+					id=54;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""DSL"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="PMC Delta Squad Leader";
+				};
+				class Item1
+				{
+					position[]={225.23276,437.47839,1297.0073};
+					azimut=0.32468101;
+					special="NONE";
+					id=55;
+					side="GUER";
+					vehicle="Soldier_Medic_PMC";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""DM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="PMC Delta Medic";
+				};
+			};
+		};
+		class Item15
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={222.71323,446.76501,1272.4878};
+					azimut=0.32468101;
+					special="NONE";
+					id=56;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D1"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="PMC Delta 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={225.58823,447.96848,1270.0884};
+					azimut=0.32468101;
+					special="NONE";
+					id=57;
+					side="GUER";
+					vehicle="Soldier_MG_PKM_PMC";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="PMC Delta 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={227.93198,448.24683,1269.9937};
+					azimut=0.32468101;
+					special="NONE";
+					id=58;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="PMC Delta 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={230.45105,448.5148,1269.9424};
+					azimut=0.32468101;
+					special="NONE";
+					id=59;
+					side="GUER";
+					vehicle="Soldier_AT_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="PMC Delta 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item16
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={222.36166,458.80466,1246.7339};
+					azimut=0.32468101;
+					special="NONE";
+					id=60;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D2"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="PMC Delta 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={225.23569,460.31644,1244.3345};
+					azimut=0.32468101;
+					special="NONE";
+					id=61;
+					side="GUER";
+					vehicle="Soldier_MG_PKM_PMC";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="PMC Delta 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={227.58041,460.54922,1244.2397};
+					azimut=0.32468101;
+					special="NONE";
+					id=62;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="PMC Delta 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={230.099,460.77319,1244.1885};
+					azimut=0.32468101;
+					special="NONE";
+					id=63;
+					side="GUER";
+					vehicle="Soldier_AT_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="PMC Delta 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item17
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={223.16342,471.37555,1222.6548};
+					azimut=0.32468101;
+					special="NONE";
+					id=64;
+					side="GUER";
+					vehicle="Soldier_TL_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D3"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="PMC Delta 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={226.03745,472.81088,1220.2544};
+					azimut=0.32468101;
+					special="NONE";
+					id=65;
+					side="GUER";
+					vehicle="Soldier_MG_PKM_PMC";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="PMC Delta 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={228.38217,472.9577,1220.1597};
+					azimut=0.32468101;
+					special="NONE";
+					id=66;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="PMC Delta 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={230.90076,473.08722,1220.1089};
+					azimut=0.32468101;
+					special="NONE";
+					id=67;
+					side="GUER";
+					vehicle="Soldier_AT_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="PMC Delta 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item18
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={265.04382,430.82742,1317.5271};
+					azimut=0.32468101;
+					special="NONE";
+					id=70;
+					side="GUER";
+					vehicle="Soldier_MG_PKM_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MMGG""], [""MMG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="PMC Medium MG Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={267.91785,432.34207,1315.1277};
+					azimut=0.32468101;
+					special="NONE";
+					id=71;
+					side="GUER";
+					vehicle="Soldier_MG_PKM_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MMGAG""]] call hull_unit_fnc_init;";
+					description="PMC Medium MG Team 1 Assistant Gunner";
+				};
+			};
+		};
+		class Item19
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={263.86072,440.37231,1294.7976};
+					azimut=0.32468101;
+					special="NONE";
+					id=72;
+					side="GUER";
+					vehicle="Soldier_MG_PKM_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MMGG""], [""MMG2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="PMC Medium MG Team 2 Gunner";
+				};
+				class Item1
+				{
+					position[]={266.73474,441.84619,1292.3982};
+					azimut=0.32468101;
+					special="NONE";
+					id=73;
+					side="GUER";
+					vehicle="Soldier_MG_PKM_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MMGAG""]] call hull_unit_fnc_init;";
+					description="PMC Medium MG Team 2 Assistant Gunner";
+				};
+			};
+		};
+		class Item20
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={263.99353,454.48834,1263.3079};
+					azimut=0.32468101;
+					special="NONE";
+					id=74;
+					side="GUER";
+					vehicle="Soldier_AT_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MATG""], [""MAT1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="PMC Medium AT Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={266.86755,455.78232,1260.9084};
+					azimut=0.32468101;
+					special="NONE";
+					id=75;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAG""]] call hull_unit_fnc_init;";
+					description="PMC Medium AT Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={262.35583,455.64749,1260.4241};
+					azimut=0.32468101;
+					special="NONE";
+					id=76;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAC""]] call hull_unit_fnc_init;";
+					description="PMC Medium AT Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item21
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={264.14783,463.97662,1242.8313};
+					azimut=0.32468101;
+					special="NONE";
+					id=77;
+					side="GUER";
+					vehicle="Soldier_AT_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MATG""], [""MAT2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="PMC Medium AT Team 2 Gunner";
+				};
+				class Item1
+				{
+					position[]={267.02185,465.24017,1240.4319};
+					azimut=0.32468101;
+					special="NONE";
+					id=78;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAG""]] call hull_unit_fnc_init;";
+					description="PMC Medium AT Team 2 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={262.51013,465.28345,1239.9475};
+					azimut=0.32468101;
+					special="NONE";
+					id=79;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAC""]] call hull_unit_fnc_init;";
+					description="PMC Medium AT Team 2 Ammo Carrier";
+				};
+			};
+		};
+		class Item22
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={297.84216,439.71289,1314.4766};
+					azimut=2.1612899;
+					special="NONE";
+					id=80;
+					side="GUER";
+					vehicle="Soldier_AT_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""HATG""], [""HAT1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="PMC Heavy AT Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={300.63904,441.85706,1311.9858};
+					azimut=2.1612899;
+					special="NONE";
+					id=81;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HATAG""]] call hull_unit_fnc_init;";
+					description="PMC Heavy AT Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={296.0946,440.14471,1311.6357};
+					azimut=2.1612899;
+					special="NONE";
+					id=86;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HATAC""]] call hull_unit_fnc_init;";
+					description="PMC Heavy AT Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item23
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={295.97644,451.97226,1281.8267};
+					azimut=2.1612899;
+					special="NONE";
+					id=82;
+					side="GUER";
+					vehicle="Soldier_Sniper_KSVK_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SN""], [""ST1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="PMC Sniper Team 1 Sniper";
+				};
+				class Item1
+				{
+					position[]={298.75183,454.26147,1278.7317};
+					azimut=2.1612899;
+					special="NONE";
+					id=83;
+					side="GUER";
+					vehicle="Soldier_Sniper_KSVK_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""SP""]] call hull_unit_fnc_init;";
+					description="PMC Sniper Team 1 Spotter";
+				};
+			};
+		};
+		class Item24
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={296.03015,461.8063,1257.7705};
+					azimut=2.1612899;
+					special="NONE";
+					id=84;
+					side="GUER";
+					vehicle="Soldier_Engineer_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""ENG""], [""ENG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="PMC Engineer Team 1 Leader";
+				};
+				class Item1
+				{
+					position[]={298.53259,463.04358,1256.9692};
+					azimut=2.1612899;
+					special="NONE";
+					id=85;
+					side="GUER";
+					vehicle="Soldier_Engineer_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""ENGA""]] call hull_unit_fnc_init;";
+					description="PMC Engineer Team 1 Assistant";
+				};
+			};
+		};
+		class Item25
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={265.8324,448.58707,1277.1543};
+					azimut=2.1612899;
+					special="NONE";
+					id=87;
+					side="GUER";
+					vehicle="Soldier_MG_PKM_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""HMGG""], [""HMG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="PMC Heavy MG Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={268.83777,450.03757,1274.2661};
+					azimut=2.1612899;
+					special="NONE";
+					id=88;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HMGAG""]] call hull_unit_fnc_init;";
+					description="PMC Heavy MG Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={264.17566,449.68076,1274.3367};
+					azimut=2.1612899;
+					special="NONE";
+					id=92;
+					side="GUER";
+					vehicle="Soldier_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HMGAC""]] call hull_unit_fnc_init;";
+					description="PMC Heavy MG Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item26
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={295.3158,455.71146,1271.3062};
+					azimut=2.1612899;
+					special="NONE";
+					id=89;
+					side="GUER";
+					vehicle="Soldier_Engineer_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MTRG""], [""MTR1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="PMC Mortar Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={298.32166,457.92383,1268.4185};
+					azimut=2.1612899;
+					special="NONE";
+					id=90;
+					side="GUER";
+					vehicle="Soldier_Engineer_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MTRAG""]] call hull_unit_fnc_init;";
+					description="PMC Mortar Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={293.87537,456.3139,1268.457};
+					azimut=2.1612899;
+					special="NONE";
+					id=91;
+					side="GUER";
+					vehicle="Soldier_Engineer_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MTRAC""]] call hull_unit_fnc_init;";
+					description="PMC Mortar Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item27
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={120.27036,484.46674,1191.2202};
+					azimut=0.32468101;
+					special="NONE";
+					id=93;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="PMC IFV 1 Commander";
+				};
+				class Item1
+				{
+					position[]={122.30991,484.91333,1188.7769};
+					azimut=0.32468101;
+					special="NONE";
+					id=94;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="PMC IFV 1 Driver";
+				};
+				class Item2
+				{
+					position[]={125.29672,484.50253,1188.7886};
+					azimut=0.32468101;
+					special="NONE";
+					id=95;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="PMC IFV 1 Gunner";
+				};
+			};
+		};
+		class Item28
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={150.68491,483.07938,1191.239};
+					azimut=0.32468101;
+					special="NONE";
+					id=96;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="PMC IFV 2 Commander";
+				};
+				class Item1
+				{
+					position[]={152.72397,484.13812,1188.7957};
+					azimut=0.32468101;
+					special="NONE";
+					id=97;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="PMC IFV 2 Driver";
+				};
+				class Item2
+				{
+					position[]={155.7103,484.09799,1188.8074};
+					azimut=0.32468101;
+					special="NONE";
+					id=98;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="PMC IFV 2 Gunner";
+				};
+			};
+		};
+		class Item29
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={183.19028,483.36618,1192.845};
+					azimut=0.32468101;
+					special="NONE";
+					id=99;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="PMC IFV 3 Commander";
+				};
+				class Item1
+				{
+					position[]={185.23032,484.73157,1190.4016};
+					azimut=0.32468101;
+					special="NONE";
+					id=100;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="PMC IFV 3 Driver";
+				};
+				class Item2
+				{
+					position[]={188.21664,484.98529,1190.4124};
+					azimut=0.32468101;
+					special="NONE";
+					id=101;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="PMC IFV 3 Gunner";
+				};
+			};
+		};
+		class Item30
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={217.32114,487.56274,1191.071};
+					azimut=0.32468101;
+					special="NONE";
+					id=105;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV4"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="PMC IFV 4 Commander";
+				};
+				class Item1
+				{
+					position[]={219.36118,489.13742,1188.6277};
+					azimut=0.32468101;
+					special="NONE";
+					id=106;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="PMC IFV 4 Driver";
+				};
+				class Item2
+				{
+					position[]={222.3475,489.50906,1188.6384};
+					azimut=0.32468101;
+					special="NONE";
+					id=107;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="PMC IFV 4 Gunner";
+				};
+			};
+		};
+		class Item31
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={120.31186,495.86002,1155.6249};
+					azimut=0.32468101;
+					special="NONE";
+					id=109;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="PMC Tank 1 Commander";
+				};
+				class Item1
+				{
+					position[]={121.18051,496.5668,1153.6798};
+					azimut=0.32468101;
+					special="NONE";
+					id=110;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init; ";
+					description="PMC Tank 1 Driver";
+				};
+				class Item2
+				{
+					position[]={123.64584,496.62027,1153.88};
+					azimut=0.32468101;
+					special="NONE";
+					id=111;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="PMC Tank 1 Gunner";
+				};
+			};
+		};
+		class Item32
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={149.34897,496.71677,1157.5558};
+					azimut=0.32468101;
+					special="NONE";
+					id=113;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="PMC Tank 2 Commander";
+				};
+				class Item1
+				{
+					position[]={150.21713,497.50867,1155.6107};
+					azimut=0.32468101;
+					special="NONE";
+					id=114;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="PMC Tank 2 Driver";
+				};
+				class Item2
+				{
+					position[]={152.68246,497.63889,1155.8109};
+					azimut=0.32468101;
+					special="NONE";
+					id=115;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="PMC Tank 2 Gunner";
+				};
+			};
+		};
+		class Item33
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={180.53403,499.92151,1155.6576};
+					azimut=0.32468101;
+					special="NONE";
+					id=117;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="PMC Tank 3 Commander";
+				};
+				class Item1
+				{
+					position[]={181.40219,500.82745,1153.7125};
+					azimut=0.32468101;
+					special="NONE";
+					id=118;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="PMC Tank 3 Driver";
+				};
+				class Item2
+				{
+					position[]={183.86752,500.9935,1153.9127};
+					azimut=0.32468101;
+					special="NONE";
+					id=119;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="PMC Tank 3 Gunner";
+				};
+			};
+		};
+		class Item34
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={217.19321,503.79846,1156.6371};
+					azimut=0.32468101;
+					special="NONE";
+					id=121;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK4"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="PMC Tank 4 Commander";
+				};
+				class Item1
+				{
+					position[]={218.06186,504.74179,1154.692};
+					azimut=0.32468101;
+					special="NONE";
+					id=122;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="PMC Tank 4 Driver";
+				};
+				class Item2
+				{
+					position[]={220.52719,505.02017,1154.8922};
+					azimut=0.32468101;
+					special="NONE";
+					id=123;
+					side="GUER";
+					vehicle="Soldier_Crew_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="PMC Tank 4 Gunner";
+				};
+			};
+		};
+		class Item35
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={262.04138,501.33511,1175.6675};
+					azimut=0.32468101;
+					special="NONE";
+					id=125;
+					side="GUER";
+					vehicle="Soldier_Pilot_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="PMC Transport Helo 1 Pilot";
+				};
+				class Item1
+				{
+					position[]={264.80847,502.40897,1173.8403};
+					azimut=0.32468101;
+					special="NONE";
+					id=126;
+					side="GUER";
+					vehicle="Soldier_Pilot_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init; ";
+					description="PMC Transport Helo 1 Crewman";
+				};
+			};
+		};
+		class Item36
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={289.81287,503.69427,1174.061};
+					azimut=0.32468101;
+					special="NONE";
+					id=127;
+					side="GUER";
+					vehicle="Soldier_Pilot_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="PMC Transport Helo 2 Pilot";
+				};
+				class Item1
+				{
+					position[]={292.58044,504.50021,1172.2349};
+					azimut=0.32468101;
+					special="NONE";
+					id=128;
+					side="GUER";
+					vehicle="Soldier_Pilot_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="PMC Transport Helo 2 Crewman";
+				};
+			};
+		};
+		class Item37
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={311.32947,504.28119,1173.5056};
+					azimut=0.32468101;
+					special="NONE";
+					id=131;
+					side="GUER";
+					vehicle="Soldier_Pilot_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH3"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="PMC Transport Helo 3 Pilot";
+				};
+				class Item1
+				{
+					position[]={314.09698,504.64517,1171.6794};
+					azimut=0.32468101;
+					special="NONE";
+					id=132;
+					side="GUER";
+					vehicle="Soldier_Pilot_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="PMC Transport Helo 3 Crewman";
+				};
+			};
+		};
+		class Item38
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={338.1214,501.53439,1173.5078};
+					azimut=0.32468101;
+					special="NONE";
+					id=134;
+					side="GUER";
+					vehicle="Soldier_Pilot_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH4"", ""ColorOrange""]] call hull_unit_fnc_init; ";
+					description="PMC Transport Helo 4 Pilot";
+				};
+				class Item1
+				{
+					position[]={340.88898,500.9408,1171.6816};
+					azimut=0.32468101;
+					special="NONE";
+					id=135;
+					side="GUER";
+					vehicle="Soldier_Pilot_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="PMC Transport Helo 4 Crewman";
+				};
+			};
+		};
+		class Item39
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={336.60626,494.01022,1207.4075};
+					azimut=0.32468101;
+					special="NONE";
+					id=137;
+					side="GUER";
+					vehicle="Soldier_Pilot_PMC";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""AH1"", ""ColorRed""]] call hull_unit_fnc_init;  ";
+					description="PMC Attack Helo 1 Pilot";
+				};
+				class Item1
+				{
+					position[]={339.37335,494.83392,1205.5813};
+					azimut=0.32468101;
+					special="NONE";
+					id=138;
+					side="GUER";
+					vehicle="Soldier_Pilot_PMC";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init; ";
+					description="PMC Attack Helo 1 Gunner";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=23;
+		class Item0
+		{
+			position[]={94.464203,480.26617,1337.8237};
+			azimut=0.32468101;
+			id=46;
+			side="EMPTY";
+			vehicle="SUV_PMC_BAF";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item1
+		{
+			position[]={92.479828,484.85138,1321.0923};
+			azimut=0.32468101;
+			id=47;
+			side="EMPTY";
+			vehicle="SUV_PMC_BAF";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item2
+		{
+			position[]={127.48666,470.0816,1306.3081};
+			azimut=0.32468101;
+			id=48;
+			side="EMPTY";
+			vehicle="SUV_PMC_BAF";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item3
+		{
+			position[]={155.9642,456.72278,1306.2827};
+			azimut=0.32468101;
+			id=49;
+			side="EMPTY";
+			vehicle="SUV_PMC_BAF";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item4
+		{
+			position[]={182.28354,445.84851,1306.5386};
+			azimut=0.32468101;
+			id=50;
+			side="EMPTY";
+			vehicle="SUV_PMC_BAF";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item5
+		{
+			position[]={115.03842,477.69876,1277.6938};
+			azimut=0.32468101;
+			id=51;
+			side="EMPTY";
+			vehicle="UralCivil";
+			skill=0.2;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item6
+		{
+			position[]={149.52817,458.56235,1275.1616};
+			azimut=0.32468101;
+			id=52;
+			side="EMPTY";
+			vehicle="UralCivil";
+			skill=0.2;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item7
+		{
+			position[]={181.90952,447.63965,1275.2964};
+			azimut=0.32468101;
+			id=53;
+			side="EMPTY";
+			vehicle="UralCivil";
+			skill=0.2;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item8
+		{
+			position[]={217.64975,434.64792,1305.9653};
+			azimut=0.32468101;
+			id=68;
+			side="EMPTY";
+			vehicle="SUV_PMC_BAF";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item9
+		{
+			position[]={217.27573,445.48599,1274.7231};
+			azimut=0.32468101;
+			id=69;
+			side="EMPTY";
+			vehicle="UralCivil";
+			skill=0.2;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item10
+		{
+			position[]={123.60532,481.71652,1198.1001};
+			azimut=0.32468101;
+			id=102;
+			side="EMPTY";
+			vehicle="BMP2_Gue";
+			skill=0.1;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item11
+		{
+			position[]={153.63803,479.89578,1198.1052};
+			azimut=0.32468101;
+			id=103;
+			side="EMPTY";
+			vehicle="BMP2_Gue";
+			skill=0.1;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item12
+		{
+			position[]={186.69418,480.6814,1198.9426};
+			azimut=0.32468101;
+			id=104;
+			side="EMPTY";
+			vehicle="BMP2_Gue";
+			skill=0.1;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item13
+		{
+			position[]={220.82504,484.6517,1197.1687};
+			azimut=0.32468101;
+			id=108;
+			side="EMPTY";
+			vehicle="BMP2_Gue";
+			skill=0.2;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item14
+		{
+			position[]={124.81772,493.01483,1164.459};
+			azimut=0.32468101;
+			id=112;
+			side="EMPTY";
+			vehicle="T72_Gue";
+			skill=0.1;
+		};
+		class Item15
+		{
+			position[]={153.85434,493.68829,1166.3899};
+			azimut=0.32468101;
+			id=116;
+			side="EMPTY";
+			vehicle="T72_Gue";
+			skill=0.2;
+		};
+		class Item16
+		{
+			position[]={185.0394,496.83163,1164.4917};
+			azimut=0.32468101;
+			id=120;
+			side="EMPTY";
+			vehicle="T72_Gue";
+			skill=0.2;
+		};
+		class Item17
+		{
+			position[]={221.69907,500.89957,1165.4712};
+			azimut=0.32468101;
+			id=124;
+			side="EMPTY";
+			vehicle="T72_Gue";
+			skill=0.2;
+		};
+		class Item18
+		{
+			position[]={264.31287,494.23917,1187.4517};
+			azimut=0.32468101;
+			id=129;
+			side="EMPTY";
+			vehicle="Ka60_PMC";
+			skill=0.2;
+		};
+		class Item19
+		{
+			position[]={290.73181,497.02444,1186.6646};
+			azimut=0.32468101;
+			id=130;
+			side="EMPTY";
+			vehicle="Ka60_PMC";
+			skill=0.2;
+		};
+		class Item20
+		{
+			position[]={312.24841,499.18048,1186.1091};
+			azimut=0.32468101;
+			id=133;
+			side="EMPTY";
+			vehicle="Ka60_PMC";
+			skill=0.2;
+		};
+		class Item21
+		{
+			position[]={339.04034,498.72693,1186.1113};
+			azimut=0.32468101;
+			id=136;
+			side="EMPTY";
+			vehicle="Ka60_PMC";
+			skill=0.2;
+		};
+		class Item22
+		{
+			position[]={337.79669,491.52505,1217.0657};
+			azimut=0.32468101;
+			id=139;
+			side="EMPTY";
+			vehicle="Ka60_GL_PMC";
+			skill=0.1;
+		};
+	};
+	class Markers
+	{
+		items=1;
+		class Item0
+		{
+			position[]={106.41798,311.17209,2316.0652};
+			name="1_3_2_5_1";
+			type="Empty";
+			a=0;
+			b=0;
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=13119962;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=15231874;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=1525827;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
