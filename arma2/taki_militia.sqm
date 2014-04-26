@@ -1,0 +1,2306 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"ace_sys_viewblock",
+		"acex_usnavy_men_usmc",
+		"acex_ru_men_naval",
+		"cacharacters2",
+		"cacharacters_e",
+		"CACharacters_BAF",
+		"rw_characters",
+		"ace_sys_vehicledamage",
+		"CAAir",
+		"acex_usnavy_veh_ah1",
+		"CAWheeled",
+		"CAWheeled2_Kamaz",
+		"CAWheeled2_BTR90",
+		"ace_c_vehicle",
+		"CAAir2",
+		"cawheeled_d_baf",
+		"CATracked",
+		"CAWheeled2_MTVR",
+		"CAWheeled2_LAV25",
+		"CATracked2_BMP3",
+		"caair_e_mi8",
+		"CATracked_BAF",
+		"CAAir_BAF",
+		"cawheeled_e_v3s",
+		"CAAir_E",
+		"cawheeled_e_btr40",
+		"cawheeled_e_brdm2",
+		"catracked_e_t55",
+		"RW_Wheeled",
+		"RW_Wheeled2_LAV25",
+		"RW_Tracked",
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters_e",
+		"cawheeled_e_btr40",
+		"cawheeled_e_v3s",
+		"cawheeled_e_brdm2",
+		"catracked_e_t55",
+		"caair_e_mi8",
+		"CAAir_E",
+		"takistan"
+	};
+	randomSeed=3165154;
+	class Intel
+	{
+		briefingName="hull-framework";
+		briefingDescription="hull-framework";
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=8;
+		minute=0;
+	};
+	class Groups
+	{
+		items=40;
+		class Item0
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={791.63635,517.1593,332.28662};
+					azimut=2.8900001;
+					special="NONE";
+					id=0;
+					side="EAST";
+					vehicle="TK_INS_Warlord_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.5;
+					init="[this, [""CO""], [""CO"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="TK Militia Commander";
+				};
+				class Item1
+				{
+					position[]={794.58704,516.46509,329.31958};
+					azimut=2.8900001;
+					special="NONE";
+					id=1;
+					side="EAST";
+					vehicle="TK_INS_Bonesetter_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""CoM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="TK Militia Medic";
+				};
+			};
+		};
+		class Item1
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={791.14026,517.59326,316.50439};
+					azimut=2.8900001;
+					special="NONE";
+					id=2;
+					side="EAST";
+					vehicle="TK_INS_Warlord_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.5;
+					init="[this, [""DC""], [""DC"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="TK Militia Deputy Commander";
+				};
+				class Item1
+				{
+					position[]={794.09094,517.07892,313.53687};
+					azimut=2.8900001;
+					special="NONE";
+					id=3;
+					side="EAST";
+					vehicle="TK_INS_Bonesetter_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""DcM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="TK Militia Medic";
+				};
+			};
+		};
+		class Item2
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={808.76086,513.83441,301.76343};
+					azimut=2.8900001;
+					special="NONE";
+					id=4;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""ASL"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="TK Militia Alpha Squad Leader";
+				};
+				class Item1
+				{
+					position[]={811.71106,513.19287,298.79639};
+					azimut=2.8900001;
+					special="NONE";
+					id=5;
+					side="EAST";
+					vehicle="TK_INS_Bonesetter_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""AM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="TK Militia Alpha Medic";
+				};
+			};
+		};
+		class Item3
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={807.52795,515.39307,278.05859};
+					azimut=2.8900001;
+					special="NONE";
+					id=6;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="TK Militia Alpha 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={810.47717,514.85651,275.0918};
+					azimut=2.8900001;
+					special="NONE";
+					id=7;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Militia Alpha 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={813.12512,514.19934,274.82202};
+					azimut=2.8900001;
+					special="NONE";
+					id=8;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Militia Alpha 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={814.90442,513.73877,274.76123};
+					azimut=2.8900001;
+					special="NONE";
+					id=9;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Militia Alpha 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item4
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={806.61145,518.38721,252.67236};
+					azimut=2.8900001;
+					special="NONE";
+					id=10;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A2"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="TK Militia Alpha 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={809.56116,518.48889,249.70532};
+					azimut=2.8900001;
+					special="NONE";
+					id=11;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Militia Alpha 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={812.20911,518.28546,249.43579};
+					azimut=2.8900001;
+					special="NONE";
+					id=12;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Militia Alpha 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={814.90393,518.09222,249.31177};
+					azimut=2.8900001;
+					special="NONE";
+					id=13;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Militia Alpha 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item5
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={805.03088,523.47424,228.60132};
+					azimut=2.8900001;
+					special="NONE";
+					id=14;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A3"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="TK Militia Alpha 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={807.98059,524.57208,225.63379};
+					azimut=2.8900001;
+					special="NONE";
+					id=15;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Militia Alpha 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={810.62854,524.64935,225.36401};
+					azimut=2.8900001;
+					special="NONE";
+					id=16;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Militia Alpha 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={813.32336,524.69464,225.24048};
+					azimut=2.8900001;
+					special="NONE";
+					id=17;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Militia Alpha 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item6
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={835.5816,507.18805,300.77441};
+					azimut=2.8900001;
+					special="NONE";
+					id=18;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""BSL"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="TK Militia Bravo Squad Leader";
+				};
+				class Item1
+				{
+					position[]={838.5318,506.42038,297.80762};
+					azimut=2.8900001;
+					special="NONE";
+					id=19;
+					side="EAST";
+					vehicle="TK_INS_Bonesetter_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""BM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="TK Militia Bravo Medic";
+				};
+			};
+		};
+		class Item7
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={834.86383,508.3389,276.42334};
+					azimut=2.8900001;
+					special="NONE";
+					id=20;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B1"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="TK Militia Bravo 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={837.81403,508.31253,273.45679};
+					azimut=2.8900001;
+					special="NONE";
+					id=21;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Militia Bravo 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={840.46198,507.81818,273.18652};
+					azimut=2.8900001;
+					special="NONE";
+					id=22;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Militia Bravo 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={843.15631,507.26688,273.06299};
+					azimut=2.8900001;
+					special="NONE";
+					id=23;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Militia Bravo 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item8
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={836.83551,515.32599,252.3269};
+					azimut=2.8900001;
+					special="NONE";
+					id=24;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="TK Militia Bravo 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={839.78571,515.79156,249.35986};
+					azimut=2.8900001;
+					special="NONE";
+					id=25;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Militia Bravo 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={842.43317,515.435,249.08984};
+					azimut=2.8900001;
+					special="NONE";
+					id=26;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Militia Bravo 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={845.12799,514.91943,248.96631};
+					azimut=2.8900001;
+					special="NONE";
+					id=27;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Militia Bravo 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item9
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={835.94781,523.65924,227.43652};
+					azimut=2.8900001;
+					special="NONE";
+					id=28;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B3"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="TK Militia Bravo 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={838.89801,524.43225,224.46997};
+					azimut=2.8900001;
+					special="NONE";
+					id=29;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Militia Bravo 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={841.54596,524.17841,224.19971};
+					azimut=2.8900001;
+					special="NONE";
+					id=30;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Militia Bravo 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={844.2403,523.59851,224.62476};
+					azimut=2.8900001;
+					special="NONE";
+					id=31;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Militia Bravo 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item10
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={865.19934,501.07776,299.7666};
+					azimut=2.8900001;
+					special="NONE";
+					id=32;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""CSL"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="TK Militia Charlie Squad Leader";
+				};
+				class Item1
+				{
+					position[]={868.14954,500.22675,296.80005};
+					azimut=2.8900001;
+					special="NONE";
+					id=33;
+					side="EAST";
+					vehicle="TK_INS_Bonesetter_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""CM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="TK Militia Charlie Medic";
+				};
+			};
+		};
+		class Item11
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={864.15051,501.64307,275.271};
+					azimut=2.8900001;
+					special="NONE";
+					id=34;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C1"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="TK Militia Charlie 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={867.10022,501.74838,272.30396};
+					azimut=2.8900001;
+					special="NONE";
+					id=35;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Militia Charlie 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={869.74866,501.15579,272.03369};
+					azimut=2.8900001;
+					special="NONE";
+					id=36;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Militia Charlie 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={872.44299,500.53687,271.91016};
+					azimut=2.8900001;
+					special="NONE";
+					id=37;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Militia Charlie 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item12
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={863.54694,509.98236,250.47388};
+					azimut=2.8900001;
+					special="NONE";
+					id=38;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C2"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="TK Militia Charlie 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={866.49719,510.35629,247.50684};
+					azimut=2.8900001;
+					special="NONE";
+					id=39;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Militia Charlie 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={869.14417,509.86536,247.23633};
+					azimut=2.8900001;
+					special="NONE";
+					id=40;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Militia Charlie 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={871.83948,509.24759,247.11304};
+					azimut=2.8900001;
+					special="NONE";
+					id=41;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Militia Charlie 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item13
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={862.00592,518.98474,226.37256};
+					azimut=2.8900001;
+					special="NONE";
+					id=42;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="TK Militia Charlie 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={864.95618,519.33173,223.40552};
+					azimut=2.8900001;
+					special="NONE";
+					id=43;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Militia Charlie 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={867.60364,518.75018,223.13599};
+					azimut=2.8900001;
+					special="NONE";
+					id=44;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Militia Charlie 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={870.29797,518.07025,223.01172};
+					azimut=2.8900001;
+					special="NONE";
+					id=45;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Militia Charlie 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item14
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={890.23547,496.76431,298.70483};
+					azimut=1.8453;
+					special="NONE";
+					id=54;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""DSL"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="TK Militia Delta Squad Leader";
+				};
+				class Item1
+				{
+					position[]={893.23938,495.94049,295.79272};
+					azimut=1.8453;
+					special="NONE";
+					id=55;
+					side="EAST";
+					vehicle="TK_INS_Bonesetter_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""DM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="TK Militia Delta Medic";
+				};
+			};
+		};
+		class Item15
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={889.63342,496.10535,274.19409};
+					azimut=1.8453;
+					special="NONE";
+					id=56;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D1"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="TK Militia Delta 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={892.63635,496.15668,271.28125};
+					azimut=1.8453;
+					special="NONE";
+					id=57;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Militia Delta 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={895.28967,495.6478,271.05957};
+					azimut=1.8453;
+					special="NONE";
+					id=58;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Militia Delta 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={897.98596,495.08759,270.98511};
+					azimut=1.8453;
+					special="NONE";
+					id=59;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Militia Delta 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item16
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={889.48206,503.78189,249.39014};
+					azimut=1.8453;
+					special="NONE";
+					id=60;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D2"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="TK Militia Delta 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={892.48596,503.84607,246.47754};
+					azimut=1.8453;
+					special="NONE";
+					id=61;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Militia Delta 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={895.13733,503.2016,246.25513};
+					azimut=1.8453;
+					special="NONE";
+					id=62;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Militia Delta 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={897.83459,502.49814,246.18115};
+					azimut=1.8453;
+					special="NONE";
+					id=63;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Militia Delta 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item17
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={888.38049,511.90607,225.26489};
+					azimut=1.8453;
+					special="NONE";
+					id=64;
+					side="EAST";
+					vehicle="TK_INS_Soldier_TL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D3"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="TK Militia Delta 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={891.3844,511.87619,222.35205};
+					azimut=1.8453;
+					special="NONE";
+					id=65;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AR_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="TK Militia Delta 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={894.03674,511.08087,222.13086};
+					azimut=1.8453;
+					special="NONE";
+					id=66;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="TK Militia Delta 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={896.73303,510.14835,222.05566};
+					azimut=1.8453;
+					special="NONE";
+					id=67;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="TK Militia Delta 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item18
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={923.97864,495.11746,311.78149};
+					azimut=-4.7384601;
+					special="NONE";
+					id=70;
+					side="EAST";
+					vehicle="TK_INS_Soldier_MG_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MMGG""], [""MMG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Militia Medium MG Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={927.29553,494.60809,309.23267};
+					azimut=-4.7384605;
+					special="NONE";
+					id=71;
+					side="EAST";
+					vehicle="TK_INS_Soldier_MG_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MMGAG""]] call hull_unit_fnc_init;";
+					description="TK Militia Medium MG Team 1 Assistant Gunner";
+				};
+			};
+		};
+		class Item19
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={923.82239,491.66614,295.75391};
+					azimut=-4.7384601;
+					special="NONE";
+					id=72;
+					side="EAST";
+					vehicle="TK_INS_Soldier_MG_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MMGG""], [""MMG2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Militia Medium MG Team 2 Gunner";
+				};
+				class Item1
+				{
+					position[]={927.13928,490.91162,293.20532};
+					azimut=-4.7384605;
+					special="NONE";
+					id=73;
+					side="EAST";
+					vehicle="TK_INS_Soldier_MG_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MMGAG""]] call hull_unit_fnc_init;";
+					description="TK Militia Medium MG Team 2 Assistant Gunner";
+				};
+			};
+		};
+		class Item20
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={925.93469,488.93915,274.13892};
+					azimut=0.32468101;
+					special="NONE";
+					id=74;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AT_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MATG""], [""MAT1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Militia Medium AT Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={929.01379,488.67245,271.30737};
+					azimut=0.32468101;
+					special="NONE";
+					id=75;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AAT_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAG""]] call hull_unit_fnc_init;";
+					description="TK Militia Medium AT Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={924.36145,489.56476,271.03003};
+					azimut=0.32468101;
+					special="NONE";
+					id=76;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AAT_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAG""]] call hull_unit_fnc_init;";
+					description="TK Militia Medium AT Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item21
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={926.08606,492.52548,252.823};
+					azimut=0.32468101;
+					special="NONE";
+					id=77;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AT_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MATG""], [""MAT2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Militia Medium AT Team 2 Gunner";
+				};
+				class Item1
+				{
+					position[]={929.16516,492.08508,249.99146};
+					azimut=0.32468101;
+					special="NONE";
+					id=78;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AAT_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAG""]] call hull_unit_fnc_init;";
+					description="TK Militia Medium AT Team 2 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={924.51282,493.59619,249.71411};
+					azimut=0.32468101;
+					special="NONE";
+					id=79;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AAT_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAG""]] call hull_unit_fnc_init;";
+					description="TK Militia Medium AT Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item22
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={957.05975,484.73557,272.51904};
+					azimut=0.32468101;
+					special="NONE";
+					id=80;
+					side="EAST";
+					vehicle="TK_INS_Soldier_MG_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""HMGG""], [""HMG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Militia Heavy MG Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={960.13885,484.32794,269.6875};
+					azimut=0.32468101;
+					special="NONE";
+					id=81;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HMGAG""]] call hull_unit_fnc_init;";
+					description="TK Militia Heavy MG Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={955.00214,484.64307,269.43994};
+					azimut=0.32468101;
+					special="NONE";
+					id=90;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HMGAC""]] call hull_unit_fnc_init;";
+					description="TK Militia Heavy MG Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item23
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={957.2912,484.13156,253.66455};
+					azimut=0.32468101;
+					special="NONE";
+					id=82;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AT_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""HATG""], [""HAT1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Militia Heavy AT Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={960.3703,483.49942,250.83301};
+					azimut=0.32468101;
+					special="NONE";
+					id=83;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AAT_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HATAG""]] call hull_unit_fnc_init;";
+					description="TK Militia Heavy AT Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={956.1662,484.23175,250.76416};
+					azimut=0.32468101;
+					special="NONE";
+					id=91;
+					side="EAST";
+					vehicle="TK_INS_Soldier_AAT_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HATAG""]] call hull_unit_fnc_init;";
+					description="TK Militia Heavy AT Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item24
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={956.48651,495.60159,310.91821};
+					azimut=0.32468101;
+					special="NONE";
+					id=84;
+					side="EAST";
+					vehicle="TK_INS_Soldier_Sniper_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SN""], [""ST1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Militia Sniper Team 1 Sniper";
+				};
+				class Item1
+				{
+					position[]={959.56561,495.02365,308.08618};
+					azimut=0.32468101;
+					special="NONE";
+					id=85;
+					side="EAST";
+					vehicle="TK_INS_Soldier_Sniper_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""SP""]] call hull_unit_fnc_init;";
+					description="TK Militia Sniper Team 1 Spotter";
+				};
+			};
+		};
+		class Item25
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={957.1828,492.27158,300.71411};
+					azimut=0.32468101;
+					special="NONE";
+					id=86;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MTRG""], [""MTR1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Militia Mortar Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={960.2619,491.55344,297.88208};
+					azimut=0.32468101;
+					special="NONE";
+					id=87;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MTRAG""]] call hull_unit_fnc_init;";
+					description="TK Militia Mortar Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={955.63104,491.20297,297.80884};
+					azimut=0.32468101;
+					special="NONE";
+					id=92;
+					side="EAST";
+					vehicle="TK_INS_Soldier_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MTRAC""]] call hull_unit_fnc_init;";
+					description="TK Militia Mortar Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item26
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={956.75018,488.49637,289.60474};
+					azimut=0.32468101;
+					special="NONE";
+					id=88;
+					side="EAST";
+					vehicle="TK_Soldier_Engineer_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""ENG""], [""ENG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Militia Exchange Engineer Team 1 Leader (TK Army, No Group Markers)";
+				};
+				class Item1
+				{
+					position[]={959.83026,487.68173,286.77271};
+					azimut=0.32468101;
+					special="NONE";
+					id=89;
+					side="EAST";
+					vehicle="TK_Soldier_Engineer_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""ENGA""]] call hull_unit_fnc_init;";
+					description="TK Militia Exchange Engineer Team 1 Assistant (TK Army, No Group Markers)";
+				};
+			};
+		};
+		class Item27
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={802.46838,540.40021,189.25977};
+					azimut=0.32468101;
+					special="NONE";
+					id=93;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="TK Militia IFV 1 Commander";
+				};
+				class Item1
+				{
+					position[]={804.30676,541.29218,186.95313};
+					azimut=0.32468101;
+					special="NONE";
+					id=94;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="TK Militia IFV 1 Driver";
+				};
+				class Item2
+				{
+					position[]={807.29358,541.1424,186.96436};
+					azimut=0.32468101;
+					special="NONE";
+					id=95;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="TK Militia IFV 1 Gunner";
+				};
+			};
+		};
+		class Item28
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={837.34918,537.33972,190.9834};
+					azimut=0.32468101;
+					special="NONE";
+					id=96;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="TK Militia IFV 2 Commander";
+				};
+				class Item1
+				{
+					position[]={839.38922,537.89508,188.5415};
+					azimut=0.32468101;
+					special="NONE";
+					id=97;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="TK Militia IFV 2 Driver";
+				};
+				class Item2
+				{
+					position[]={842.37555,537.32709,188.55225};
+					azimut=0.32468101;
+					special="NONE";
+					id=98;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="TK Militia IFV 2 Gunner";
+				};
+			};
+		};
+		class Item29
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={866.47815,530.40778,190.48047};
+					azimut=0.32468101;
+					special="NONE";
+					id=99;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="TK Militia IFV 3 Commander";
+				};
+				class Item1
+				{
+					position[]={868.51819,530.61639,188.0376};
+					azimut=0.32468101;
+					special="NONE";
+					id=100;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="TK Militia IFV 3 Driver";
+				};
+				class Item2
+				{
+					position[]={871.50452,529.66113,188.04883};
+					azimut=0.32468101;
+					special="NONE";
+					id=101;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init; ";
+					description="TK Militia IFV 3 Gunner";
+				};
+			};
+		};
+		class Item30
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={889.74475,522.3205,190.94043};
+					azimut=0.32468101;
+					special="NONE";
+					id=105;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV4"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="TK Militia IFV 4 Commander";
+				};
+				class Item1
+				{
+					position[]={891.78479,522.12146,188.49756};
+					azimut=0.32468101;
+					special="NONE";
+					id=106;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="TK Militia IFV 4 Driver";
+				};
+				class Item2
+				{
+					position[]={894.77112,520.96405,188.50879};
+					azimut=0.32468101;
+					special="NONE";
+					id=107;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="TK Militia IFV 4 Gunner";
+				};
+			};
+		};
+		class Item31
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={800.14075,557.35754,145.59766};
+					azimut=0.32468101;
+					special="NONE";
+					id=109;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="TK Militia Tank 1 Commander";
+				};
+				class Item1
+				{
+					position[]={801.94934,557.75134,143.33887};
+					azimut=0.32468101;
+					special="NONE";
+					id=110;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init; ";
+					description="TK Militia Tank 1 Driver";
+				};
+				class Item2
+				{
+					position[]={804.41418,557.67365,143.53857};
+					azimut=0.32468101;
+					special="NONE";
+					id=111;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init; ";
+					description="TK Militia Tank 1 Gunner";
+				};
+			};
+		};
+		class Item32
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={834.2901,555.10028,145.87622};
+					azimut=0.32468101;
+					special="NONE";
+					id=113;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="TK Militia Tank 2 Commander";
+				};
+				class Item1
+				{
+					position[]={836.09869,555.00873,143.61743};
+					azimut=0.32468101;
+					special="NONE";
+					id=114;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init; ";
+					description="TK Militia Tank 2 Driver";
+				};
+				class Item2
+				{
+					position[]={838.56354,554.1806,143.81714};
+					azimut=0.32468101;
+					special="NONE";
+					id=115;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="TK Militia Tank 2 Gunner";
+				};
+			};
+		};
+		class Item33
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={864.13586,540.75732,147.26611};
+					azimut=0.32468101;
+					special="NONE";
+					id=117;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK3"", ""ColorGreen""]] call hull_unit_fnc_init; ";
+					description="TK Militia Tank 3 Commander";
+				};
+				class Item1
+				{
+					position[]={865.94446,539.89844,145.00732};
+					azimut=0.32468101;
+					special="NONE";
+					id=118;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="TK Militia Tank 3 Driver";
+				};
+				class Item2
+				{
+					position[]={868.4093,538.49774,145.20703};
+					azimut=0.32468101;
+					special="NONE";
+					id=119;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="TK Militia Tank 3 Gunner";
+				};
+			};
+		};
+		class Item34
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={889.26184,527.10541,148.1001};
+					azimut=0.32468101;
+					special="NONE";
+					id=121;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK4"", ""ColorBrown""]] call hull_unit_fnc_init; ";
+					description="TK Militia Tank 4 Commander";
+				};
+				class Item1
+				{
+					position[]={891.07043,526.13531,145.84131};
+					azimut=0.32468101;
+					special="NONE";
+					id=122;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init; ";
+					description="TK Militia Tank 4 Driver";
+				};
+				class Item2
+				{
+					position[]={893.53528,524.86163,146.04102};
+					azimut=0.32468101;
+					special="NONE";
+					id=123;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init; ";
+					description="TK Militia Tank 4 Gunner";
+				};
+			};
+		};
+		class Item35
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={936.9455,498.81689,146.44434};
+					azimut=0.32468101;
+					special="NONE";
+					id=125;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Militia Transport Helo 1 Pilot";
+				};
+				class Item1
+				{
+					position[]={939.71259,496.89359,144.61719};
+					azimut=0.32468101;
+					special="NONE";
+					id=126;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="TK Militia Transport Helo 1 Crewman";
+				};
+			};
+		};
+		class Item36
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={964.716,480.99039,144.83838};
+					azimut=0.32468101;
+					special="NONE";
+					id=127;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Militia Transport Helo 2 Pilot";
+				};
+				class Item1
+				{
+					position[]={967.4826,479.0856,143.01074};
+					azimut=0.32468101;
+					special="NONE";
+					id=128;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="TK Militia Transport Helo 2 Crewman";
+				};
+			};
+		};
+		class Item37
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1000.6871,461.27298,143.91284};
+					azimut=0.32468101;
+					special="NONE";
+					id=131;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH3"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="TK Militia Transport Helo 3 Pilot";
+				};
+				class Item1
+				{
+					position[]={1003.4542,459.94659,142.08569};
+					azimut=0.32468101;
+					special="NONE";
+					id=132;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init; ";
+					description="TK Militia Transport Helo 3 Crewman";
+				};
+			};
+		};
+		class Item38
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1028.4578,451.72714,142.30688};
+					azimut=0.32468101;
+					special="NONE";
+					id=133;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH4"", ""ColorOrange""]] call hull_unit_fnc_init; ";
+					description="TK Militia Transport Helo 4 Pilot";
+				};
+				class Item1
+				{
+					position[]={1031.2244,450.89444,140.47925};
+					azimut=0.32468101;
+					special="NONE";
+					id=134;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init; ";
+					description="TK Militia Transport Helo 4 Crewman";
+				};
+			};
+		};
+		class Item39
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1025.991,466.67679,188.73462};
+					azimut=0.32468101;
+					special="NONE";
+					id=137;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""AH1"", ""ColorRed""]] call hull_unit_fnc_init;  ";
+					description="TK Militia Attack Helo 1 Pilot";
+				};
+				class Item1
+				{
+					position[]={1028.7576,466.20367,186.90747};
+					azimut=0.32468101;
+					special="NONE";
+					id=138;
+					side="EAST";
+					vehicle="TK_INS_Soldier_3_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init; ";
+					description="TK Militia Attack Helo 1 Gunner";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=23;
+		class Item0
+		{
+			position[]={783.03503,519.15881,334.36377};
+			azimut=2.8900046;
+			id=46;
+			side="EMPTY";
+			vehicle="BTR40_TK_INS_EP1";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item1
+		{
+			position[]={783.52625,519.24188,318.81201};
+			azimut=2.8900046;
+			id=47;
+			side="EMPTY";
+			vehicle="BTR40_TK_INS_EP1";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item2
+		{
+			position[]={803.69153,514.9967,305.5625};
+			azimut=2.8900046;
+			id=48;
+			side="EMPTY";
+			vehicle="BTR40_TK_INS_EP1";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item3
+		{
+			position[]={830.02887,508.53098,302.95728};
+			azimut=2.8900046;
+			id=49;
+			side="EMPTY";
+			vehicle="BTR40_TK_INS_EP1";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item4
+		{
+			position[]={858.83795,502.53137,302.99268};
+			azimut=2.8900046;
+			id=50;
+			side="EMPTY";
+			vehicle="BTR40_TK_INS_EP1";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item5
+		{
+			position[]={802.36487,516.29791,281.49365};
+			azimut=2.8900046;
+			id=51;
+			side="EMPTY";
+			vehicle="V3S_TK_GUE_EP1";
+			skill=0.1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item6
+		{
+			position[]={830.45758,508.96698,279.96924};
+			azimut=2.8900046;
+			id=52;
+			side="EMPTY";
+			vehicle="V3S_TK_GUE_EP1";
+			skill=0.1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item7
+		{
+			position[]={859.80621,502.29684,278.06152};
+			azimut=2.8900046;
+			id=53;
+			side="EMPTY";
+			vehicle="V3S_TK_GUE_EP1";
+			skill=0.1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item8
+		{
+			position[]={883.81653,498.0112,301.81445};
+			azimut=1.8453;
+			id=68;
+			side="EMPTY";
+			vehicle="BTR40_TK_INS_EP1";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item9
+		{
+			position[]={885.23889,496.58234,276.90479};
+			azimut=1.8453;
+			id=69;
+			side="EMPTY";
+			vehicle="V3S_TK_GUE_EP1";
+			skill=0.2;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item10
+		{
+			position[]={805.5553,535.58594,200.19141};
+			azimut=0.32468101;
+			id=102;
+			side="EMPTY";
+			vehicle="BRDM2_TK_GUE_EP1";
+			skill=0.1;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item11
+		{
+			position[]={839.51422,533.15027,201.35938};
+			azimut=0.32468101;
+			id=103;
+			side="EMPTY";
+			vehicle="BRDM2_TK_GUE_EP1";
+			skill=0.1;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item12
+		{
+			position[]={870.33948,526.07886,200.23242};
+			azimut=0.32468101;
+			id=104;
+			side="EMPTY";
+			vehicle="BRDM2_TK_GUE_EP1";
+			skill=0.1;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item13
+		{
+			position[]={893.60608,517.88159,200.69238};
+			azimut=0.32468101;
+			id=108;
+			side="EMPTY";
+			vehicle="BRDM2_TK_GUE_EP1";
+			skill=0.2;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item14
+		{
+			position[]={805.1134,554.69153,154.12109};
+			azimut=0.32468101;
+			id=112;
+			side="EMPTY";
+			vehicle="T55_TK_EP1";
+			skill=0.1;
+		};
+		class Item15
+		{
+			position[]={839.26276,551.12354,154.39966};
+			azimut=0.32468101;
+			id=116;
+			side="EMPTY";
+			vehicle="T55_TK_EP1";
+			skill=0.2;
+		};
+		class Item16
+		{
+			position[]={869.10852,536.8938,155.78955};
+			azimut=0.32468101;
+			id=120;
+			side="EMPTY";
+			vehicle="T55_TK_EP1";
+			skill=0.2;
+		};
+		class Item17
+		{
+			position[]={894.2345,524.23535,156.62354};
+			azimut=0.32468101;
+			id=124;
+			side="EMPTY";
+			vehicle="T55_TK_EP1";
+			skill=0.2;
+		};
+		class Item18
+		{
+			position[]={938.29169,498.31656,162.01807};
+			azimut=0.32468101;
+			id=129;
+			side="EMPTY";
+			vehicle="Mi17_TK_EP1";
+			skill=0.1;
+		};
+		class Item19
+		{
+			position[]={964.43964,482.05566,160.69873};
+			azimut=0.32468101;
+			id=130;
+			side="EMPTY";
+			vehicle="Mi17_TK_EP1";
+			skill=0.1;
+		};
+		class Item20
+		{
+			position[]={1002.0333,463.4649,159.48657};
+			azimut=0.32468101;
+			id=135;
+			side="EMPTY";
+			vehicle="Mi17_TK_EP1";
+			skill=0.2;
+		};
+		class Item21
+		{
+			position[]={1028.1814,456.82928,158.16724};
+			azimut=0.32468101;
+			id=136;
+			side="EMPTY";
+			vehicle="Mi17_TK_EP1";
+			skill=0.2;
+		};
+		class Item22
+		{
+			position[]={1028.5427,472.13843,202.76782};
+			azimut=0.32468101;
+			id=139;
+			side="EMPTY";
+			vehicle="Mi24_D_TK_EP1";
+			skill=0.1;
+		};
+	};
+	class Markers
+	{
+		items=1;
+		class Item0
+		{
+			position[]={106.41798,311.17209,2316.0652};
+			name="1_3_2_5_1";
+			type="Empty";
+			a=0;
+			b=0;
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=13119962;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=15231874;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=1525827;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
