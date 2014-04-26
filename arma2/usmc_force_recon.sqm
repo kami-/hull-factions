@@ -1,0 +1,365 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"ace_sys_viewblock",
+		"acex_usnavy_men_usmc",
+		"acex_ru_men_naval",
+		"cacharacters2",
+		"cacharacters_pmc",
+		"acex_ru_c_men",
+		"ace_c_men",
+		"CACharacters_BAF",
+		"rw_characters",
+		"ace_sys_vehicledamage",
+		"CAWheeled_E",
+		"acex_veh_stryker",
+		"CATracked_E",
+		"CAAir",
+		"acex_usnavy_veh_ah1",
+		"CAWheeled",
+		"CAWheeled2_Kamaz",
+		"CAWheeled2_BTR90",
+		"ace_c_vehicle",
+		"CAAir2",
+		"cawheeled_d_baf",
+		"CATracked",
+		"CAWheeled2_MTVR",
+		"CAWheeled2_LAV25",
+		"CATracked2_BMP3",
+		"CAWheeled2_V3S",
+		"caair_e_mi8",
+		"CATracked_BAF",
+		"CAAir_BAF",
+		"caair_e_ch_47f",
+		"CAAir_E_AH64D",
+		"RW_Wheeled",
+		"RW_Wheeled2_LAV25",
+		"RW_Tracked",
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters2",
+		"takistan"
+	};
+	randomSeed=3165154;
+	class Intel
+	{
+		briefingName="hull-framework";
+		briefingDescription="hull-framework";
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=8;
+		minute=0;
+	};
+	class Groups
+	{
+		items=4;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1462.9602,516.17249,697.42322};
+					azimut=1.4615099;
+					special="NONE";
+					id=0;
+					side="WEST";
+					vehicle="FR_Commander";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""SOF SL"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="USMC Force Recon Leader";
+				};
+				class Item1
+				{
+					position[]={1465.3049,515.09406,694.39001};
+					azimut=1.4615099;
+					special="NONE";
+					id=1;
+					side="WEST";
+					vehicle="FR_Corpsman";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""SOFM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="USMC Force Recon Medic";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1461.6506,513.82086,674.0863};
+					azimut=1.4615099;
+					special="NONE";
+					id=2;
+					side="WEST";
+					vehicle="FR_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""SOF1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="USMC Force Recon 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1463.9944,511.98785,671.05212};
+					azimut=1.4615099;
+					special="NONE";
+					id=3;
+					side="WEST";
+					vehicle="FR_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="USMC Force Recon 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1466.7424,510.70749,670.83826};
+					azimut=1.4615099;
+					special="NONE";
+					id=4;
+					side="WEST";
+					vehicle="FR_GL";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="USMC Force Recon 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1470.175,509.11658,670.72205};
+					azimut=1.4615099;
+					special="NONE";
+					id=5;
+					side="WEST";
+					vehicle="FR_Assault_R";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="USMC Force Recon 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item2
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1461.8801,506.65829,649.34802};
+					azimut=1.4615099;
+					special="NONE";
+					id=6;
+					side="WEST";
+					vehicle="FR_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""SOF2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="USMC Force Recon 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1464.2249,504.76181,646.31384};
+					azimut=1.4615099;
+					special="NONE";
+					id=7;
+					side="WEST";
+					vehicle="FR_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="USMC Force Recon 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1466.9719,503.45224,646.10095};
+					azimut=1.4615099;
+					special="NONE";
+					id=8;
+					side="WEST";
+					vehicle="FR_GL";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="USMC Force Recon 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1470.4065,501.83542,645.98376};
+					azimut=1.4615099;
+					special="NONE";
+					id=9;
+					side="WEST";
+					vehicle="FR_Assault_R";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="USMC Force Recon 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item3
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1461.3147,498.60992,624.83429};
+					azimut=1.4615099;
+					special="NONE";
+					id=10;
+					side="WEST";
+					vehicle="FR_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""SOF3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="USMC Force Recon 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1463.6584,496.36627,621.80011};
+					azimut=1.4615099;
+					special="NONE";
+					id=11;
+					side="WEST";
+					vehicle="FR_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="USMC Force Recon 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1466.4065,495.1217,621.58722};
+					azimut=1.4615099;
+					special="NONE";
+					id=12;
+					side="WEST";
+					vehicle="FR_GL";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="USMC Force Recon 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1469.8411,493.5784,621.47003};
+					azimut=1.4615099;
+					special="NONE";
+					id=13;
+					side="WEST";
+					vehicle="FR_Assault_R";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="USMC Force Recon 3 Rifleman (AT)";
+				};
+			};
+		};
+	};
+	class Markers
+	{
+		items=1;
+		class Item0
+		{
+			position[]={106.41798,311.17209,2316.0652};
+			name="1_3_2_5_1";
+			type="Empty";
+			a=0;
+			b=0;
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=13119962;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=15231874;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=1525827;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
