@@ -11,7 +11,8 @@
         "Russian Army Woodland": "ru_woodland.sqm",
         "Russian Army Desert": "ru_desert.sqm",
         "Takistani Army": "taki_army.sqm",
-        "Takistani Militia": "taki_militia.sqm"
+        "Takistani Militia": "taki_militia.sqm",
+        "Takistani Specail Forces": "taki_specforce.sqm"
     },
     "arma3": {
         "HULL_EMPTY_DEFAULT": "hull3_empty_default.sqm",
