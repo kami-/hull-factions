@@ -1,0 +1,366 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"ace_sys_viewblock",
+		"acex_usnavy_men_usmc",
+		"acex_ru_men_naval",
+		"cacharacters2",
+		"cacharacters_pmc",
+		"acex_ru_c_men",
+		"ace_c_men",
+		"CACharacters_BAF",
+		"rw_characters",
+		"ace_sys_vehicledamage",
+		"CAWheeled_E",
+		"acex_veh_stryker",
+		"CATracked_E",
+		"CAAir",
+		"acex_usnavy_veh_ah1",
+		"CAWheeled",
+		"CAWheeled2_Kamaz",
+		"CAWheeled2_BTR90",
+		"ace_c_vehicle",
+		"CAAir2",
+		"cawheeled_d_baf",
+		"CATracked",
+		"CAWheeled2_MTVR",
+		"CAWheeled2_LAV25",
+		"CATracked2_BMP3",
+		"CAWheeled2_V3S",
+		"caair_e_mi8",
+		"CATracked_BAF",
+		"CAAir_BAF",
+		"caair_e_ch_47f",
+		"CAAir_E_AH64D",
+		"RW_Wheeled",
+		"RW_Wheeled2_LAV25",
+		"RW_Tracked",
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters2",
+		"acex_ru_c_men",
+		"takistan"
+	};
+	randomSeed=3165154;
+	class Intel
+	{
+		briefingName="hull-framework";
+		briefingDescription="hull-framework";
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=8;
+		minute=0;
+	};
+	class Groups
+	{
+		items=4;
+		class Item0
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1465.8342,466.46155,380.35278};
+					azimut=0.89087403;
+					special="NONE";
+					id=0;
+					side="EAST";
+					vehicle="RUS_Commander";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""SOF SL"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="RU Spetsnaz Team Leader";
+				};
+				class Item1
+				{
+					position[]={1468.594,465.33151,378.07886};
+					azimut=0.89087403;
+					special="NONE";
+					id=1;
+					side="EAST";
+					vehicle="ACE_RUS_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""SOFM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="RU Spetsnaz Medic";
+				};
+			};
+		};
+		class Item1
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1465.5217,463.84869,355.05396};
+					azimut=0.89087403;
+					special="NONE";
+					id=2;
+					side="EAST";
+					vehicle="RUS_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""SOF1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="RU Spetsnaz 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1468.2795,462.89996,352.77954};
+					azimut=0.89087403;
+					special="NONE";
+					id=3;
+					side="EAST";
+					vehicle="RUS_Soldier_GL";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="RU Spetsnaz 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1471.1604,462.04358,352.64185};
+					azimut=0.89087403;
+					special="NONE";
+					id=4;
+					side="EAST";
+					vehicle="RUS_Soldier1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="RU Spetsnaz 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1474.0442,461.16013,352.59497};
+					azimut=0.89087403;
+					special="NONE";
+					id=5;
+					side="EAST";
+					vehicle="ACE_RUS_Soldier_RPOM";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="RU Spetsnaz 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item2
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1465.1331,461.77017,330.1272};
+					azimut=0.89087403;
+					special="NONE";
+					id=6;
+					side="EAST";
+					vehicle="RUS_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""SOF2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="RU Spetsnaz 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1467.8918,460.96671,327.85376};
+					azimut=0.89087403;
+					special="NONE";
+					id=7;
+					side="EAST";
+					vehicle="RUS_Soldier_GL";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="RU Spetsnaz 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1470.7717,460.32404,327.71606};
+					azimut=0.89087403;
+					special="NONE";
+					id=8;
+					side="EAST";
+					vehicle="RUS_Soldier1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="RU Spetsnaz 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1473.6565,459.71045,327.66919};
+					azimut=0.89087403;
+					special="NONE";
+					id=9;
+					side="EAST";
+					vehicle="ACE_RUS_Soldier_RPOM";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="RU Spetsnaz 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item3
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1464.5403,459.76416,308.91528};
+					azimut=0.89087403;
+					special="NONE";
+					id=10;
+					side="EAST";
+					vehicle="RUS_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""SOF3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="RU Spetsnaz 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1467.2981,459.03293,306.64185};
+					azimut=0.89087403;
+					special="NONE";
+					id=11;
+					side="EAST";
+					vehicle="RUS_Soldier_GL";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="RU Spetsnaz 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1470.179,458.57266,306.50415};
+					azimut=0.89087403;
+					special="NONE";
+					id=12;
+					side="EAST";
+					vehicle="RUS_Soldier1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="RU Spetsnaz 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1473.0627,458.12375,306.45728};
+					azimut=0.89087403;
+					special="NONE";
+					id=13;
+					side="EAST";
+					vehicle="ACE_RUS_Soldier_RPOM";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="RU Spetsnaz 3 Rifleman (AT)";
+				};
+			};
+		};
+	};
+	class Markers
+	{
+		items=1;
+		class Item0
+		{
+			position[]={106.41798,311.17209,2316.0652};
+			name="1_3_2_5_1";
+			type="Empty";
+			a=0;
+			b=0;
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=13119962;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=15231874;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=1525827;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};

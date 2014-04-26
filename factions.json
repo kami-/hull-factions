@@ -12,7 +12,8 @@
         "Russian Army Desert": "ru_desert.sqm",
         "Takistani Army": "taki_army.sqm",
         "Takistani Militia": "taki_militia.sqm",
-        "Takistani Specail Forces": "taki_specforce.sqm"
+        "Takistani Specail Forces": "taki_specforce.sqm",
+        "Russian Spetsnaz": "ru_spetsnaz.sqm"
     },
     "arma3": {
         "HULL_EMPTY_DEFAULT": "hull3_empty_default.sqm",
