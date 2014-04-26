@@ -25,7 +25,7 @@
     },
     "arma3": {
         "HULL_EMPTY_DEFAULT": "hull3_empty_default.sqm",
-        "BLUFOR": "blufor.sqm",
-        "OPFOR": "opfor.sqm"
+        "NATO": "nato.sqm",
+        "CSAT": "csat.sqm"
     }
 }
