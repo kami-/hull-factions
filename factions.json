@@ -1,6 +1,7 @@
 {
     "arma2": {
         "HULL_EMPTY_DEFAULT": "hull_empty_default.sqm",
+        "Insurgents": "insurgents.sqm",
         "USMC Woodland": "usmc_woodland.sqm",
         "USMC Desert": "usmc_desert.sqm",
         "USMC Snow": "usmc_snow.sqm",

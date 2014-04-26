@@ -1,0 +1,2304 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"ace_sys_viewblock",
+		"acex_usnavy_men_usmc",
+		"cacharacters2",
+		"CACharacters_BAF",
+		"rw_characters",
+		"ace_sys_vehicledamage",
+		"CAAir",
+		"acex_usnavy_veh_ah1",
+		"CAWheeled",
+		"CAAir2",
+		"cawheeled_d_baf",
+		"CATracked",
+		"CAWheeled2_MTVR",
+		"CAWheeled2_LAV25",
+		"CATracked2_BMP3",
+		"CATracked_BAF",
+		"CAAir_BAF",
+		"cawheeled_e_btr40",
+		"cawheeled_e_brdm2",
+		"catracked_e_t55",
+		"RW_Wheeled",
+		"RW_Wheeled2_LAV25",
+		"RW_Tracked",
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters2",
+		"CAWheeled",
+		"CATracked",
+		"caair",
+		"CAAir2",
+		"takistan"
+	};
+	randomSeed=3165154;
+	class Intel
+	{
+		briefingName="hull-framework";
+		briefingDescription="hull-framework";
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=8;
+		minute=0;
+	};
+	class Groups
+	{
+		items=40;
+		class Item0
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={799.47278,521.32599,816.35461};
+					azimut=0.32468101;
+					special="NONE";
+					id=0;
+					side="EAST";
+					vehicle="Ins_Commander";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.5;
+					init="[this, [""CO""], [""CO"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Commander";
+				};
+				class Item1
+				{
+					position[]={802.55286,522.98767,813.52258};
+					azimut=0.32468101;
+					special="NONE";
+					id=1;
+					side="EAST";
+					vehicle="Ins_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""CoM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Medic";
+				};
+			};
+		};
+		class Item1
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={799.68323,528.84613,800.56604};
+					azimut=0.32468101;
+					special="NONE";
+					id=2;
+					side="EAST";
+					vehicle="Ins_Commander";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.5;
+					init="[this, [""DC""], [""DC"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Deputy Commander";
+				};
+				class Item1
+				{
+					position[]={802.76428,530.39319,797.73352};
+					azimut=0.32468101;
+					special="NONE";
+					id=3;
+					side="EAST";
+					vehicle="Ins_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""DcM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Medic";
+				};
+			};
+		};
+		class Item2
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={817.94641,537.48102,786.62854};
+					azimut=0.32468101;
+					special="NONE";
+					id=4;
+					side="EAST";
+					vehicle="Ins_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""ASL"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Alpha Squad Leader";
+				};
+				class Item1
+				{
+					position[]={821.02649,539.25208,783.79651};
+					azimut=0.32468101;
+					special="NONE";
+					id=5;
+					side="EAST";
+					vehicle="Ins_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""AM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Alpha Medic";
+				};
+			};
+		};
+		class Item3
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={817.77502,552.76666,762.8927};
+					azimut=0.32468101;
+					special="NONE";
+					id=6;
+					side="EAST";
+					vehicle="Ins_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Alpha 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={820.85461,554.27625,760.06067};
+					azimut=0.32468101;
+					special="NONE";
+					id=7;
+					side="EAST";
+					vehicle="Ins_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Alpha 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={823.51233,554.07336,759.9093};
+					azimut=0.32468101;
+					special="NONE";
+					id=8;
+					side="EAST";
+					vehicle="Ins_Soldier_1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Alpha 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={826.20953,553.72949,759.90637};
+					azimut=0.32468101;
+					special="NONE";
+					id=9;
+					side="EAST";
+					vehicle="Ins_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Alpha 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item4
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={817.99622,567.95081,737.49036};
+					azimut=0.32468101;
+					special="NONE";
+					id=10;
+					side="EAST";
+					vehicle="Ins_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A2"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Alpha 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={821.07629,568.31097,734.65833};
+					azimut=0.32468101;
+					special="NONE";
+					id=11;
+					side="EAST";
+					vehicle="Ins_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Alpha 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={823.73352,567.77698,734.50745};
+					azimut=0.32468101;
+					special="NONE";
+					id=12;
+					side="EAST";
+					vehicle="Ins_Soldier_1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Alpha 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={826.43073,567.12,734.50403};
+					azimut=0.32468101;
+					special="NONE";
+					id=13;
+					side="EAST";
+					vehicle="Ins_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Alpha 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item5
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={817.49475,577.08179,713.37317};
+					azimut=0.32468101;
+					special="NONE";
+					id=14;
+					side="EAST";
+					vehicle="Ins_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A3"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Alpha 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={820.57434,577.23535,710.54114};
+					azimut=0.32468101;
+					special="NONE";
+					id=15;
+					side="EAST";
+					vehicle="Ins_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Alpha 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={823.23157,576.4505,710.38977};
+					azimut=0.32468101;
+					special="NONE";
+					id=16;
+					side="EAST";
+					vehicle="Ins_Soldier_1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Alpha 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={825.92877,575.61047,710.38684};
+					azimut=0.32468101;
+					special="NONE";
+					id=17;
+					side="EAST";
+					vehicle="Ins_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Alpha 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item6
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={844.78424,539.17322,786.84094};
+					azimut=0.32468101;
+					special="NONE";
+					id=18;
+					side="EAST";
+					vehicle="Ins_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""BSL"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Bravo Squad Leader";
+				};
+				class Item1
+				{
+					position[]={847.86432,540.69574,784.00891};
+					azimut=0.32468101;
+					special="NONE";
+					id=19;
+					side="EAST";
+					vehicle="Ins_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""BM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Bravo Medic";
+				};
+			};
+		};
+		class Item7
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={845.15729,550.83032,762.48254};
+					azimut=0.32468101;
+					special="NONE";
+					id=20;
+					side="EAST";
+					vehicle="Ins_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B1"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Bravo 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={848.23737,551.95575,759.65051};
+					azimut=0.32468101;
+					special="NONE";
+					id=21;
+					side="EAST";
+					vehicle="Ins_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Bravo 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={850.89459,551.88483,759.49915};
+					azimut=0.32468101;
+					special="NONE";
+					id=22;
+					side="EAST";
+					vehicle="Ins_Soldier_1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Bravo 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={853.59186,551.73907,759.49622};
+					azimut=0.32468101;
+					special="NONE";
+					id=23;
+					side="EAST";
+					vehicle="Ins_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Bravo 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item8
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={848.20514,560.80518,738.49817};
+					azimut=0.32468101;
+					special="NONE";
+					id=24;
+					side="EAST";
+					vehicle="Ins_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Bravo 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={851.28522,561.29974,735.66614};
+					azimut=0.32468101;
+					special="NONE";
+					id=25;
+					side="EAST";
+					vehicle="Ins_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Bravo 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={853.94244,561.02094,735.51477};
+					azimut=0.32468101;
+					special="NONE";
+					id=26;
+					side="EAST";
+					vehicle="Ins_Soldier_1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Bravo 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={856.63971,560.71368,735.51184};
+					azimut=0.32468101;
+					special="NONE";
+					id=27;
+					side="EAST";
+					vehicle="Ins_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Bravo 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item9
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={848.43268,568.58289,713.59338};
+					azimut=0.32468101;
+					special="NONE";
+					id=28;
+					side="EAST";
+					vehicle="Ins_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B3"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Bravo 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={851.51276,568.82037,710.76135};
+					azimut=0.32468101;
+					special="NONE";
+					id=29;
+					side="EAST";
+					vehicle="Ins_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Bravo 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={854.16998,568.35065,710.60999};
+					azimut=0.32468101;
+					special="NONE";
+					id=30;
+					side="EAST";
+					vehicle="Ins_Soldier_1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Bravo 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={856.86725,567.83276,710.60657};
+					azimut=0.32468101;
+					special="NONE";
+					id=31;
+					side="EAST";
+					vehicle="Ins_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Bravo 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item10
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={874.41809,542.24475,787.16028};
+					azimut=0.32468101;
+					special="NONE";
+					id=32;
+					side="EAST";
+					vehicle="Ins_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""CSL"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Charlie Squad Leader";
+				};
+				class Item1
+				{
+					position[]={877.49768,543.4303,784.32825};
+					azimut=0.32468101;
+					special="NONE";
+					id=33;
+					side="EAST";
+					vehicle="Ins_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""CM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Charlie Medic";
+				};
+			};
+		};
+		class Item11
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={874.46594,550.94202,762.64172};
+					azimut=0.32468101;
+					special="NONE";
+					id=34;
+					side="EAST";
+					vehicle="Ins_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C1"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Charlie 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={877.54553,551.92059,759.80969};
+					azimut=0.32468101;
+					special="NONE";
+					id=35;
+					side="EAST";
+					vehicle="Ins_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Charlie 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={880.20325,551.99292,759.65833};
+					azimut=0.32468101;
+					special="NONE";
+					id=36;
+					side="EAST";
+					vehicle="Ins_Soldier_1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Charlie 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={882.90002,552.10687,759.6554};
+					azimut=0.32468101;
+					special="NONE";
+					id=37;
+					side="EAST";
+					vehicle="Ins_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Charlie 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item12
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={874.97327,559.02002,737.84192};
+					azimut=0.32468101;
+					special="NONE";
+					id=38;
+					side="EAST";
+					vehicle="Ins_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C2"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Charlie 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={878.05188,559.46088,735.00989};
+					azimut=0.32468101;
+					special="NONE";
+					id=39;
+					side="EAST";
+					vehicle="Ins_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Charlie 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={880.71008,559.35089,734.85901};
+					azimut=0.32468101;
+					special="NONE";
+					id=40;
+					side="EAST";
+					vehicle="Ins_Soldier_1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Charlie 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={883.40735,559.29193,734.85608};
+					azimut=0.32468101;
+					special="NONE";
+					id=41;
+					side="EAST";
+					vehicle="Ins_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Charlie 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item13
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={874.51282,564.61639,713.69641};
+					azimut=0.32468101;
+					special="NONE";
+					id=42;
+					side="EAST";
+					vehicle="Ins_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Charlie 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={877.59241,564.77643,710.86487};
+					azimut=0.32468101;
+					special="NONE";
+					id=43;
+					side="EAST";
+					vehicle="Ins_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Charlie 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={880.24915,564.37909,710.7135};
+					azimut=0.32468101;
+					special="NONE";
+					id=44;
+					side="EAST";
+					vehicle="Ins_Soldier_1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Charlie 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={882.9469,564.06592,710.71057};
+					azimut=0.32468101;
+					special="NONE";
+					id=45;
+					side="EAST";
+					vehicle="Ins_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Charlie 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item14
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={904.93372,548.75116,786.58875};
+					azimut=0.32468101;
+					special="NONE";
+					id=54;
+					side="EAST";
+					vehicle="Ins_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""DSL"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Delta Squad Leader";
+				};
+				class Item1
+				{
+					position[]={908.01331,550.164,783.75671};
+					azimut=0.32468101;
+					special="NONE";
+					id=55;
+					side="EAST";
+					vehicle="Ins_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""DM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Delta Medic";
+				};
+			};
+		};
+		class Item15
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={904.98157,554.5155,762.07019};
+					azimut=0.32468101;
+					special="NONE";
+					id=56;
+					side="EAST";
+					vehicle="Ins_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D1"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Delta 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={908.06116,555.75055,759.23816};
+					azimut=0.32468101;
+					special="NONE";
+					id=57;
+					side="EAST";
+					vehicle="Ins_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Delta 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={910.71887,556.29645,759.08679};
+					azimut=0.32468101;
+					special="NONE";
+					id=58;
+					side="EAST";
+					vehicle="Ins_Soldier_1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Delta 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={913.41565,556.78375,759.08386};
+					azimut=0.32468101;
+					special="NONE";
+					id=59;
+					side="EAST";
+					vehicle="Ins_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Delta 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item16
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={905.48889,560.20441,737.27039};
+					azimut=0.32468101;
+					special="NONE";
+					id=60;
+					side="EAST";
+					vehicle="Ins_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D2"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Delta 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={908.5675,560.93402,734.43835};
+					azimut=0.32468101;
+					special="NONE";
+					id=61;
+					side="EAST";
+					vehicle="Ins_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Delta 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={911.22571,561.21417,734.28748};
+					azimut=0.32468101;
+					special="NONE";
+					id=62;
+					side="EAST";
+					vehicle="Ins_Soldier_1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Delta 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={913.92297,561.41583,734.28455};
+					azimut=0.32468101;
+					special="NONE";
+					id=63;
+					side="EAST";
+					vehicle="Ins_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Delta 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item17
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={905.02844,563.74237,713.12488};
+					azimut=0.32468101;
+					special="NONE";
+					id=64;
+					side="EAST";
+					vehicle="Ins_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D3"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Delta 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={908.10803,564.30182,710.29333};
+					azimut=0.32468101;
+					special="NONE";
+					id=65;
+					side="EAST";
+					vehicle="Ins_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Delta 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={910.76477,564.45398,710.14197};
+					azimut=0.32468101;
+					special="NONE";
+					id=66;
+					side="EAST";
+					vehicle="Ins_Soldier_1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Delta 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={913.46252,564.59521,710.13904};
+					azimut=0.32468101;
+					special="NONE";
+					id=67;
+					side="EAST";
+					vehicle="Ins_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Delta 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item18
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={950.33221,563.3111,790.38879};
+					azimut=0.32468101;
+					special="NONE";
+					id=70;
+					side="EAST";
+					vehicle="Ins_Soldier_MG";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MMGG""], [""MMG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Medium MG Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={953.41229,564.94897,787.55676};
+					azimut=0.32468101;
+					special="NONE";
+					id=71;
+					side="EAST";
+					vehicle="Ins_Soldier_2";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MMGAG""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Medium MG Team 1 Assistant Gunner";
+				};
+			};
+		};
+		class Item19
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={949.81464,565.36707,766.28406};
+					azimut=0.32468101;
+					special="NONE";
+					id=72;
+					side="EAST";
+					vehicle="Ins_Soldier_MG";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MMGG""], [""MMG2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Medium MG Team 2 Gunner";
+				};
+				class Item1
+				{
+					position[]={952.89471,566.58167,763.45203};
+					azimut=0.32468101;
+					special="NONE";
+					id=73;
+					side="EAST";
+					vehicle="Ins_Soldier_2";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MMGAG""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Medium MG Team 2 Assistant Gunner";
+				};
+			};
+		};
+		class Item20
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={949.21405,566.89813,739.91028};
+					azimut=5.9519401;
+					special="NONE";
+					id=74;
+					side="EAST";
+					vehicle="Ins_Soldier_AT";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MATG""], [""MAT1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Medium AT Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={952.00067,567.65588,736.78992};
+					azimut=5.9519386;
+					special="NONE";
+					id=75;
+					side="EAST";
+					vehicle="Ins_Soldier_2";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAG""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Medium AT Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={947.41913,566.64667,737.05798};
+					azimut=5.9519401;
+					special="NONE";
+					id=76;
+					side="EAST";
+					vehicle="Ins_Soldier_2";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAC""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Medium AT Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item21
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={948.80389,567.15338,725.26257};
+					azimut=0.32468101;
+					special="NONE";
+					id=77;
+					side="EAST";
+					vehicle="Ins_Soldier_AT";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MATG""], [""MAT2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Medium AT Team 2 Gunner";
+				};
+				class Item1
+				{
+					position[]={951.883,567.62207,722.43054};
+					azimut=0.32468101;
+					special="NONE";
+					id=78;
+					side="EAST";
+					vehicle="Ins_Soldier_2";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAG""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Medium AT Team 2 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={947.29803,566.9104,722.24792};
+					azimut=0.32468101;
+					special="NONE";
+					id=79;
+					side="EAST";
+					vehicle="Ins_Soldier_2";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAC""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Medium AT Team 2 Ammo Carrier";
+				};
+			};
+		};
+		class Item22
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={947.21454,567.03113,712.76965};
+					azimut=0.32468101;
+					special="NONE";
+					id=80;
+					side="EAST";
+					vehicle="Ins_Soldier_AT";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""HATG""], [""HAT1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Heavy AT Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={950.29364,567.44409,709.93762};
+					azimut=0.32468101;
+					special="NONE";
+					id=81;
+					side="EAST";
+					vehicle="Ins_Soldier_2";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HATAG""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Heavy AT Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={945.45282,566.95844,709.59192};
+					azimut=0.32468101;
+					special="NONE";
+					id=86;
+					side="EAST";
+					vehicle="Ins_Soldier_2";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HATAC""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Heavy AT Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item23
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={949.22919,566.00183,756.96277};
+					azimut=0.32468101;
+					special="NONE";
+					id=82;
+					side="EAST";
+					vehicle="Ins_Soldier_Sniper";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SN""], [""ST1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Sniper Team 1 Sniper";
+				};
+				class Item1
+				{
+					position[]={952.30927,567.01105,754.13086};
+					azimut=0.32468101;
+					special="NONE";
+					id=83;
+					side="EAST";
+					vehicle="Ins_Soldier_Sniper";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""SP""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Sniper Team 1 Spotter";
+				};
+			};
+		};
+		class Item24
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={973.14325,573.38647,775.06726};
+					azimut=3.22384;
+					special="NONE";
+					id=84;
+					side="EAST";
+					vehicle="Ins_Soldier_Sab";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""ENG""], [""ENG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Engineer Team 1 Leader";
+				};
+				class Item1
+				{
+					position[]={975.0954,574.08234,774.35632};
+					azimut=3.22384;
+					special="NONE";
+					id=85;
+					side="EAST";
+					vehicle="Ins_Soldier_Sab";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""ENGA""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Engineer Team 1 Assistant";
+				};
+			};
+		};
+		class Item25
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={973.3244,573.26807,763.19629};
+					azimut=3.22384;
+					special="NONE";
+					id=87;
+					side="EAST";
+					vehicle="Ins_Soldier_MG";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""HMGG""], [""HMG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Heavy MG Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={975.48993,574.05438,761.11707};
+					azimut=3.2238369;
+					special="NONE";
+					id=88;
+					side="EAST";
+					vehicle="Ins_Soldier_1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HMGAG""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Heavy MG Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={971.75946,572.70929,761.19006};
+					azimut=3.2238369;
+					special="NONE";
+					id=91;
+					side="EAST";
+					vehicle="Ins_Soldier_1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HMGAC""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Heavy MG Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item26
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={973.74969,573.38458,752.72668};
+					azimut=3.22384;
+					special="NONE";
+					id=89;
+					side="EAST";
+					vehicle="Ins_Soldier_1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MTRG""], [""MTR1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Mortar Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={975.91571,574.09387,750.64758};
+					azimut=3.2238369;
+					special="NONE";
+					id=90;
+					side="EAST";
+					vehicle="Ins_Soldier_1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MTRAG""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Mortar Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={971.52264,572.617,750.71423};
+					azimut=3.2238369;
+					special="NONE";
+					id=92;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MTRAC""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Mortar Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item27
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={813.7218,579.16187,680.65588};
+					azimut=-0.82950902;
+					special="NONE";
+					id=93;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents IFV 1 Commander";
+				};
+				class Item1
+				{
+					position[]={815.60706,577.96936,678.38684};
+					azimut=-0.82950902;
+					special="NONE";
+					id=94;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents IFV 1 Driver";
+				};
+				class Item2
+				{
+					position[]={818.59241,577.2713,678.45813};
+					azimut=-0.82950902;
+					special="NONE";
+					id=95;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents IFV 1 Gunner";
+				};
+			};
+		};
+		class Item28
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={843.38434,572.20386,681.39514};
+					azimut=0.32468101;
+					special="NONE";
+					id=96;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents IFV 2 Commander";
+				};
+				class Item1
+				{
+					position[]={845.4234,571.27161,678.95325};
+					azimut=0.32468101;
+					special="NONE";
+					id=97;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents IFV 2 Driver";
+				};
+				class Item2
+				{
+					position[]={848.41022,570.64069,678.96399};
+					azimut=0.32468101;
+					special="NONE";
+					id=98;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents IFV 2 Gunner";
+				};
+			};
+		};
+		class Item29
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={867.44104,567.92358,681.79407};
+					azimut=0.32468101;
+					special="NONE";
+					id=99;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents IFV 3 Commander";
+				};
+				class Item1
+				{
+					position[]={869.48108,567.23047,679.35071};
+					azimut=0.32468101;
+					special="NONE";
+					id=100;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents IFV 3 Driver";
+				};
+				class Item2
+				{
+					position[]={872.46741,566.77649,679.36145};
+					azimut=0.32468101;
+					special="NONE";
+					id=101;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents IFV 3 Gunner";
+				};
+			};
+		};
+		class Item30
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={899.73987,564.85974,682.33508};
+					azimut=0.32468101;
+					special="NONE";
+					id=105;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV4"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents IFV 4 Commander";
+				};
+				class Item1
+				{
+					position[]={901.77991,564.46307,679.89172};
+					azimut=0.32468101;
+					special="NONE";
+					id=106;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents IFV 4 Driver";
+				};
+				class Item2
+				{
+					position[]={904.76624,564.36914,679.90247};
+					azimut=0.32468101;
+					special="NONE";
+					id=107;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents IFV 4 Gunner";
+				};
+			};
+		};
+		class Item31
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={813.56995,568.99988,649.64539};
+					azimut=0.32468101;
+					special="NONE";
+					id=109;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Tank 1 Commander";
+				};
+				class Item1
+				{
+					position[]={815.37854,568.02423,647.38757};
+					azimut=0.32468101;
+					special="NONE";
+					id=110;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Tank 1 Driver";
+				};
+				class Item2
+				{
+					position[]={817.84338,567.75317,647.5863};
+					azimut=0.32468101;
+					special="NONE";
+					id=111;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Tank 1 Gunner";
+				};
+			};
+		};
+		class Item32
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={838.92584,565.37665,648.86023};
+					azimut=0.32468101;
+					special="NONE";
+					id=113;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Tank 2 Commander";
+				};
+				class Item1
+				{
+					position[]={840.73444,564.56097,646.60242};
+					azimut=0.32468101;
+					special="NONE";
+					id=114;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Tank 2 Driver";
+				};
+				class Item2
+				{
+					position[]={843.19928,564.30957,646.80115};
+					azimut=0.32468101;
+					special="NONE";
+					id=115;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Tank 2 Gunner";
+				};
+			};
+		};
+		class Item33
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={864.25208,562.784,648.42981};
+					azimut=0.32468101;
+					special="NONE";
+					id=117;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Tank 3 Commander";
+				};
+				class Item1
+				{
+					position[]={866.06067,562.13055,646.172};
+					azimut=0.32468101;
+					special="NONE";
+					id=118;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Tank 3 Driver";
+				};
+				class Item2
+				{
+					position[]={868.52551,561.99817,646.37073};
+					azimut=0.32468101;
+					special="NONE";
+					id=119;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Tank 3 Gunner";
+				};
+			};
+		};
+		class Item34
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={896.80774,560.5954,650.23499};
+					azimut=0.32468101;
+					special="NONE";
+					id=121;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK4"", ""ColorBrown""]] call hull_unit_fnc_init; ";
+					description="ChDKZ Insurgents Tank 4 Commander";
+				};
+				class Item1
+				{
+					position[]={898.61633,559.92279,647.97717};
+					azimut=0.32468101;
+					special="NONE";
+					id=122;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Tank 4 Driver";
+				};
+				class Item2
+				{
+					position[]={901.08118,559.66632,648.1759};
+					azimut=0.32468101;
+					special="NONE";
+					id=123;
+					side="EAST";
+					vehicle="Ins_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Tank 4 Gunner";
+				};
+			};
+		};
+		class Item35
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={936.67303,552.8363,637.17596};
+					azimut=0.32468101;
+					special="NONE";
+					id=125;
+					side="EAST";
+					vehicle="Ins_Soldier_Pilot";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Transport Helo 1 Pilot";
+				};
+				class Item1
+				{
+					position[]={939.44061,552.02661,635.34882};
+					azimut=0.32468101;
+					special="NONE";
+					id=126;
+					side="EAST";
+					vehicle="Ins_Soldier_Pilot";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Transport Helo 1 Crewman";
+				};
+			};
+		};
+		class Item36
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={964.44403,550.18073,635.56952};
+					azimut=0.32468101;
+					special="NONE";
+					id=127;
+					side="EAST";
+					vehicle="Ins_Soldier_Pilot";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Transport Helo 2 Pilot";
+				};
+				class Item1
+				{
+					position[]={967.21161,549.40967,633.74188};
+					azimut=0.32468101;
+					special="NONE";
+					id=128;
+					side="EAST";
+					vehicle="Ins_Soldier_Pilot";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Transport Helo 2 Crewman";
+				};
+			};
+		};
+		class Item37
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={990.26385,548.83154,635.4306};
+					azimut=0.32468101;
+					special="NONE";
+					id=131;
+					side="EAST";
+					vehicle="Ins_Soldier_Pilot";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH3"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Transport Helo 3 Pilot";
+				};
+				class Item1
+				{
+					position[]={993.03143,548.146,633.60297};
+					azimut=0.32468101;
+					special="NONE";
+					id=132;
+					side="EAST";
+					vehicle="Ins_Soldier_Pilot";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Transport Helo 3 Crewman";
+				};
+			};
+		};
+		class Item38
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1017.5954,548.3576,635.40228};
+					azimut=0.32468101;
+					special="NONE";
+					id=134;
+					side="EAST";
+					vehicle="Ins_Soldier_Pilot";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH4"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Transport Helo 4 Pilot";
+				};
+				class Item1
+				{
+					position[]={1020.363,547.88391,633.57465};
+					azimut=0.32468101;
+					special="NONE";
+					id=135;
+					side="EAST";
+					vehicle="Ins_Soldier_Pilot";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Transport Helo 4 Crewman";
+				};
+			};
+		};
+		class Item39
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1016.3483,563.74799,682.65271};
+					azimut=0.32468101;
+					special="NONE";
+					id=137;
+					side="EAST";
+					vehicle="Ins_Soldier_Pilot";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""AH1"", ""ColorRed""]] call hull_unit_fnc_init;  ";
+					description="ChDKZ Insurgents Attack Helo 1 Pilot";
+				};
+				class Item1
+				{
+					position[]={1019.1149,562.84845,680.82605};
+					azimut=0.32468101;
+					special="NONE";
+					id=138;
+					side="EAST";
+					vehicle="Ins_Soldier_Pilot";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="ChDKZ Insurgents Attack Helo 1 Gunner";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=23;
+		class Item0
+		{
+			position[]={794.63977,519.64276,818.53137};
+			azimut=0.32468101;
+			id=46;
+			side="EMPTY";
+			vehicle="UAZ_INS";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item1
+		{
+			position[]={792.66125,527.14325,802.87805};
+			azimut=0.32468101;
+			id=47;
+			side="EMPTY";
+			vehicle="UAZ_INS";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item2
+		{
+			position[]={818.51868,533.93182,793.00891};
+			azimut=0.32468101;
+			id=48;
+			side="EMPTY";
+			vehicle="UAZ_INS";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item3
+		{
+			position[]={843.48737,536.15088,793.00159};
+			azimut=0.32468101;
+			id=49;
+			side="EMPTY";
+			vehicle="UAZ_INS";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item4
+		{
+			position[]={874.53284,540.28546,793.6344};
+			azimut=0.32468101;
+			id=50;
+			side="EMPTY";
+			vehicle="UAZ_INS";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item5
+		{
+			position[]={811.97083,550.07928,767.58704};
+			azimut=0.32468101;
+			id=51;
+			side="EMPTY";
+			vehicle="UralOpen_INS";
+			skill=1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item6
+		{
+			position[]={840.12018,548.96252,766.67297};
+			azimut=0.32468101;
+			id=52;
+			side="EMPTY";
+			vehicle="UralOpen_INS";
+			skill=1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item7
+		{
+			position[]={869.96692,549.3678,766.31653};
+			azimut=0.32468101;
+			id=53;
+			side="EMPTY";
+			vehicle="UralOpen_INS";
+			skill=1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item8
+		{
+			position[]={905.04846,547.40808,793.06287};
+			azimut=0.32468101;
+			id=68;
+			side="EMPTY";
+			vehicle="UAZ_INS";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item9
+		{
+			position[]={900.48254,552.80505,765.745};
+			azimut=0.32468101;
+			id=69;
+			side="EMPTY";
+			vehicle="UralOpen_INS";
+			skill=1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item10
+		{
+			position[]={816.58801,581.28467,691.64758};
+			azimut=-0.82950902;
+			id=102;
+			side="EMPTY";
+			vehicle="BMP2_INS";
+			skill=0.1;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item11
+		{
+			position[]={845.54938,573.22534,691.77161};
+			azimut=0.32468101;
+			id=103;
+			side="EMPTY";
+			vehicle="BMP2_INS";
+			skill=0.1;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item12
+		{
+			position[]={871.30237,568.16144,691.54602};
+			azimut=0.32468101;
+			id=104;
+			side="EMPTY";
+			vehicle="BMP2_INS";
+			skill=0.1;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item13
+		{
+			position[]={903.6012,565.65723,692.08704};
+			azimut=0.32468101;
+			id=108;
+			side="EMPTY";
+			vehicle="BMP2_INS";
+			skill=0.2;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item14
+		{
+			position[]={818.5426,571.03491,658.1698};
+			azimut=0.32468101;
+			id=112;
+			side="EMPTY";
+			vehicle="T72_INS";
+			skill=0.1;
+		};
+		class Item15
+		{
+			position[]={843.8985,566.87592,657.38464};
+			azimut=0.32468101;
+			id=116;
+			side="EMPTY";
+			vehicle="T72_INS";
+			skill=0.2;
+		};
+		class Item16
+		{
+			position[]={869.22473,564.17749,656.95422};
+			azimut=0.32468101;
+			id=120;
+			side="EMPTY";
+			vehicle="T72_INS";
+			skill=0.2;
+		};
+		class Item17
+		{
+			position[]={901.7804,561.6109,658.7594};
+			azimut=0.32468101;
+			id=124;
+			side="EMPTY";
+			vehicle="T72_INS";
+			skill=0.2;
+		};
+		class Item18
+		{
+			position[]={938.01971,557.34631,652.74915};
+			azimut=0.32468101;
+			id=129;
+			side="EMPTY";
+			vehicle="Mi17_Ins";
+			skill=0.1;
+		};
+		class Item19
+		{
+			position[]={964.16864,554.92847,651.42981};
+			azimut=0.32468101;
+			id=130;
+			side="EMPTY";
+			vehicle="Mi17_Ins";
+			skill=0.1;
+		};
+		class Item20
+		{
+			position[]={989.98853,554.11279,651.29089};
+			azimut=0.32468101;
+			id=133;
+			side="EMPTY";
+			vehicle="Mi17_Ins";
+			skill=0.2;
+		};
+		class Item21
+		{
+			position[]={1017.32,552.94604,651.26257};
+			azimut=0.32468101;
+			id=136;
+			side="EMPTY";
+			vehicle="Mi17_Ins";
+			skill=0.2;
+		};
+		class Item22
+		{
+			position[]={1018.9011,568.40918,696.6864};
+			azimut=0.32468101;
+			id=139;
+			side="EMPTY";
+			vehicle="Mi24_D";
+			skill=0.1;
+		};
+	};
+	class Markers
+	{
+		items=2;
+		class Item0
+		{
+			position[]={106.41798,311.17209,2316.0652};
+			name="1_3_2_5_1";
+			type="Empty";
+			a=0;
+			b=0;
+		};
+		class Item1
+		{
+			position[]={976.51971,571.22101,715.79724};
+			name="1_2_1_5_1_1_1_1_1_1_1_1_1_1_1";
+			type="Empty";
+			a=0;
+			b=0;
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=13119962;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=15231874;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=1525827;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
