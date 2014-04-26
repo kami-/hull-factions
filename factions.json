@@ -25,6 +25,7 @@
     },
     "arma3": {
         "HULL_EMPTY_DEFAULT": "hull3_empty_default.sqm",
+        "AAF": "aaf.sqm",
         "NATO": "nato.sqm",
         "CSAT": "csat.sqm"
     }
