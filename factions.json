@@ -13,7 +13,8 @@
         "Takistani Army": "taki_army.sqm",
         "Takistani Militia": "taki_militia.sqm",
         "Takistani Specail Forces": "taki_specforce.sqm",
-        "Russian Spetsnaz": "ru_spetsnaz.sqm"
+        "Russian Spetsnaz": "ru_spetsnaz.sqm",
+        "German KSK": "german_ksk.sqm"
     },
     "arma3": {
         "HULL_EMPTY_DEFAULT": "hull3_empty_default.sqm",
