@@ -1,0 +1,2318 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"ace_sys_viewblock",
+		"acex_usnavy_men_usmc",
+		"acex_ru_men_naval",
+		"cacharacters2",
+		"CACharacters_BAF",
+		"rw_characters",
+		"ace_sys_vehicledamage",
+		"CAWheeled_E",
+		"acex_veh_stryker",
+		"CAAir",
+		"acex_usnavy_veh_ah1",
+		"CAWheeled2_Kamaz",
+		"CAWheeled2_BTR90",
+		"ace_c_vehicle",
+		"CAAir2",
+		"CATracked",
+		"caair_pmc_ka60",
+		"CAWheeled2_MTVR",
+		"CAWheeled2_LAV25",
+		"CATracked2_BMP3",
+		"CAWheeled2_V3S",
+		"CATracked_BAF",
+		"CAAir_BAF",
+		"caair_e_ch_47f",
+		"CAAir_E_AH64D",
+		"RW_Wheeled",
+		"RW_Wheeled2_LAV25",
+		"RW_Tracked",
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters2",
+		"CAWheeled_E",
+		"CAWheeled2_V3S",
+		"CATracked",
+		"caair",
+		"caair_pmc_ka60",
+		"takistan"
+	};
+	randomSeed=3165154;
+	class Intel
+	{
+		briefingName="hull-framework";
+		briefingDescription="hull-framework";
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=8;
+		minute=0;
+	};
+	class Groups
+	{
+		items=40;
+		class Item0
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={110.12289,528.12042,1065.7142};
+					azimut=1.7789299;
+					special="NONE";
+					id=0;
+					side="GUER";
+					vehicle="GUE_Commander";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.5;
+					init="[this, [""CO""], [""CO"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="NAPA Commander";
+				};
+				class Item1
+				{
+					position[]={112.05307,529.32245,1063.6505};
+					azimut=1.7789299;
+					special="NONE";
+					id=1;
+					side="GUER";
+					vehicle="GUE_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""CoM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="NAPA Medic";
+				};
+			};
+		};
+		class Item1
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={110.42172,534.49738,1051.4139};
+					azimut=1.7789299;
+					special="NONE";
+					id=2;
+					side="GUER";
+					vehicle="GUE_Commander";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.5;
+					init="[this, [""DC""], [""DC"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="NAPA Deputy Commander";
+				};
+				class Item1
+				{
+					position[]={113.23422,536.26379,1048.9415};
+					azimut=1.7789299;
+					special="NONE";
+					id=3;
+					side="GUER";
+					vehicle="GUE_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""DcM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="NAPA Medic";
+				};
+			};
+		};
+		class Item2
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={138.42758,548.30524,1035.0734};
+					azimut=1.7789299;
+					special="NONE";
+					id=4;
+					side="GUER";
+					vehicle="GUE_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""ASL"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="NAPA Alpha Squad Leader";
+				};
+				class Item1
+				{
+					position[]={141.24057,549.99573,1032.6014};
+					azimut=1.7789299;
+					special="NONE";
+					id=5;
+					side="GUER";
+					vehicle="GUE_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""AM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="NAPA Alpha Medic";
+				};
+			};
+		};
+		class Item3
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={136.92953,556.88391,1008.8871};
+					azimut=1.7789299;
+					special="NONE";
+					id=6;
+					side="GUER";
+					vehicle="GUE_Soldier_1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="NAPA Alpha 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={139.74203,558.18512,1006.4161};
+					azimut=1.7789299;
+					special="NONE";
+					id=7;
+					side="GUER";
+					vehicle="GUE_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="NAPA Alpha 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={142.08334,558.66718,1006.2614};
+					azimut=1.7789299;
+					special="NONE";
+					id=8;
+					side="GUER";
+					vehicle="GUE_Soldier_GL";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="NAPA Alpha 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={144.59995,559.13947,1006.1469};
+					azimut=1.7789299;
+					special="NONE";
+					id=9;
+					side="GUER";
+					vehicle="GUE_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="NAPA Alpha 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item4
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={135.18637,560.75415,982.67786};
+					azimut=1.7789299;
+					special="NONE";
+					id=10;
+					side="GUER";
+					vehicle="GUE_Soldier_1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A2"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="NAPA Alpha 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={137.99985,560.79724,980.20593};
+					azimut=1.7789299;
+					special="NONE";
+					id=11;
+					side="GUER";
+					vehicle="GUE_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="NAPA Alpha 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={140.34067,561.15234,980.05237};
+					azimut=1.7789299;
+					special="NONE";
+					id=12;
+					side="GUER";
+					vehicle="GUE_Soldier_GL";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="NAPA Alpha 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={142.85727,561.54199,979.93738};
+					azimut=1.7789299;
+					special="NONE";
+					id=13;
+					side="GUER";
+					vehicle="GUE_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="NAPA Alpha 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item5
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={135.14877,554.38379,959.47156};
+					azimut=1.7789299;
+					special="NONE";
+					id=14;
+					side="GUER";
+					vehicle="GUE_Soldier_1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A3"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="NAPA Alpha 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={137.96176,554.31702,956.9989};
+					azimut=1.7789299;
+					special="NONE";
+					id=15;
+					side="GUER";
+					vehicle="GUE_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="NAPA Alpha 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={140.30258,554.78589,956.8446};
+					azimut=1.7789299;
+					special="NONE";
+					id=16;
+					side="GUER";
+					vehicle="GUE_Soldier_GL";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="NAPA Alpha 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={142.81918,555.30365,956.73083};
+					azimut=1.7789299;
+					special="NONE";
+					id=17;
+					side="GUER";
+					vehicle="GUE_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="NAPA Alpha 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item6
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={167.89926,554.46454,1034.4816};
+					azimut=1.7789299;
+					special="NONE";
+					id=18;
+					side="GUER";
+					vehicle="GUE_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""BSL"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="NAPA Bravo Squad Leader";
+				};
+				class Item1
+				{
+					position[]={170.71274,555.34796,1032.0099};
+					azimut=1.7789299;
+					special="NONE";
+					id=19;
+					side="GUER";
+					vehicle="GUE_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""BM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="NAPA Bravo Medic";
+				};
+			};
+		};
+		class Item7
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={166.35043,561.36847,1007.9745};
+					azimut=1.7789299;
+					special="NONE";
+					id=20;
+					side="GUER";
+					vehicle="GUE_Soldier_1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B1"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="NAPA Bravo 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={169.16342,561.74146,1005.5028};
+					azimut=1.7789299;
+					special="NONE";
+					id=21;
+					side="GUER";
+					vehicle="GUE_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="NAPA Bravo 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={171.50424,561.29816,1005.3485};
+					azimut=1.7789299;
+					special="NONE";
+					id=22;
+					side="GUER";
+					vehicle="GUE_Soldier_GL";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="NAPA Bravo 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={174.02036,560.82465,1005.234};
+					azimut=1.7789299;
+					special="NONE";
+					id=23;
+					side="GUER";
+					vehicle="GUE_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="NAPA Bravo 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item8
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={166.2269,564.36542,982.1842};
+					azimut=1.7789299;
+					special="NONE";
+					id=24;
+					side="GUER";
+					vehicle="GUE_Soldier_1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="NAPA Bravo 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={169.04037,563.65717,979.71326};
+					azimut=1.7789299;
+					special="NONE";
+					id=25;
+					side="GUER";
+					vehicle="GUE_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="NAPA Bravo 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={171.38071,563.00525,979.5592};
+					azimut=1.7789299;
+					special="NONE";
+					id=26;
+					side="GUER";
+					vehicle="GUE_Soldier_GL";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="NAPA Bravo 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={173.8978,562.3111,979.44421};
+					azimut=1.7789299;
+					special="NONE";
+					id=27;
+					side="GUER";
+					vehicle="GUE_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="NAPA Bravo 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item9
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={165.13364,558.90015,957.89539};
+					azimut=1.7789299;
+					special="NONE";
+					id=28;
+					side="GUER";
+					vehicle="GUE_Soldier_1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B3"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="NAPA Bravo 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={167.94614,558.3504,955.42419};
+					azimut=1.7789299;
+					special="NONE";
+					id=29;
+					side="GUER";
+					vehicle="GUE_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="NAPA Bravo 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={170.28745,558.01398,955.26965};
+					azimut=1.7789299;
+					special="NONE";
+					id=30;
+					side="GUER";
+					vehicle="GUE_Soldier_GL";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="NAPA Bravo 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={172.80453,557.46002,955.1554};
+					azimut=1.7789299;
+					special="NONE";
+					id=31;
+					side="GUER";
+					vehicle="GUE_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="NAPA Bravo 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item10
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={198.78598,552.93787,1034.308};
+					azimut=1.7789299;
+					special="NONE";
+					id=32;
+					side="GUER";
+					vehicle="GUE_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""CSL"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="NAPA Charlie Squad Leader";
+				};
+				class Item1
+				{
+					position[]={201.59897,553.09009,1031.8365};
+					azimut=1.7789299;
+					special="NONE";
+					id=33;
+					side="GUER";
+					vehicle="GUE_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""CM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="NAPA Charlie Medic";
+				};
+			};
+		};
+		class Item11
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={198.45786,554.85449,1007.3885};
+					azimut=1.7789299;
+					special="NONE";
+					id=34;
+					side="GUER";
+					vehicle="GUE_Soldier_1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C1"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="NAPA Charlie 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={201.27133,554.11267,1004.9171};
+					azimut=1.7789299;
+					special="NONE";
+					id=35;
+					side="GUER";
+					vehicle="GUE_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="NAPA Charlie 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={203.61166,553.39435,1004.7631};
+					azimut=1.7789299;
+					special="NONE";
+					id=36;
+					side="GUER";
+					vehicle="GUE_Soldier_GL";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="NAPA Charlie 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={206.12875,552.62421,1004.6481};
+					azimut=1.7789299;
+					special="NONE";
+					id=37;
+					side="GUER";
+					vehicle="GUE_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="NAPA Charlie 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item12
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={197.45346,555.00726,981.65222};
+					azimut=1.7789299;
+					special="NONE";
+					id=38;
+					side="GUER";
+					vehicle="GUE_Soldier_1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C2"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="NAPA Charlie 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={200.26498,553.76013,979.18079};
+					azimut=1.7789299;
+					special="NONE";
+					id=39;
+					side="GUER";
+					vehicle="GUE_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="NAPA Charlie 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={202.60678,552.82855,979.02649};
+					azimut=1.7789299;
+					special="NONE";
+					id=40;
+					side="GUER";
+					vehicle="GUE_Soldier_GL";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="NAPA Charlie 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={205.12338,551.77362,978.91101};
+					azimut=1.7789299;
+					special="NONE";
+					id=41;
+					side="GUER";
+					vehicle="GUE_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="NAPA Charlie 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item13
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={197.6434,552.0285,957.56067};
+					azimut=1.7789299;
+					special="NONE";
+					id=42;
+					side="GUER";
+					vehicle="GUE_Soldier_1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="NAPA Charlie 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={200.45541,550.97333,955.08777};
+					azimut=1.7789299;
+					special="NONE";
+					id=43;
+					side="GUER";
+					vehicle="GUE_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="NAPA Charlie 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={202.79721,550.15271,954.93347};
+					azimut=1.7789299;
+					special="NONE";
+					id=44;
+					side="GUER";
+					vehicle="GUE_Soldier_GL";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="NAPA Charlie 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={205.31381,549.25531,954.81921};
+					azimut=1.7789299;
+					special="NONE";
+					id=45;
+					side="GUER";
+					vehicle="GUE_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="NAPA Charlie 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item14
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={233.60632,545.12006,1033.7091};
+					azimut=1.7789299;
+					special="NONE";
+					id=54;
+					side="GUER";
+					vehicle="GUE_Soldier_CO";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""DSL"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="NAPA Delta Squad Leader";
+				};
+				class Item1
+				{
+					position[]={236.41931,544.37628,1031.2377};
+					azimut=1.7789299;
+					special="NONE";
+					id=55;
+					side="GUER";
+					vehicle="GUE_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""DM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="NAPA Delta Medic";
+				};
+			};
+		};
+		class Item15
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={233.2782,541.92188,1006.7897};
+					azimut=1.7789299;
+					special="NONE";
+					id=56;
+					side="GUER";
+					vehicle="GUE_Soldier_1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D1"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="NAPA Delta 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={236.09167,540.40027,1004.3182};
+					azimut=1.7789299;
+					special="NONE";
+					id=57;
+					side="GUER";
+					vehicle="GUE_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="NAPA Delta 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={238.43201,539.33807,1004.1642};
+					azimut=1.7789299;
+					special="NONE";
+					id=58;
+					side="GUER";
+					vehicle="GUE_Soldier_GL";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="NAPA Delta 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={240.9491,538.10156,1004.0492};
+					azimut=1.7789299;
+					special="NONE";
+					id=59;
+					side="GUER";
+					vehicle="GUE_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="NAPA Delta 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item16
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={232.27332,538.96747,981.05334};
+					azimut=1.7789299;
+					special="NONE";
+					id=60;
+					side="GUER";
+					vehicle="GUE_Soldier_1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D2"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="NAPA Delta 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={235.08533,537.39508,978.58191};
+					azimut=1.7789299;
+					special="NONE";
+					id=61;
+					side="GUER";
+					vehicle="GUE_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="NAPA Delta 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={237.42712,536.27448,978.42761};
+					azimut=1.7789299;
+					special="NONE";
+					id=62;
+					side="GUER";
+					vehicle="GUE_Soldier_GL";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="NAPA Delta 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={239.94373,534.95782,978.31213};
+					azimut=1.7789299;
+					special="NONE";
+					id=63;
+					side="GUER";
+					vehicle="GUE_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="NAPA Delta 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item17
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={232.46375,537.0105,956.96179};
+					azimut=1.7789299;
+					special="NONE";
+					id=64;
+					side="GUER";
+					vehicle="GUE_Soldier_1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D3"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="NAPA Delta 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={235.27576,535.44147,954.48889};
+					azimut=1.7789299;
+					special="NONE";
+					id=65;
+					side="GUER";
+					vehicle="GUE_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="NAPA Delta 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={237.61755,534.30481,954.33459};
+					azimut=1.7789299;
+					special="NONE";
+					id=66;
+					side="GUER";
+					vehicle="GUE_Soldier_GL";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="NAPA Delta 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={240.13367,532.98236,954.22034};
+					azimut=1.7789299;
+					special="NONE";
+					id=67;
+					side="GUER";
+					vehicle="GUE_Soldier_AT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="NAPA Delta 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item18
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={266.23914,528.47321,1031.1678};
+					azimut=0.32468101;
+					special="NONE";
+					id=70;
+					side="GUER";
+					vehicle="GUE_Soldier_MG";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MMGG""], [""MMG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="NAPA Medium MG Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={269.11316,526.42426,1028.7684};
+					azimut=0.32468101;
+					special="NONE";
+					id=71;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MMGAG""]] call hull_unit_fnc_init;";
+					description="NAPA Medium MG Team 1 Assistant Gunner";
+				};
+			};
+		};
+		class Item19
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={265.96033,526.20923,1017.6835};
+					azimut=0.32468101;
+					special="NONE";
+					id=72;
+					side="GUER";
+					vehicle="GUE_Soldier_MG";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MMGG""], [""MMG2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="NAPA Medium MG Team 2 Gunner";
+				};
+				class Item1
+				{
+					position[]={268.83435,523.99646,1015.2841};
+					azimut=0.32468101;
+					special="NONE";
+					id=73;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MMGAG""]] call hull_unit_fnc_init;";
+					description="NAPA Medium MG Team 2 Assistant Gunner";
+				};
+			};
+		};
+		class Item20
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={268.74792,520.17798,994.75647};
+					azimut=0.97860199;
+					special="NONE";
+					id=74;
+					side="GUER";
+					vehicle="GUE_Soldier_AT";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MATG""], [""MAT1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="NAPA Medium AT Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={271.5946,518.14148,992.32361};
+					azimut=0.97860199;
+					special="NONE";
+					id=75;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAG""]] call hull_unit_fnc_init;";
+					description="NAPA Medium AT Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={267.07751,520.74359,991.89075};
+					azimut=0.97860199;
+					special="NONE";
+					id=76;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAC""]] call hull_unit_fnc_init;";
+					description="NAPA Medium AT Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item21
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={268.74792,518.13037,977.7804};
+					azimut=0.97860199;
+					special="NONE";
+					id=77;
+					side="GUER";
+					vehicle="GUE_Soldier_AT";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MATG""], [""MAT2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="NAPA Medium AT Team 2 Gunner";
+				};
+				class Item1
+				{
+					position[]={271.5946,516.19983,975.34753};
+					azimut=0.97860199;
+					special="NONE";
+					id=78;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAG""]] call hull_unit_fnc_init;";
+					description="NAPA Medium AT Team 2 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={267.07751,518.87622,974.91467};
+					azimut=0.97860199;
+					special="NONE";
+					id=79;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAC""]] call hull_unit_fnc_init;";
+					description="NAPA Medium AT Team 2 Ammo Carrier";
+				};
+			};
+		};
+		class Item22
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={270.30896,515.90363,961.86438};
+					azimut=0.32468101;
+					special="NONE";
+					id=80;
+					side="GUER";
+					vehicle="GUE_Soldier_AT";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""HATG""], [""HAT1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="NAPA Heavy AT Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={273.18445,513.94794,959.46448};
+					azimut=0.32468101;
+					special="NONE";
+					id=81;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HATAG""]] call hull_unit_fnc_init;";
+					description="NAPA Heavy AT Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={268.6532,516.69824,958.96887};
+					azimut=0.32468101;
+					special="NONE";
+					id=86;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HATAC""]] call hull_unit_fnc_init;";
+					description="NAPA Heavy AT Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item23
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={293.24792,511.81766,1029.1571};
+					azimut=0.32468101;
+					special="NONE";
+					id=82;
+					side="GUER";
+					vehicle="GUE_Soldier_Sniper";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SN""], [""ST1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="NAPA Sniper Team 1 Sniper";
+				};
+				class Item1
+				{
+					position[]={296.12097,509.72058,1026.1527};
+					azimut=0.32468101;
+					special="NONE";
+					id=83;
+					side="GUER";
+					vehicle="GUE_Soldier_Scout";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""SP""]] call hull_unit_fnc_init;";
+					description="NAPA Sniper Team 1 Spotter";
+				};
+			};
+		};
+		class Item24
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={294.07263,507.52222,1005.1146};
+					azimut=0.32468101;
+					special="NONE";
+					id=84;
+					side="GUER";
+					vehicle="GUE_Soldier_Sab";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""ENG""], [""ENG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="NAPA Engineer Team 1 Leader";
+				};
+				class Item1
+				{
+					position[]={296.59949,505.96252,1004.3944};
+					azimut=0.32468101;
+					special="NONE";
+					id=85;
+					side="GUER";
+					vehicle="GUE_Soldier_Sab";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""ENGA""]] call hull_unit_fnc_init;";
+					description="NAPA Engineer Team 1 Assistant";
+				};
+			};
+		};
+		class Item25
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={268.98962,521.9989,1005.3573};
+					azimut=0.32468101;
+					special="NONE";
+					id=87;
+					side="GUER";
+					vehicle="GUE_Soldier_MG";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""HMGG""], [""HMG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="NAPA Heavy MG Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={272.0863,519.71649,1002.5663};
+					azimut=0.32468101;
+					special="NONE";
+					id=88;
+					side="GUER";
+					vehicle="GUE_Soldier_2";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HMGAG""]] call hull_unit_fnc_init;";
+					description="NAPA Heavy MG Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={267.42419,522.40973,1002.4882};
+					azimut=0.32468101;
+					special="NONE";
+					id=92;
+					side="GUER";
+					vehicle="GUE_Soldier_2";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HMGAC""]] call hull_unit_fnc_init;";
+					description="NAPA Heavy MG Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item26
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={292.92468,510.30624,1018.621};
+					azimut=0.32468101;
+					special="NONE";
+					id=89;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MTRG""], [""MTR1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="NAPA Mortar Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={296.02136,508.0535,1015.8309};
+					azimut=0.32468101;
+					special="NONE";
+					id=90;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MTRAG""]] call hull_unit_fnc_init;";
+					description="NAPA Mortar Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={291.57605,510.56754,1015.7269};
+					azimut=0.32468101;
+					special="NONE";
+					id=91;
+					side="GUER";
+					vehicle="GUE_Soldier_3";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MTRAC""]] call hull_unit_fnc_init;";
+					description="NAPA Mortar Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item27
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={132.87338,542.4552,927.28064};
+					azimut=0.32468101;
+					special="NONE";
+					id=93;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="NAPA IFV 1 Commander";
+				};
+				class Item1
+				{
+					position[]={134.91293,541.86407,924.83728};
+					azimut=0.32468101;
+					special="NONE";
+					id=94;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="NAPA IFV 1 Driver";
+				};
+				class Item2
+				{
+					position[]={137.89975,542.55157,924.849};
+					azimut=0.32468101;
+					special="NONE";
+					id=95;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="NAPA IFV 1 Gunner";
+				};
+			};
+		};
+		class Item28
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={162.54135,549.44788,927.20862};
+					azimut=0.32468101;
+					special="NONE";
+					id=96;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="NAPA IFV 2 Commander";
+				};
+				class Item1
+				{
+					position[]={164.5809,548.75623,924.76526};
+					azimut=0.32468101;
+					special="NONE";
+					id=97;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="NAPA IFV 2 Driver";
+				};
+				class Item2
+				{
+					position[]={167.56723,549.08569,924.77698};
+					azimut=0.32468101;
+					special="NONE";
+					id=98;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="NAPA IFV 2 Gunner";
+				};
+			};
+		};
+		class Item29
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={193.90024,547.6889,926.93176};
+					azimut=0.32468101;
+					special="NONE";
+					id=99;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="NAPA IFV 3 Commander";
+				};
+				class Item1
+				{
+					position[]={195.94028,546.88568,924.48889};
+					azimut=0.32468101;
+					special="NONE";
+					id=100;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="NAPA IFV 3 Driver";
+				};
+				class Item2
+				{
+					position[]={198.92661,546.4624,924.49963};
+					azimut=0.32468101;
+					special="NONE";
+					id=101;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="NAPA IFV 3 Gunner";
+				};
+			};
+		};
+		class Item30
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={227.64291,536.49878,927.14978};
+					azimut=0.32468101;
+					special="NONE";
+					id=105;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK4"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="NAPA IFV 4 Commander";
+				};
+				class Item1
+				{
+					position[]={229.68298,535.4035,924.70691};
+					azimut=0.32468101;
+					special="NONE";
+					id=106;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="NAPA IFV 4 Driver";
+				};
+				class Item2
+				{
+					position[]={232.66931,534.13831,924.71765};
+					azimut=0.32468101;
+					special="NONE";
+					id=107;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="NAPA IFV 4 Gunner";
+				};
+			};
+		};
+		class Item31
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={129.65219,525.72156,890.53186};
+					azimut=0.32468101;
+					special="NONE";
+					id=109;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="NAPA Tank 1 Commander";
+				};
+				class Item1
+				{
+					position[]={131.4603,525.26813,888.27307};
+					azimut=0.32468101;
+					special="NONE";
+					id=110;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="NAPA Tank 1 Driver";
+				};
+				class Item2
+				{
+					position[]={133.92563,526.14117,888.47278};
+					azimut=0.32468101;
+					special="NONE";
+					id=111;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="NAPA Tank 1 Gunner";
+				};
+			};
+		};
+		class Item32
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={157.19907,533.91187,890.37561};
+					azimut=0.32468101;
+					special="NONE";
+					id=113;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="NAPA Tank 2 Commander";
+				};
+				class Item1
+				{
+					position[]={159.00717,533.43146,888.11682};
+					azimut=0.32468101;
+					special="NONE";
+					id=114;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="NAPA Tank 2 Driver";
+				};
+				class Item2
+				{
+					position[]={161.4725,534.10394,888.31653};
+					azimut=0.32468101;
+					special="NONE";
+					id=115;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="NAPA Tank 2 Gunner";
+				};
+			};
+		};
+		class Item33
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={191.78549,538.94971,890.50476};
+					azimut=0.32468101;
+					special="NONE";
+					id=117;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="NAPA Tank 3 Commander";
+				};
+				class Item1
+				{
+					position[]={193.5936,538.46844,888.24597};
+					azimut=0.32468101;
+					special="NONE";
+					id=118;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="NAPA Tank 3 Driver";
+				};
+				class Item2
+				{
+					position[]={196.05893,538.62061,888.44568};
+					azimut=0.32468101;
+					special="NONE";
+					id=119;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="NAPA Tank 3 Gunner";
+				};
+			};
+		};
+		class Item34
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={225.80112,533.63928,892.82581};
+					azimut=0.32468101;
+					special="NONE";
+					id=121;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV4"", ""ColorBrown""]] call hull_unit_fnc_init; ";
+					description="NAPA Tank 4 Commander";
+				};
+				class Item1
+				{
+					position[]={227.60922,532.75281,890.56702};
+					azimut=0.32468101;
+					special="NONE";
+					id=122;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="NAPA Tank 4 Driver";
+				};
+				class Item2
+				{
+					position[]={230.07458,532.03149,890.76672};
+					azimut=0.32468101;
+					special="NONE";
+					id=123;
+					side="GUER";
+					vehicle="GUE_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="NAPA Tank 4 Gunner";
+				};
+			};
+		};
+		class Item35
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={256.5033,520.72321,883.54065};
+					azimut=0.32468101;
+					special="NONE";
+					id=125;
+					side="GUER";
+					vehicle="GUE_Soldier_Pilot";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="NAPA Transport Helo 1 Pilot";
+				};
+				class Item1
+				{
+					position[]={259.27039,519.35516,881.7135};
+					azimut=0.32468101;
+					special="NONE";
+					id=126;
+					side="GUER";
+					vehicle="GUE_Soldier_Pilot";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="NAPA Transport Helo 1 Crewman";
+				};
+			};
+		};
+		class Item36
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={284.27478,507.75027,881.9342};
+					azimut=0.32468101;
+					special="NONE";
+					id=127;
+					side="GUER";
+					vehicle="GUE_Soldier_Pilot";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="NAPA Transport Helo 2 Pilot";
+				};
+				class Item1
+				{
+					position[]={287.04236,506.48294,880.10803};
+					azimut=0.32468101;
+					special="NONE";
+					id=128;
+					side="GUER";
+					vehicle="GUE_Soldier_Pilot";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="NAPA Transport Helo 2 Crewman";
+				};
+			};
+		};
+		class Item37
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={313.70001,493.8963,882.40491};
+					azimut=0.32468101;
+					special="NONE";
+					id=131;
+					side="GUER";
+					vehicle="GUE_Soldier_Pilot";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH3"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="NAPA Transport Helo 3 Pilot";
+				};
+				class Item1
+				{
+					position[]={316.46759,492.75397,880.57874};
+					azimut=0.32468101;
+					special="NONE";
+					id=132;
+					side="GUER";
+					vehicle="GUE_Soldier_Pilot";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="NAPA Transport Helo 3 Crewman";
+				};
+			};
+		};
+		class Item38
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={344.37726,482.33441,882.24841};
+					azimut=0.32468101;
+					special="NONE";
+					id=134;
+					side="GUER";
+					vehicle="GUE_Soldier_Pilot";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH4"", ""ColorOrange""]] call hull_unit_fnc_init; ";
+					description="NAPA Transport Helo 4 Pilot";
+				};
+				class Item1
+				{
+					position[]={347.14484,481.38849,880.42224};
+					azimut=0.32468101;
+					special="NONE";
+					id=135;
+					side="GUER";
+					vehicle="GUE_Soldier_Pilot";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="NAPA Transport Helo 4 Crewman";
+				};
+			};
+		};
+		class Item39
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={344.95685,479.28674,917.9342};
+					azimut=0.32468101;
+					special="NONE";
+					id=137;
+					side="GUER";
+					vehicle="GUE_Soldier_Pilot";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""AH1"", ""ColorRed""]] call hull_unit_fnc_init;  ";
+					description="NAPA Attack Helo 1 Pilot";
+				};
+				class Item1
+				{
+					position[]={347.72394,478.26706,916.10754};
+					azimut=0.32468101;
+					special="NONE";
+					id=138;
+					side="GUER";
+					vehicle="GUE_Soldier_Pilot";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="NAPA Attack Helo 1 Gunner";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=23;
+		class Item0
+		{
+			position[]={107.24887,523.84967,1074.4884};
+			azimut=1.778934;
+			id=46;
+			side="EMPTY";
+			vehicle="UAZ_Unarmed_TK_CIV_EP1";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item1
+		{
+			position[]={104.84067,530.49237,1057.8121};
+			azimut=1.778934;
+			id=47;
+			side="EMPTY";
+			vehicle="UAZ_Unarmed_TK_CIV_EP1";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item2
+		{
+			position[]={139.46078,545.40515,1042.1444};
+			azimut=1.778934;
+			id=48;
+			side="EMPTY";
+			vehicle="UAZ_Unarmed_TK_CIV_EP1";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item3
+		{
+			position[]={167.92856,551.6283,1041.3961};
+			azimut=1.778934;
+			id=49;
+			side="EMPTY";
+			vehicle="UAZ_Unarmed_TK_CIV_EP1";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item4
+		{
+			position[]={194.24594,551.32855,1040.9835};
+			azimut=1.778934;
+			id=50;
+			side="EMPTY";
+			vehicle="UAZ_Unarmed_TK_CIV_EP1";
+			skill=0.1;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item5
+		{
+			position[]={126.29037,552.66956,1013.8551};
+			azimut=1.778934;
+			id=51;
+			side="EMPTY";
+			vehicle="V3S_Gue";
+			skill=0.1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item6
+		{
+			position[]={160.70493,560.68018,1010.4479};
+			azimut=1.778934;
+			id=52;
+			side="EMPTY";
+			vehicle="V3S_Gue";
+			skill=0.1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item7
+		{
+			position[]={193.07895,556.0838,1009.7614};
+			azimut=1.778934;
+			id=53;
+			side="EMPTY";
+			vehicle="V3S_Gue";
+			skill=0.1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item8
+		{
+			position[]={229.06577,545.78497,1040.3846};
+			azimut=1.7789299;
+			id=68;
+			side="EMPTY";
+			vehicle="UAZ_Unarmed_TK_CIV_EP1";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item9
+		{
+			position[]={227.89926,544.38586,1009.1625};
+			azimut=1.7789299;
+			id=69;
+			side="EMPTY";
+			vehicle="V3S_Gue";
+			skill=0.2;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item10
+		{
+			position[]={136.20834,546.11761,934.16052};
+			azimut=0.32468101;
+			id=102;
+			side="EMPTY";
+			vehicle="BMP2_Gue";
+			skill=0.1;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item11
+		{
+			position[]={165.49496,552.23413,934.07483};
+			azimut=0.32468101;
+			id=103;
+			side="EMPTY";
+			vehicle="BMP2_Gue";
+			skill=0.1;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item12
+		{
+			position[]={197.40414,548.43274,933.02991};
+			azimut=0.32468101;
+			id=104;
+			side="EMPTY";
+			vehicle="BMP2_Gue";
+			skill=0.1;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item13
+		{
+			position[]={231.14685,535.58783,933.24792};
+			azimut=0.32468101;
+			id=108;
+			side="EMPTY";
+			vehicle="BMP2_Gue";
+			skill=0.2;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item14
+		{
+			position[]={135.0975,530.89484,899.05237};
+			azimut=0.32468101;
+			id=112;
+			side="EMPTY";
+			vehicle="T72_Gue";
+			skill=0.1;
+		};
+		class Item15
+		{
+			position[]={162.64438,538.672,898.89612};
+			azimut=0.32468101;
+			id=116;
+			side="EMPTY";
+			vehicle="T72_Gue";
+			skill=0.2;
+		};
+		class Item16
+		{
+			position[]={197.2308,541.47571,899.02527};
+			azimut=0.32468101;
+			id=120;
+			side="EMPTY";
+			vehicle="T72_Gue";
+			skill=0.2;
+		};
+		class Item17
+		{
+			position[]={231.24646,533.04816,901.34631};
+			azimut=0.32468101;
+			id=124;
+			side="EMPTY";
+			vehicle="T72_Gue";
+			skill=0.2;
+		};
+		class Item18
+		{
+			position[]={258.77478,520.30231,895.32483};
+			azimut=0.32468101;
+			id=129;
+			side="EMPTY";
+			vehicle="Mi17_CDF";
+			skill=0.1;
+		};
+		class Item19
+		{
+			position[]={285.19373,507.11002,894.53772};
+			azimut=0.32468101;
+			id=130;
+			side="EMPTY";
+			vehicle="Mi17_CDF";
+			skill=0.1;
+		};
+		class Item20
+		{
+			position[]={314.61896,492.75711,895.00842};
+			azimut=0.32468101;
+			id=133;
+			side="EMPTY";
+			vehicle="Mi17_CDF";
+			skill=0.2;
+		};
+		class Item21
+		{
+			position[]={345.2962,481.17932,894.85193};
+			azimut=0.32468101;
+			id=136;
+			side="EMPTY";
+			vehicle="Mi17_CDF";
+			skill=0.2;
+		};
+		class Item22
+		{
+			position[]={346.14728,477.74603,927.59192};
+			azimut=0.32468101;
+			id=139;
+			side="EMPTY";
+			vehicle="Ka60_GL_PMC";
+			skill=0.1;
+		};
+	};
+	class Markers
+	{
+		items=3;
+		class Item0
+		{
+			position[]={106.41798,311.17209,2316.0652};
+			name="1_3_2_5_1";
+			type="Empty";
+			a=0;
+			b=0;
+		};
+		class Item1
+		{
+			position[]={312.2157,493.30042,966.02917};
+			name="1_2_1_5_1_1_1_1_1_1";
+			type="Empty";
+			a=0;
+			b=0;
+		};
+		class Item2
+		{
+			position[]={315.83624,521.80469,727.13904};
+			name="1_2_1_5_1_1_1_1_1_1_1";
+			type="Empty";
+			a=0;
+			b=0;
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=13119962;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=15231874;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=1525827;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
