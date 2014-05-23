@@ -3,12 +3,6 @@ class Mission
 {
 	addOns[]=
 	{
-		"ca_modules_functions",
-		"ace_sys_aitalk",
-		"ace_sys_viewblock",
-		"ace_sys_repair",
-		"ace_sys_wounds",
-		"ace_sys_vehicledamage",
 		"takistan",
 		"rw_characters",
 		"caair",
@@ -20,12 +14,6 @@ class Mission
 	};
 	addOnsAuto[]=
 	{
-		"ca_modules_functions",
-		"ace_sys_aitalk",
-		"ace_sys_viewblock",
-		"ace_sys_repair",
-		"ace_sys_wounds",
-		"ace_sys_vehicledamage",
 		"rw_characters",
 		"RW_Wheeled2_Kamaz",
 		"RW_Tracked2_BMP3",
@@ -50,143 +38,8 @@ class Mission
 	};
 	class Groups
 	{
-		items=47;
+		items=40;
 		class Item0
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-99.946243,347.26016,2260.3279};
-					id=5;
-					side="LOGIC";
-					vehicle="FunctionsManager";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item1
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=2;
-				class Item0
-				{
-					position[]={-135.52145,344.50854,2289.2983};
-					id=0;
-					side="LOGIC";
-					vehicle="ACE_AITalk_Logic";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.25;
-				};
-				class Item1
-				{
-					position[]={-118.38833,345.73267,2289.6699};
-					id=6;
-					side="LOGIC";
-					vehicle="ACE_Viewblock_EnableAIGrassVB_Mod";
-					lock="UNLOCKED";
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item2
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-161.07159,338.60971,2313.3599};
-					id=1;
-					side="LOGIC";
-					vehicle="ace_sys_repair_tyres";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.25;
-				};
-			};
-		};
-		class Item3
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-134.95184,340.85904,2313.8037};
-					id=2;
-					side="LOGIC";
-					vehicle="ACE_Wounds_Logic";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.25;
-				};
-			};
-		};
-		class Item4
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-115.01464,342.14569,2313.8037};
-					id=3;
-					side="LOGIC";
-					vehicle="ACE_Wounds_EveryoneMedic";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.25;
-				};
-			};
-		};
-		class Item5
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-92.229271,342.77155,2312.6648};
-					id=4;
-					side="LOGIC";
-					vehicle="ACE_Wounds_FullHeal";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.25;
-				};
-			};
-		};
-		class Item6
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-95.511353,346.51346,2288.7151};
-					id=7;
-					side="LOGIC";
-					vehicle="ACE_Vehicledamage_Enable_Cookoff";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item7
 		{
 			side="EAST";
 			class Vehicles
@@ -223,7 +76,7 @@ class Mission
 				};
 			};
 		};
-		class Item8
+		class Item1
 		{
 			side="EAST";
 			class Vehicles
@@ -260,7 +113,7 @@ class Mission
 				};
 			};
 		};
-		class Item9
+		class Item2
 		{
 			side="EAST";
 			class Vehicles
@@ -297,7 +150,7 @@ class Mission
 				};
 			};
 		};
-		class Item10
+		class Item3
 		{
 			side="EAST";
 			class Vehicles
@@ -360,7 +213,7 @@ class Mission
 				};
 			};
 		};
-		class Item11
+		class Item4
 		{
 			side="EAST";
 			class Vehicles
@@ -423,7 +276,7 @@ class Mission
 				};
 			};
 		};
-		class Item12
+		class Item5
 		{
 			side="EAST";
 			class Vehicles
@@ -486,7 +339,7 @@ class Mission
 				};
 			};
 		};
-		class Item13
+		class Item6
 		{
 			side="EAST";
 			class Vehicles
@@ -523,7 +376,7 @@ class Mission
 				};
 			};
 		};
-		class Item14
+		class Item7
 		{
 			side="EAST";
 			class Vehicles
@@ -586,7 +439,7 @@ class Mission
 				};
 			};
 		};
-		class Item15
+		class Item8
 		{
 			side="EAST";
 			class Vehicles
@@ -649,7 +502,7 @@ class Mission
 				};
 			};
 		};
-		class Item16
+		class Item9
 		{
 			side="EAST";
 			class Vehicles
@@ -712,7 +565,7 @@ class Mission
 				};
 			};
 		};
-		class Item17
+		class Item10
 		{
 			side="EAST";
 			class Vehicles
@@ -749,7 +602,7 @@ class Mission
 				};
 			};
 		};
-		class Item18
+		class Item11
 		{
 			side="EAST";
 			class Vehicles
@@ -812,7 +665,7 @@ class Mission
 				};
 			};
 		};
-		class Item19
+		class Item12
 		{
 			side="EAST";
 			class Vehicles
@@ -875,7 +728,7 @@ class Mission
 				};
 			};
 		};
-		class Item20
+		class Item13
 		{
 			side="EAST";
 			class Vehicles
@@ -938,7 +791,7 @@ class Mission
 				};
 			};
 		};
-		class Item21
+		class Item14
 		{
 			side="EAST";
 			class Vehicles
@@ -975,7 +828,7 @@ class Mission
 				};
 			};
 		};
-		class Item22
+		class Item15
 		{
 			side="EAST";
 			class Vehicles
@@ -1038,7 +891,7 @@ class Mission
 				};
 			};
 		};
-		class Item23
+		class Item16
 		{
 			side="EAST";
 			class Vehicles
@@ -1101,7 +954,7 @@ class Mission
 				};
 			};
 		};
-		class Item24
+		class Item17
 		{
 			side="EAST";
 			class Vehicles
@@ -1164,7 +1017,7 @@ class Mission
 				};
 			};
 		};
-		class Item25
+		class Item18
 		{
 			side="EAST";
 			class Vehicles
@@ -1200,7 +1053,7 @@ class Mission
 				};
 			};
 		};
-		class Item26
+		class Item19
 		{
 			side="EAST";
 			class Vehicles
@@ -1236,7 +1089,7 @@ class Mission
 				};
 			};
 		};
-		class Item27
+		class Item20
 		{
 			side="EAST";
 			class Vehicles
@@ -1285,7 +1138,7 @@ class Mission
 				};
 			};
 		};
-		class Item28
+		class Item21
 		{
 			side="EAST";
 			class Vehicles
@@ -1334,7 +1187,7 @@ class Mission
 				};
 			};
 		};
-		class Item29
+		class Item22
 		{
 			side="EAST";
 			class Vehicles
@@ -1383,7 +1236,7 @@ class Mission
 				};
 			};
 		};
-		class Item30
+		class Item23
 		{
 			side="EAST";
 			class Vehicles
@@ -1419,7 +1272,7 @@ class Mission
 				};
 			};
 		};
-		class Item31
+		class Item24
 		{
 			side="EAST";
 			class Vehicles
@@ -1455,7 +1308,7 @@ class Mission
 				};
 			};
 		};
-		class Item32
+		class Item25
 		{
 			side="EAST";
 			class Vehicles
@@ -1504,7 +1357,7 @@ class Mission
 				};
 			};
 		};
-		class Item33
+		class Item26
 		{
 			side="EAST";
 			class Vehicles
@@ -1553,7 +1406,7 @@ class Mission
 				};
 			};
 		};
-		class Item34
+		class Item27
 		{
 			side="EAST";
 			class Vehicles
@@ -1603,7 +1456,7 @@ class Mission
 				};
 			};
 		};
-		class Item35
+		class Item28
 		{
 			side="EAST";
 			class Vehicles
@@ -1652,7 +1505,7 @@ class Mission
 				};
 			};
 		};
-		class Item36
+		class Item29
 		{
 			side="EAST";
 			class Vehicles
@@ -1701,7 +1554,7 @@ class Mission
 				};
 			};
 		};
-		class Item37
+		class Item30
 		{
 			side="EAST";
 			class Vehicles
@@ -1750,7 +1603,7 @@ class Mission
 				};
 			};
 		};
-		class Item38
+		class Item31
 		{
 			side="EAST";
 			class Vehicles
@@ -1799,7 +1652,7 @@ class Mission
 				};
 			};
 		};
-		class Item39
+		class Item32
 		{
 			side="EAST";
 			class Vehicles
@@ -1848,7 +1701,7 @@ class Mission
 				};
 			};
 		};
-		class Item40
+		class Item33
 		{
 			side="EAST";
 			class Vehicles
@@ -1897,7 +1750,7 @@ class Mission
 				};
 			};
 		};
-		class Item41
+		class Item34
 		{
 			side="EAST";
 			class Vehicles
@@ -1946,7 +1799,7 @@ class Mission
 				};
 			};
 		};
-		class Item42
+		class Item35
 		{
 			side="EAST";
 			class Vehicles
@@ -1982,7 +1835,7 @@ class Mission
 				};
 			};
 		};
-		class Item43
+		class Item36
 		{
 			side="EAST";
 			class Vehicles
@@ -2018,7 +1871,7 @@ class Mission
 				};
 			};
 		};
-		class Item44
+		class Item37
 		{
 			side="EAST";
 			class Vehicles
@@ -2054,7 +1907,7 @@ class Mission
 				};
 			};
 		};
-		class Item45
+		class Item38
 		{
 			side="EAST";
 			class Vehicles
@@ -2090,7 +1943,7 @@ class Mission
 				};
 			};
 		};
-		class Item46
+		class Item39
 		{
 			side="EAST";
 			class Vehicles
