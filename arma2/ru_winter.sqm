@@ -1,0 +1,2275 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"takistan",
+		"rw_characters",
+		"caair",
+		"CAAir2",
+		"RW_Wheeled2_Kamaz",
+		"RW_Tracked2_BMP3",
+		"RW_Wheeled",
+		"RW_Tracked2_T90"
+	};
+	addOnsAuto[]=
+	{
+		"rw_characters",
+		"RW_Wheeled2_Kamaz",
+		"RW_Tracked2_BMP3",
+		"caair",
+		"CAAir2",
+		"RW_Wheeled",
+		"RW_Tracked2_T90",
+		"takistan"
+	};
+	randomSeed=3165154;
+	class Intel
+	{
+		briefingName="*** Mission Name ***";
+		briefingDescription="*** Mission Description ***";
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=8;
+		minute=0;
+	};
+	class Groups
+	{
+		items=40;
+		class Item0
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={809.36292,443.25845,1038.3417};
+					azimut=0.89087403;
+					special="NONE";
+					id=0;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Officer";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.5;
+					init="[this, [""CO""], [""CO"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="Russian Army Commander";
+				};
+				class Item1
+				{
+					position[]={811.61243,443.25488,1036.351};
+					azimut=0.89087403;
+					special="NONE";
+					id=1;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""CoM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="Russian Army Medic";
+				};
+			};
+		};
+		class Item1
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={809.79456,446.69736,1023.4779};
+					azimut=0.89087403;
+					special="NONE";
+					id=2;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Officer";
+					player="PLAY CDG";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.5;
+					init="[this, [""DC""], [""DC"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="Russian Army Deputy Commander";
+				};
+				class Item1
+				{
+					position[]={812.03918,446.77158,1021.4882};
+					azimut=0.89087403;
+					special="NONE";
+					id=3;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""DcM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="Russian Army Medic";
+				};
+			};
+		};
+		class Item2
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={827.28961,449.33118,1007.6351};
+					azimut=0.89087403;
+					special="NONE";
+					id=4;
+					side="EAST";
+					vehicle="RW_RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""ASL"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="Russian Army Alpha Squad Leader";
+				};
+				class Item1
+				{
+					position[]={830.04938,449.92661,1005.3612};
+					azimut=0.89087403;
+					special="NONE";
+					id=5;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""AM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="Russian Army Alpha Medic";
+				};
+			};
+		};
+		class Item3
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={826.9776,456.84143,982.33582};
+					azimut=0.89087403;
+					special="NONE";
+					id=6;
+					side="EAST";
+					vehicle="RW_RU_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="Russian Army Alpha 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={829.73492,457.90417,980.06091};
+					azimut=0.89087403;
+					special="NONE";
+					id=7;
+					side="EAST";
+					vehicle="RW_RU_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Russian Army Alpha 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={832.61627,458.30518,979.92419};
+					azimut=0.89087403;
+					special="NONE";
+					id=8;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Russian Army Alpha 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={835.49957,458.60287,979.87634};
+					azimut=0.89087403;
+					special="NONE";
+					id=9;
+					side="EAST";
+					vehicle="RW_RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Russian Army Alpha 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item4
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={826.58893,465.39163,957.40955};
+					azimut=0.89087403;
+					special="NONE";
+					id=10;
+					side="EAST";
+					vehicle="RW_RU_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A2"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="Russian Army Alpha 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={829.34772,466.65967,955.13562};
+					azimut=0.89087403;
+					special="NONE";
+					id=11;
+					side="EAST";
+					vehicle="RW_RU_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Russian Army Alpha 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={832.2276,467.10992,954.99841};
+					azimut=0.89087403;
+					special="NONE";
+					id=12;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Russian Army Alpha 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={835.11237,467.54819,954.95105};
+					azimut=0.89087403;
+					special="NONE";
+					id=13;
+					side="EAST";
+					vehicle="RW_RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Russian Army Alpha 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item5
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={826.23932,474.43332,933.41443};
+					azimut=0.89087403;
+					special="NONE";
+					id=14;
+					side="EAST";
+					vehicle="RW_RU_Soldier_TL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A3"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="Russian Army Alpha 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={828.99713,475.60654,931.14001};
+					azimut=0.89087403;
+					special="NONE";
+					id=15;
+					side="EAST";
+					vehicle="RW_RU_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Russian Army Alpha 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={831.87799,476.02014,931.0033};
+					azimut=0.89087403;
+					special="NONE";
+					id=16;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Russian Army Alpha 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={834.76178,476.46838,930.95447};
+					azimut=0.89087403;
+					special="NONE";
+					id=17;
+					side="EAST";
+					vehicle="RW_RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Russian Army Alpha 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item6
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={856.77155,449.44836,1007.8739};
+					azimut=0.89087403;
+					special="NONE";
+					id=18;
+					side="EAST";
+					vehicle="RW_RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""BSL"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="Russian Army Bravo Squad Leader";
+				};
+				class Item1
+				{
+					position[]={859.53033,450.8367,1005.599};
+					azimut=0.89087403;
+					special="NONE";
+					id=19;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""BM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="Russian Army Bravo Medic";
+				};
+			};
+		};
+		class Item7
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={856.68268,460.41049,982.10681};
+					azimut=0.89087403;
+					special="NONE";
+					id=20;
+					side="EAST";
+					vehicle="RW_RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B1"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="Russian Army Bravo 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={859.44147,461.90253,979.83142};
+					azimut=0.89087403;
+					special="NONE";
+					id=21;
+					side="EAST";
+					vehicle="RW_RU_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Russian Army Bravo 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={862.32135,462.51743,979.6947};
+					azimut=0.89087403;
+					special="NONE";
+					id=22;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Russian Army Bravo 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={865.20715,463.14813,979.64783};
+					azimut=0.89087403;
+					special="NONE";
+					id=23;
+					side="EAST";
+					vehicle="RW_RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Russian Army Bravo 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item8
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={856.83014,470.24561,956.33386};
+					azimut=0.89087403;
+					special="NONE";
+					id=24;
+					side="EAST";
+					vehicle="RW_RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="Russian Army Bravo 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={859.58698,471.87405,954.05896};
+					azimut=0.89087403;
+					special="NONE";
+					id=25;
+					side="EAST";
+					vehicle="RW_RU_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Russian Army Bravo 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={862.4693,472.69879,953.92029};
+					azimut=0.89087403;
+					special="NONE";
+					id=26;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Russian Army Bravo 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={865.35364,473.58112,953.87439};
+					azimut=0.89087403;
+					special="NONE";
+					id=27;
+					side="EAST";
+					vehicle="RW_RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Russian Army Bravo 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item9
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={856.53326,479.27466,932.96765};
+					azimut=0.89087403;
+					special="NONE";
+					id=28;
+					side="EAST";
+					vehicle="RW_RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B3"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="Russian Army Bravo 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={859.29156,480.96555,930.69373};
+					azimut=0.89087403;
+					special="NONE";
+					id=29;
+					side="EAST";
+					vehicle="RW_RU_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Russian Army Bravo 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={862.17389,481.85928,930.55603};
+					azimut=0.89087403;
+					special="NONE";
+					id=30;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Russian Army Bravo 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={865.05774,482.76114,930.5072};
+					azimut=0.89087403;
+					special="NONE";
+					id=31;
+					side="EAST";
+					vehicle="RW_RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Russian Army Bravo 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item10
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={889.47961,456.20755,1007.6283};
+					azimut=0.89087403;
+					special="NONE";
+					id=32;
+					side="EAST";
+					vehicle="RW_RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""CSL"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="Russian Army Charlie Squad Leader";
+				};
+				class Item1
+				{
+					position[]={892.2384,458.13354,1005.3534};
+					azimut=0.89087403;
+					special="NONE";
+					id=33;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""CM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="Russian Army Charlie Medic";
+				};
+			};
+		};
+		class Item11
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={889.29993,467.85385,982.49207};
+					azimut=0.89087403;
+					special="NONE";
+					id=34;
+					side="EAST";
+					vehicle="RW_RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C1"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="Russian Army Charlie 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={892.05676,469.66003,980.21716};
+					azimut=0.89087403;
+					special="NONE";
+					id=35;
+					side="EAST";
+					vehicle="RW_RU_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Russian Army Charlie 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={894.9386,470.57132,980.07947};
+					azimut=0.89087403;
+					special="NONE";
+					id=36;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Russian Army Charlie 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={897.82239,471.46423,980.03357};
+					azimut=0.89087403;
+					special="NONE";
+					id=37;
+					side="EAST";
+					vehicle="RW_RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Russian Army Charlie 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item12
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={889.2511,479.63031,955.67175};
+					azimut=0.89087403;
+					special="NONE";
+					id=38;
+					side="EAST";
+					vehicle="RW_RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C2"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="Russian Army Charlie 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={892.00891,481.4437,953.39783};
+					azimut=0.89087403;
+					special="NONE";
+					id=39;
+					side="EAST";
+					vehicle="RW_RU_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Russian Army Charlie 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={894.88977,482.39151,953.25964};
+					azimut=0.89087403;
+					special="NONE";
+					id=40;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Russian Army Charlie 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={897.77454,483.30963,953.21326};
+					azimut=0.89087403;
+					special="NONE";
+					id=41;
+					side="EAST";
+					vehicle="RW_RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Russian Army Charlie 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item13
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={888.37805,489.11478,932.56482};
+					azimut=0.89087403;
+					special="NONE";
+					id=42;
+					side="EAST";
+					vehicle="RW_RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="Russian Army Charlie 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={891.13586,491.10037,930.28845};
+					azimut=0.89087403;
+					special="NONE";
+					id=43;
+					side="EAST";
+					vehicle="RW_RU_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Russian Army Charlie 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={894.01672,492.18454,930.15173};
+					azimut=0.89087403;
+					special="NONE";
+					id=44;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Russian Army Charlie 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={896.90149,493.16083,930.10486};
+					azimut=0.89087403;
+					special="NONE";
+					id=45;
+					side="EAST";
+					vehicle="RW_RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Russian Army Charlie 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item14
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={924.04553,469.80161,1007.1505};
+					azimut=0.89087403;
+					special="NONE";
+					id=46;
+					side="EAST";
+					vehicle="RW_RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""DSL"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="Russian Army Delta Squad Leader";
+				};
+				class Item1
+				{
+					position[]={926.80432,471.88315,1004.8756};
+					azimut=0.89087403;
+					special="NONE";
+					id=47;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""DM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="Russian Army Delta Medic";
+				};
+			};
+		};
+		class Item15
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={923.86584,479.17084,982.01428};
+					azimut=0.89087403;
+					special="NONE";
+					id=48;
+					side="EAST";
+					vehicle="RW_RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D1"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="Russian Army Delta 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={926.62268,481.13272,979.73938};
+					azimut=0.89087403;
+					special="NONE";
+					id=49;
+					side="EAST";
+					vehicle="RW_RU_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Russian Army Delta 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={929.50452,482.38419,979.60168};
+					azimut=0.89087403;
+					special="NONE";
+					id=50;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Russian Army Delta 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={932.38837,483.63419,979.55579};
+					azimut=0.89087403;
+					special="NONE";
+					id=51;
+					side="EAST";
+					vehicle="RW_RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Russian Army Delta 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item16
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={923.81702,490.81897,955.19397};
+					azimut=0.89087403;
+					special="NONE";
+					id=52;
+					side="EAST";
+					vehicle="RW_RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D2"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="Russian Army Delta 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={926.57483,492.88095,952.92004};
+					azimut=0.89087403;
+					special="NONE";
+					id=53;
+					side="EAST";
+					vehicle="RW_RU_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Russian Army Delta 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={929.45569,494.07257,952.78186};
+					azimut=0.89087403;
+					special="NONE";
+					id=54;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Russian Army Delta 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={932.34052,495.24472,952.73547};
+					azimut=0.89087403;
+					special="NONE";
+					id=55;
+					side="EAST";
+					vehicle="RW_RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Russian Army Delta 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item17
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={922.94397,501.14005,932.08704};
+					azimut=0.89087403;
+					special="NONE";
+					id=56;
+					side="EAST";
+					vehicle="RW_RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D3"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="Russian Army Delta 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={925.70178,503.18707,929.81067};
+					azimut=0.89087403;
+					special="NONE";
+					id=57;
+					side="EAST";
+					vehicle="RW_RU_Soldier_AR";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Russian Army Delta 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={928.58264,504.27982,929.67395};
+					azimut=0.89087403;
+					special="NONE";
+					id=58;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Russian Army Delta 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={931.46747,505.32831,929.62708};
+					azimut=0.89087403;
+					special="NONE";
+					id=59;
+					side="EAST";
+					vehicle="RW_RU_Soldier_LAT";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Russian Army Delta 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item18
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={964.51776,488.22284,1009.1251};
+					azimut=1.8107001;
+					special="NONE";
+					id=61;
+					side="EAST";
+					vehicle="RW_RU_Soldier_MG";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MMGG""], [""MMG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Russian Army Medium MG Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={965.81903,489.45752,1007.5165};
+					azimut=1.8107001;
+					special="NONE";
+					id=62;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MMGAG""]] call hull_unit_fnc_init;";
+					description="Russian Army Medium MG Team 1 Assistant Gunner";
+				};
+			};
+		};
+		class Item19
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={964.01776,492.38342,997.39758};
+					azimut=1.8107001;
+					special="NONE";
+					id=63;
+					side="EAST";
+					vehicle="RW_RU_Soldier_MG";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MMGG""], [""MMG2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Russian Army Medium MG Team 2 Gunner";
+				};
+				class Item1
+				{
+					position[]={965.31903,493.66925,995.78894};
+					azimut=1.8107001;
+					special="NONE";
+					id=64;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MMGAG""]] call hull_unit_fnc_init;";
+					description="Russian Army Medium MG Team 2 Assistant Gunner";
+				};
+			};
+		};
+		class Item20
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={964.94354,499.90994,979.54675};
+					azimut=-2.0769601;
+					special="NONE";
+					id=65;
+					side="EAST";
+					vehicle="RW_RU_Soldier_AT";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MATG""], [""MAT1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Russian Army Medium AT Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={966.29901,501.23727,977.93005};
+					azimut=-2.0769601;
+					special="NONE";
+					id=66;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAG""]] call hull_unit_fnc_init;";
+					description="Russian Army Medium AT Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={963.75604,499.88742,978.04211};
+					azimut=-2.0769601;
+					special="NONE";
+					id=67;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAC""]] call hull_unit_fnc_init;";
+					description="Russian Army Medium AT Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item21
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={964.98895,505.75876,963.62683};
+					azimut=-2.0769601;
+					special="NONE";
+					id=68;
+					side="EAST";
+					vehicle="RW_RU_Soldier_AT";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MATG""], [""MAT2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Russian Army Medium AT Team 2 Gunner";
+				};
+				class Item1
+				{
+					position[]={966.34442,507.01154,962.00964};
+					azimut=-2.0769601;
+					special="NONE";
+					id=69;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAG""]] call hull_unit_fnc_init;";
+					description="Russian Army Medium AT Team 2 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={963.80145,505.69241,962.1217};
+					azimut=-2.0769601;
+					special="NONE";
+					id=70;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAC""]] call hull_unit_fnc_init;";
+					description="Russian Army Medium AT Team 2 Ammo Carrier";
+				};
+			};
+		};
+		class Item22
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={983.8869,509.74561,979.28333};
+					azimut=-2.56639;
+					special="NONE";
+					id=71;
+					side="EAST";
+					vehicle="RW_RU_Soldier_AT";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""HATG""], [""HAT1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Russian Army Heavy AT Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={985.38495,511.26971,977.37317};
+					azimut=-2.56639;
+					special="NONE";
+					id=72;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HATAG""]] call hull_unit_fnc_init;";
+					description="Russian Army Heavy AT Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={982.88495,510.0267,977.27795};
+					azimut=-2.56639;
+					special="NONE";
+					id=77;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HATAC""]] call hull_unit_fnc_init;";
+					description="Russian Army Heavy AT Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item23
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={962.83807,511.92911,943.45569};
+					azimut=-0.18620101;
+					special="NONE";
+					id=73;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Sniper";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SN""], [""ST1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Russian Army Sniper Team 1 Sniper";
+				};
+				class Item1
+				{
+					position[]={965.47284,513.43518,942.23645};
+					azimut=-0.18620101;
+					special="NONE";
+					id=74;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Sniper";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""SP""]] call hull_unit_fnc_init;";
+					description="Russian Army Sniper Team 1 Spotter";
+				};
+			};
+		};
+		class Item24
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={963.19305,514.88763,935.54382};
+					azimut=-0.75239402;
+					special="NONE";
+					id=75;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""ENG""], [""ENG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Russian Army Engineer Team 1 Leader ";
+				};
+				class Item1
+				{
+					position[]={966.57831,516.74219,933.82874};
+					azimut=-0.75239402;
+					special="NONE";
+					id=76;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""ENGA""]] call hull_unit_fnc_init;";
+					description="Russian Army Engineer Team 1 Assistant";
+				};
+			};
+		};
+		class Item25
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={982.99725,497.29733,1008.2184};
+					azimut=0.32468101;
+					special="NONE";
+					id=78;
+					side="EAST";
+					vehicle="RW_RU_Soldier_MG";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""HMGG""], [""HMG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Russian Army Heavy MG Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={985.26483,499.15436,1006.2516};
+					azimut=0.32468101;
+					special="NONE";
+					id=79;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HMGAG""]] call hull_unit_fnc_init;";
+					description="Russian Army Heavy MG Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={981.53436,497.44211,1006.1354};
+					azimut=0.32468101;
+					special="NONE";
+					id=82;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HMGAC""]] call hull_unit_fnc_init;";
+					description="Russian Army Heavy MG Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item26
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={983.95135,502.02017,997.78381};
+					azimut=0.32468101;
+					special="NONE";
+					id=80;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MTRG""], [""MTR1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Russian Army Mortar Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={986.21899,503.97104,995.81702};
+					azimut=0.32468101;
+					special="NONE";
+					id=81;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MTRAG""]] call hull_unit_fnc_init;";
+					description="Russian Army Mortar Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={981.82831,501.89267,995.66125};
+					azimut=0.32468101;
+					special="NONE";
+					id=83;
+					side="EAST";
+					vehicle="RW_RU_Soldier";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MTRAC""]] call hull_unit_fnc_init;";
+					description="Russian Army Mortar Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item27
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={821.40979,483.92435,906.50183};
+					azimut=0.89087403;
+					special="NONE";
+					id=84;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					fuel=0.31842637;
+					init="[this, [""VC""], [""IFV1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="Russian Army IFV 1 Commander";
+				};
+				class Item1
+				{
+					position[]={823.42395,485.0867,904.03894};
+					azimut=0.89087403;
+					special="NONE";
+					id=85;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="Russian Army IFV 1 Driver";
+				};
+				class Item2
+				{
+					position[]={826.41168,485.53772,904.02039};
+					azimut=0.89087403;
+					special="NONE";
+					id=86;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="Russian Army IFV 1 Gunner";
+				};
+			};
+		};
+		class Item28
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={854.03668,490.20731,904.23523};
+					azimut=0.89087403;
+					special="NONE";
+					id=87;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="Russian Army IFV 2 Commander";
+				};
+				class Item1
+				{
+					position[]={856.05182,491.79367,901.77136};
+					azimut=0.89087403;
+					special="NONE";
+					id=88;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="Russian Army IFV 2 Driver";
+				};
+				class Item2
+				{
+					position[]={859.03912,492.797,901.75427};
+					azimut=0.89087403;
+					special="NONE";
+					id=89;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="Russian Army IFV 2 Gunner";
+				};
+			};
+		};
+		class Item29
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={885.86731,501.68216,903.61755};
+					azimut=0.89087403;
+					special="NONE";
+					id=90;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="Russian Army IFV 3 Commander";
+				};
+				class Item1
+				{
+					position[]={887.8844,503.6015,901.15515};
+					azimut=0.89087403;
+					special="NONE";
+					id=91;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="Russian Army IFV 3 Driver";
+				};
+				class Item2
+				{
+					position[]={891.19348,504.95486,900.8075};
+					azimut=0.89087403;
+					special="NONE";
+					id=92;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="Russian Army IFV 3 Gunner";
+				};
+			};
+		};
+		class Item30
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={918.8678,512.76764,904.85461};
+					azimut=0.89087403;
+					special="NONE";
+					id=93;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""IFV4"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="Russian Army IFV 4 Commander";
+				};
+				class Item1
+				{
+					position[]={920.88489,514.56281,902.39221};
+					azimut=0.89087403;
+					special="NONE";
+					id=94;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="Russian Army IFV 4 Driver";
+				};
+				class Item2
+				{
+					position[]={924.19348,515.81635,902.04456};
+					azimut=0.89087403;
+					special="NONE";
+					id=95;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="Russian Army IFV 4 Gunner";
+				};
+			};
+		};
+		class Item31
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={816.14172,498.23404,868.80798};
+					azimut=0.89087403;
+					special="NONE";
+					id=97;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="Russian Army Tank 1 Commander";
+				};
+				class Item1
+				{
+					position[]={817.92883,499.61676,866.53308};
+					azimut=0.89087403;
+					special="NONE";
+					id=98;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="Russian Army Tank 1 Driver";
+				};
+				class Item2
+				{
+					position[]={820.39465,499.96838,866.70886};
+					azimut=0.89087403;
+					special="NONE";
+					id=99;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="Russian Army Tank 1 Gunner";
+				};
+			};
+		};
+		class Item32
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={849.81403,504.21356,868.7218};
+					azimut=0.89087403;
+					special="NONE";
+					id=100;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="Russian Army Tank 2 Commander";
+				};
+				class Item1
+				{
+					position[]={851.60114,505.6666,866.4469};
+					azimut=0.89087403;
+					special="NONE";
+					id=101;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="Russian Army Tank 2 Driver";
+				};
+				class Item2
+				{
+					position[]={854.06696,506.21097,866.62268};
+					azimut=0.89087403;
+					special="NONE";
+					id=102;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="Russian Army Tank 2 Gunner";
+				};
+			};
+		};
+		class Item33
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={883.43176,516.80688,867.28723};
+					azimut=-0.81150401;
+					special="NONE";
+					id=103;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="Russian Army Tank 3 Commander";
+				};
+				class Item1
+				{
+					position[]={885.28625,518.3457,865.06653};
+					azimut=-0.81150401;
+					special="NONE";
+					id=104;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="Russian Army Tank 3 Driver";
+				};
+				class Item2
+				{
+					position[]={887.74524,519.15204,865.31604};
+					azimut=-0.81150401;
+					special="NONE";
+					id=105;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="Russian Army Tank 3 Gunner";
+				};
+			};
+		};
+		class Item34
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={917.01819,529.89111,866.14368};
+					azimut=-0.81150401;
+					special="NONE";
+					id=106;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""TNK4"", ""ColorBrown""]] call hull_unit_fnc_init; ";
+					description="Russian Army Tank 4 Commander";
+				};
+				class Item1
+				{
+					position[]={918.87219,531.5177,863.92297};
+					azimut=-0.81150401;
+					special="NONE";
+					id=107;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="Russian Army Tank 4 Driver";
+				};
+				class Item2
+				{
+					position[]={921.33167,532.3493,864.17249};
+					azimut=-0.81150401;
+					special="NONE";
+					id=108;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Crew";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="Russian Army Tank 4 Gunner";
+				};
+			};
+		};
+		class Item35
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={963.85712,547.53369,857.48376};
+					azimut=0.89087403;
+					special="NONE";
+					id=109;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Pilot";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH1"", ""ColorOrange""]] call hull_unit_fnc_init; ";
+					description="Russian Army Transport Helo 1 Pilot";
+				};
+				class Item1
+				{
+					position[]={966.60516,549.04828,855.62927};
+					azimut=0.89087403;
+					special="NONE";
+					id=110;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Pilot";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="Russian Army Transport Helo 1 Crewman";
+				};
+			};
+		};
+		class Item36
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={996.09296,552.90082,857.2052};
+					azimut=0.89087403;
+					special="NONE";
+					id=111;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Pilot";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH2"", ""ColorOrange""]] call hull_unit_fnc_init; ";
+					description="Russian Army Transport Helo 2 Pilot";
+				};
+				class Item1
+				{
+					position[]={998.84192,554.33905,855.3512};
+					azimut=0.89087403;
+					special="NONE";
+					id=112;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Pilot";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init; ";
+					description="Russian Army Transport Helo 2 Crewman";
+				};
+			};
+		};
+		class Item37
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1027.4304,559.33728,857.47986};
+					azimut=0.89087403;
+					special="NONE";
+					id=115;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Pilot";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH3"", ""ColorOrange""]] call hull_unit_fnc_init; ";
+					description="Russian Army Transport Helo 3 Pilot";
+				};
+				class Item1
+				{
+					position[]={1030.1794,560.78375,855.62585};
+					azimut=0.89087403;
+					special="NONE";
+					id=116;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Pilot";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init; ";
+					description="Russian Army Transport Helo 3 Crewman";
+				};
+			};
+		};
+		class Item38
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1057.8479,567.66907,857.80115};
+					azimut=0.89087403;
+					special="NONE";
+					id=118;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Pilot";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH4"", ""ColorOrange""]] call hull_unit_fnc_init; ";
+					description="Russian Army Transport Helo 4 Pilot";
+				};
+				class Item1
+				{
+					position[]={1060.5969,569.03021,855.94714};
+					azimut=0.89087403;
+					special="NONE";
+					id=119;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Pilot";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="Russian Army Transport Helo 4 Crewman";
+				};
+			};
+		};
+		class Item39
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1057.7581,557.37549,901.276};
+					azimut=0.89087403;
+					special="NONE";
+					id=121;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Pilot";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""AH1"", ""ColorRed""]] call hull_unit_fnc_init;  ";
+					description="Russian Army Attack Helo 1 Pilot";
+				};
+				class Item1
+				{
+					position[]={1060.5081,558.78644,899.422};
+					azimut=0.89087403;
+					special="NONE";
+					id=122;
+					side="EAST";
+					vehicle="RW_RU_Soldier_Pilot";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="Russian Army Attack Helo 1 Gunner";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=23;
+		class Item0
+		{
+			position[]={917.6217,475.29639,986.16077};
+			azimut=0.32468101;
+			id=60;
+			side="EMPTY";
+			vehicle="RW_Kamaz";
+			skill=1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item1
+		{
+			position[]={921.88,510.38214,912.10461};
+			azimut=0.89087403;
+			id=96;
+			side="EMPTY";
+			vehicle="RW_BMP3";
+			skill=0.2;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item2
+		{
+			position[]={966.24286,541.86932,869.24353};
+			azimut=0.89087355;
+			id=113;
+			side="EMPTY";
+			vehicle="Mi17_rockets_RU";
+			skill=0.1;
+		};
+		class Item3
+		{
+			position[]={996.85858,546.35089,869.26868};
+			azimut=0.89087355;
+			id=114;
+			side="EMPTY";
+			vehicle="Mi17_rockets_RU";
+			skill=0.1;
+		};
+		class Item4
+		{
+			position[]={1028.196,554.28369,869.54333};
+			azimut=0.89087403;
+			id=117;
+			side="EMPTY";
+			vehicle="Mi17_rockets_RU";
+			skill=0.2;
+		};
+		class Item5
+		{
+			position[]={1058.6135,564.72253,869.86462};
+			azimut=0.89087403;
+			id=120;
+			side="EMPTY";
+			vehicle="Mi17_rockets_RU";
+			skill=0.2;
+		};
+		class Item6
+		{
+			position[]={1059.9055,556.25452,910.67737};
+			azimut=0.89087355;
+			id=123;
+			side="EMPTY";
+			vehicle="Mi24_P";
+			skill=0.1;
+		};
+		class Item7
+		{
+			position[]={883.45306,497.36328,910.91595};
+			azimut=0.89087403;
+			id=124;
+			side="EMPTY";
+			vehicle="RW_BMP3";
+			skill=0.2;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item8
+		{
+			position[]={851.3172,486.25851,911.93604};
+			azimut=0.89087403;
+			id=125;
+			side="EMPTY";
+			vehicle="RW_BMP3";
+			skill=0.2;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item9
+		{
+			position[]={819.69141,480.9129,913.97461};
+			azimut=0.89087403;
+			id=126;
+			side="EMPTY";
+			vehicle="RW_BMP3";
+			skill=0.2;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item10
+		{
+			position[]={886.05798,464.76593,987.52643};
+			azimut=0.32468101;
+			id=127;
+			side="EMPTY";
+			vehicle="RW_Kamaz";
+			skill=1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item11
+		{
+			position[]={853.75787,457.25021,988.47327};
+			azimut=0.32468101;
+			id=128;
+			side="EMPTY";
+			vehicle="RW_Kamaz";
+			skill=1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item12
+		{
+			position[]={824.08801,455.07507,987.2121};
+			azimut=0.32468101;
+			id=129;
+			side="EMPTY";
+			vehicle="RW_Kamaz";
+			skill=1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item13
+		{
+			position[]={824.71924,448.07129,1012.4418};
+			azimut=0.32468101;
+			id=130;
+			side="EMPTY";
+			vehicle="RW_UAZ_RU";
+			skill=1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item14
+		{
+			position[]={854.80994,447.29953,1012.3372};
+			azimut=0.32468101;
+			id=131;
+			side="EMPTY";
+			vehicle="RW_UAZ_RU";
+			skill=1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item15
+		{
+			position[]={887.53101,453.74286,1011.4965};
+			azimut=0.32468101;
+			id=132;
+			side="EMPTY";
+			vehicle="RW_UAZ_RU";
+			skill=1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item16
+		{
+			position[]={920.98846,467.26224,1010.2346};
+			azimut=0.32468101;
+			id=133;
+			side="EMPTY";
+			vehicle="RW_UAZ_RU";
+			skill=1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item17
+		{
+			position[]={803.04535,443.85434,1041.6663};
+			azimut=0.32468101;
+			id=134;
+			side="EMPTY";
+			vehicle="RW_UAZ_RU";
+			skill=1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item18
+		{
+			position[]={804.51843,446.64993,1027.5801};
+			azimut=0.32468101;
+			id=135;
+			side="EMPTY";
+			vehicle="RW_UAZ_RU";
+			skill=1;
+			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+		};
+		class Item19
+		{
+			position[]={914.40332,525.12762,875.13721};
+			azimut=0.89087403;
+			id=136;
+			side="EMPTY";
+			vehicle="RW_T90";
+			skill=0.2;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item20
+		{
+			position[]={880.0874,512.20978,875.71167};
+			azimut=0.89087403;
+			id=137;
+			side="EMPTY";
+			vehicle="RW_T90";
+			skill=0.2;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item21
+		{
+			position[]={846.92163,500.08597,876.66992};
+			azimut=0.89087403;
+			id=138;
+			side="EMPTY";
+			vehicle="RW_T90";
+			skill=0.2;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item22
+		{
+			position[]={814.13928,494.52081,876.09467};
+			azimut=0.89087403;
+			id=139;
+			side="EMPTY";
+			vehicle="RW_T90";
+			skill=0.2;
+			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=13119962;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=15231874;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=1525827;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
