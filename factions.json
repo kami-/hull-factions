@@ -21,7 +21,8 @@
         "German KSK": "german_ksk.sqm",
         "USMC Force Recon": "usmc_force_recon.sqm",
         "US Delta Force": "us_delta_force.sqm",
-        "PMC Special Forces": "pmc_specforce.sqm"
+        "PMC Special Forces": "pmc_specforce.sqm",
+        "Russian Army Winter": "ru_winter.sqm"
     },
     "arma3": {
         "HULL_EMPTY_DEFAULT": "hull3_empty_default.sqm",
