@@ -23,10 +23,10 @@
         "US Delta Force": "us_delta_force.sqm",
         "PMC Special Forces": "pmc_specforce.sqm",
         "Russian Army Winter": "ru_winter.sqm",
-        "USMC 80 desert": "usmc80_desert.sqf",
-        "USMC 80 woodland": "usmc80_woodland.sqf",
-        "USMC 90 woodland": "usmc90_woodland.sqf",
-        "USMC 90 desert": "usmc90_desert.sqf"
+        "USMC 80 desert": "usmc80_desert.sqm",
+        "USMC 80 woodland": "usmc80_woodland.sqm",
+        "USMC 90 woodland": "usmc90_woodland.sqm",
+        "USMC 90 desert": "usmc90_desert.sqm"
     },
     "arma3": {
         "HULL_EMPTY_DEFAULT": "hull3_empty_default.sqm",
