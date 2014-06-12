@@ -1,0 +1,1853 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"takistan",
+		"cacharacters_e",
+		"chernarus",
+		"caair_e_mi8",
+		"CAWheeled_E_LandRover"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters_e",
+		"CAWheeled_E_LandRover",
+		"caair_e_mi8",
+		"chernarus"
+	};
+	randomSeed=3165154;
+	class Intel
+	{
+		briefingName="*** Mission Name ***";
+		briefingDescription="*** Mission Description ***";
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=8;
+		minute=0;
+	};
+	class Groups
+	{
+		items=31;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1617.0417,74.875946,3031.6743};
+					azimut=1.4615099;
+					special="NONE";
+					id=0;
+					side="WEST";
+					vehicle="CZ_Soldier_Office_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.5;
+					init="[this, [""CO""], [""CO"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="Czech army Commander";
+				};
+				class Item1
+				{
+					position[]={1620.0447,75.070786,3031.8892};
+					azimut=1.4615099;
+					special="NONE";
+					id=1;
+					side="WEST";
+					vehicle="CZ_Soldier_medik_DES_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""CoM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="Czech army Medic";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1616.28,73.671791,3016.7798};
+					azimut=1.4615099;
+					special="NONE";
+					id=2;
+					side="WEST";
+					vehicle="CZ_Soldier_Office_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.5;
+					init="[this, [""DC""], [""DC"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="Czech army Deputy Commander";
+				};
+				class Item1
+				{
+					position[]={1620.0378,73.945328,3017.4609};
+					azimut=1.4615099;
+					special="NONE";
+					id=3;
+					side="WEST";
+					vehicle="CZ_Soldier_medik_DES_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""DcM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="Czech army Medic";
+				};
+			};
+		};
+		class Item2
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1638.1582,73.293297,3000.6982};
+					azimut=1.4615099;
+					special="NONE";
+					id=4;
+					side="WEST";
+					vehicle="CZ_Soldier_SL_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""ASL"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="Czech army Alpha Squad Leader";
+				};
+				class Item1
+				{
+					position[]={1640.5028,73.134399,2997.6646};
+					azimut=1.4615099;
+					special="NONE";
+					id=5;
+					side="WEST";
+					vehicle="CZ_Soldier_medik_DES_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""AM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="Czech army Alpha Medic";
+				};
+			};
+		};
+		class Item3
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1636.8486,71.307518,2977.3618};
+					azimut=1.4615099;
+					special="NONE";
+					id=6;
+					side="WEST";
+					vehicle="CZ_Soldier_SL_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="Czech army Alpha 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1639.1923,71.173141,2974.3267};
+					azimut=1.4615099;
+					special="NONE";
+					id=7;
+					side="WEST";
+					vehicle="CZ_Soldier_MG_DES_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Czech army Alpha 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1641.9403,71.287659,2974.1128};
+					azimut=1.4615099;
+					special="NONE";
+					id=8;
+					side="WEST";
+					vehicle="CZ_Soldier_AMG_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Czech army Alpha 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1645.3729,71.443047,2973.9976};
+					azimut=1.4615099;
+					special="NONE";
+					id=9;
+					side="WEST";
+					vehicle="CZ_Soldier_AT_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Czech army Alpha 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item4
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1637.0781,69.481682,2952.6226};
+					azimut=1.4615099;
+					special="NONE";
+					id=10;
+					side="WEST";
+					vehicle="CZ_Soldier_SL_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A2"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="Czech army Alpha 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1639.4227,69.396156,2949.5879};
+					azimut=1.4615099;
+					special="NONE";
+					id=11;
+					side="WEST";
+					vehicle="CZ_Soldier_MG_DES_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Czech army Alpha 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1642.1698,69.493462,2949.3755};
+					azimut=1.4615099;
+					special="NONE";
+					id=12;
+					side="WEST";
+					vehicle="CZ_Soldier_AMG_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Czech army Alpha 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1645.6044,69.628517,2949.2583};
+					azimut=1.4615099;
+					special="NONE";
+					id=13;
+					side="WEST";
+					vehicle="CZ_Soldier_AT_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Czech army Alpha 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item5
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1636.5674,68.532852,2929.8606};
+					azimut=1.4615099;
+					special="NONE";
+					id=14;
+					side="WEST";
+					vehicle="CZ_Soldier_SL_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A3"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="Czech army Alpha 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1638.913,68.515404,2926.8264};
+					azimut=1.4615099;
+					special="NONE";
+					id=15;
+					side="WEST";
+					vehicle="CZ_Soldier_MG_DES_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Czech army Alpha 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1641.661,68.580658,2926.6135};
+					azimut=1.4615099;
+					special="NONE";
+					id=16;
+					side="WEST";
+					vehicle="CZ_Soldier_AMG_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Czech army Alpha 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1645.0946,68.669098,2926.4963};
+					azimut=1.4615099;
+					special="NONE";
+					id=17;
+					side="WEST";
+					vehicle="CZ_Soldier_AT_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Czech army Alpha 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item6
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1671.7928,74.349373,3000.5371};
+					azimut=1.4615099;
+					special="NONE";
+					id=18;
+					side="WEST";
+					vehicle="CZ_Soldier_SL_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""BSL"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="Czech army Bravo Squad Leader";
+				};
+				class Item1
+				{
+					position[]={1674.452,74.181145,2997.0269};
+					azimut=1.4615099;
+					special="NONE";
+					id=19;
+					side="WEST";
+					vehicle="CZ_Soldier_medik_DES_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""BM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="Czech army Bravo Medic";
+				};
+			};
+		};
+		class Item7
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1671.0057,72.706322,2976.2827};
+					azimut=1.4615099;
+					special="NONE";
+					id=20;
+					side="WEST";
+					vehicle="CZ_Soldier_SL_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B1"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="Czech army Bravo 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1673.3505,72.600807,2973.2485};
+					azimut=1.4615099;
+					special="NONE";
+					id=21;
+					side="WEST";
+					vehicle="CZ_Soldier_MG_DES_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Czech army Bravo 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1676.0966,72.693321,2973.0352};
+					azimut=1.4615099;
+					special="NONE";
+					id=22;
+					side="WEST";
+					vehicle="CZ_Soldier_AMG_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Czech army Bravo 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1679.5302,72.812126,2972.9189};
+					azimut=1.4615099;
+					special="NONE";
+					id=23;
+					side="WEST";
+					vehicle="CZ_Soldier_AT_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Czech army Bravo 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item8
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1670.5419,71.009903,2951.814};
+					azimut=1.4615099;
+					special="NONE";
+					id=24;
+					side="WEST";
+					vehicle="CZ_Soldier_SL_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="Czech army Bravo 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1672.8866,70.918266,2948.7788};
+					azimut=1.4615099;
+					special="NONE";
+					id=25;
+					side="WEST";
+					vehicle="CZ_Soldier_MG_DES_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Czech army Bravo 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1675.6346,71.042809,2948.5669};
+					azimut=1.4615099;
+					special="NONE";
+					id=26;
+					side="WEST";
+					vehicle="CZ_Soldier_AMG_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Czech army Bravo 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1679.0682,71.208633,2948.4502};
+					azimut=1.4615099;
+					special="NONE";
+					id=27;
+					side="WEST";
+					vehicle="CZ_Soldier_AT_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Czech army Bravo 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item9
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1669.7889,69.587059,2928.6477};
+					azimut=1.4615099;
+					special="NONE";
+					id=28;
+					side="WEST";
+					vehicle="CZ_Soldier_SL_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B3"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="Czech army Bravo 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1672.1346,69.543663,2925.6125};
+					azimut=1.4615099;
+					special="NONE";
+					id=29;
+					side="WEST";
+					vehicle="CZ_Soldier_MG_DES_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Czech army Bravo 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1674.8817,69.648209,2925.4006};
+					azimut=1.4615099;
+					special="NONE";
+					id=30;
+					side="WEST";
+					vehicle="CZ_Soldier_AMG_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Czech army Bravo 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1678.3143,69.784317,2925.2834};
+					azimut=1.4615099;
+					special="NONE";
+					id=31;
+					side="WEST";
+					vehicle="CZ_Soldier_AT_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Czech army Bravo 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item10
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1702.3853,75.364388,2999.2329};
+					azimut=1.4615099;
+					special="NONE";
+					id=32;
+					side="WEST";
+					vehicle="CZ_Soldier_SL_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""CSL"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="Czech army Charlie Squad Leader";
+				};
+				class Item1
+				{
+					position[]={1704.73,75.284584,2996.1978};
+					azimut=1.4615099;
+					special="NONE";
+					id=33;
+					side="WEST";
+					vehicle="CZ_Soldier_medik_DES_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""CM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="Czech army Charlie Medic";
+				};
+			};
+		};
+		class Item11
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1702.4214,73.929794,2976.1294};
+					azimut=1.4615099;
+					special="NONE";
+					id=34;
+					side="WEST";
+					vehicle="CZ_Soldier_SL_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C1"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="Czech army Charlie 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1704.7681,73.872215,2973.0952};
+					azimut=1.4615099;
+					special="NONE";
+					id=35;
+					side="WEST";
+					vehicle="CZ_Soldier_MG_DES_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Czech army Charlie 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1707.5161,73.993195,2972.8813};
+					azimut=1.4615099;
+					special="NONE";
+					id=36;
+					side="WEST";
+					vehicle="CZ_Soldier_AMG_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Czech army Charlie 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1710.9487,74.155243,2972.7651};
+					azimut=1.4615099;
+					special="NONE";
+					id=37;
+					side="WEST";
+					vehicle="CZ_Soldier_AT_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Czech army Charlie 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item12
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1701.9937,72.495415,2951.4614};
+					azimut=1.4615099;
+					special="NONE";
+					id=38;
+					side="WEST";
+					vehicle="CZ_Soldier_SL_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C2"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="Czech army Charlie 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1704.3384,72.418961,2948.4268};
+					azimut=1.4615099;
+					special="NONE";
+					id=39;
+					side="WEST";
+					vehicle="CZ_Soldier_MG_DES_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Czech army Charlie 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1707.0864,72.530769,2948.2139};
+					azimut=1.4615099;
+					special="NONE";
+					id=40;
+					side="WEST";
+					vehicle="CZ_Soldier_AMG_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Czech army Charlie 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1710.519,72.679512,2948.0977};
+					azimut=1.4615099;
+					special="NONE";
+					id=41;
+					side="WEST";
+					vehicle="CZ_Soldier_AT_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Czech army Charlie 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item13
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1701.3999,70.970634,2928.2014};
+					azimut=1.4615099;
+					special="NONE";
+					id=42;
+					side="WEST";
+					vehicle="CZ_Soldier_SL_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="Czech army Charlie 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1703.7456,70.877625,2925.1672};
+					azimut=1.4615099;
+					special="NONE";
+					id=43;
+					side="WEST";
+					vehicle="CZ_Soldier_MG_DES_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Czech army Charlie 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1706.4937,70.988045,2924.9548};
+					azimut=1.4615099;
+					special="NONE";
+					id=44;
+					side="WEST";
+					vehicle="CZ_Soldier_AMG_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Czech army Charlie 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1709.9263,71.13588,2924.8381};
+					azimut=1.4615099;
+					special="NONE";
+					id=45;
+					side="WEST";
+					vehicle="CZ_Soldier_AT_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Czech army Charlie 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item14
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1737.5,77.260696,2999.5002};
+					azimut=1.4615099;
+					special="NONE";
+					id=47;
+					side="WEST";
+					vehicle="CZ_Soldier_SL_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""DSL"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="Czech army Delta Squad Leader";
+				};
+				class Item1
+				{
+					position[]={1739.8447,77.143852,2996.4651};
+					azimut=1.4615099;
+					special="NONE";
+					id=48;
+					side="WEST";
+					vehicle="CZ_Soldier_medik_DES_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""DM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="Czech army Delta Medic";
+				};
+			};
+		};
+		class Item15
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1737.5361,75.616577,2976.3967};
+					azimut=1.4615099;
+					special="NONE";
+					id=49;
+					side="WEST";
+					vehicle="CZ_Soldier_SL_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D1"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="Czech army Delta 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1739.8828,75.513519,2973.3625};
+					azimut=1.4615099;
+					special="NONE";
+					id=50;
+					side="WEST";
+					vehicle="CZ_Soldier_MG_DES_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Czech army Delta 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1742.6309,75.609352,2973.1487};
+					azimut=1.4615099;
+					special="NONE";
+					id=51;
+					side="WEST";
+					vehicle="CZ_Soldier_AMG_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Czech army Delta 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1746.0635,75.740891,2973.0325};
+					azimut=1.4615099;
+					special="NONE";
+					id=52;
+					side="WEST";
+					vehicle="CZ_Soldier_AT_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Czech army Delta 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item16
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1737.1084,73.989349,2951.7288};
+					azimut=1.4615099;
+					special="NONE";
+					id=53;
+					side="WEST";
+					vehicle="CZ_Soldier_SL_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D2"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="Czech army Delta 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1739.4531,73.892967,2948.6941};
+					azimut=1.4615099;
+					special="NONE";
+					id=54;
+					side="WEST";
+					vehicle="CZ_Soldier_MG_DES_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Czech army Delta 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1742.2012,73.974869,2948.4812};
+					azimut=1.4615099;
+					special="NONE";
+					id=55;
+					side="WEST";
+					vehicle="CZ_Soldier_AMG_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Czech army Delta 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1745.6338,74.082008,2948.365};
+					azimut=1.4615099;
+					special="NONE";
+					id=56;
+					side="WEST";
+					vehicle="CZ_Soldier_AT_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Czech army Delta 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item17
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1736.5146,72.480415,2928.469};
+					azimut=1.4615099;
+					special="NONE";
+					id=57;
+					side="WEST";
+					vehicle="CZ_Soldier_SL_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D3"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="Czech army Delta 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={1738.8604,72.357605,2925.4348};
+					azimut=1.4615099;
+					special="NONE";
+					id=58;
+					side="WEST";
+					vehicle="CZ_Soldier_MG_DES_EP1";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="Czech army Delta 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={1741.6084,72.443336,2925.2224};
+					azimut=1.4615099;
+					special="NONE";
+					id=59;
+					side="WEST";
+					vehicle="CZ_Soldier_AMG_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="Czech army Delta 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1745.041,72.55883,2925.1057};
+					azimut=1.4615099;
+					special="NONE";
+					id=60;
+					side="WEST";
+					vehicle="CZ_Soldier_AT_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="Czech army Delta 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item18
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1784.4229,78.754257,2991.3088};
+					azimut=-4.39746;
+					special="NONE";
+					id=61;
+					side="WEST";
+					vehicle="CZ_Soldier_MG_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MMGG""], [""MMG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Czech army Medium MG Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={1787.8389,78.697197,2989.1287};
+					azimut=-4.39746;
+					special="NONE";
+					id=62;
+					side="WEST";
+					vehicle="CZ_Soldier_AMG_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MMGAG""]] call hull_unit_fnc_init;";
+					description="Czech army Medium MG Team 1 Assistant Gunner";
+				};
+			};
+		};
+		class Item19
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1784.4253,77.897232,2981.5693};
+					azimut=-4.39746;
+					special="NONE";
+					id=63;
+					side="WEST";
+					vehicle="CZ_Soldier_MG_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MMGG""], [""MMG2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Czech army Medium MG Team 2 Gunner";
+				};
+				class Item1
+				{
+					position[]={1787.8413,77.849754,2979.3892};
+					azimut=-4.39746;
+					special="NONE";
+					id=64;
+					side="WEST";
+					vehicle="CZ_Soldier_AMG_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MMGAG""]] call hull_unit_fnc_init;";
+					description="Czech army Medium MG Team 2 Assistant Gunner";
+				};
+			};
+		};
+		class Item20
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1786.5259,75.529114,2949.7532};
+					azimut=1.4615099;
+					special="NONE";
+					id=65;
+					side="WEST";
+					vehicle="CZ_Soldier_MG_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MATG""], [""MAT2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Czech army Medium AT Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={1789.7017,75.448036,2947.2356};
+					azimut=1.4615099;
+					special="NONE";
+					id=66;
+					side="WEST";
+					vehicle="CZ_Soldier_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAG""]] call hull_unit_fnc_init;";
+					description="Czech army Medium AT Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={1784.0767,75.26371,2947.2356};
+					azimut=1.4615099;
+					special="NONE";
+					id=67;
+					side="WEST";
+					vehicle="CZ_Soldier_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAC""]] call hull_unit_fnc_init;";
+					description="Czech army Medium AT Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item21
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1786.5601,74.633667,2936.9114};
+					azimut=1.4615099;
+					special="NONE";
+					id=68;
+					side="WEST";
+					vehicle="CZ_Soldier_AT_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MATG""], [""MAT2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Czech army Medium AT Team 2 Gunner";
+				};
+				class Item1
+				{
+					position[]={1789.7358,74.551399,2934.3938};
+					azimut=1.4615099;
+					special="NONE";
+					id=69;
+					side="WEST";
+					vehicle="CZ_Soldier_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAG""]] call hull_unit_fnc_init;";
+					description="Czech army Medium AT Team 2 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={1784.1108,74.390343,2934.3938};
+					azimut=1.4615099;
+					special="NONE";
+					id=70;
+					side="WEST";
+					vehicle="CZ_Soldier_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAC""]] call hull_unit_fnc_init;";
+					description="Czech army Medium AT Team 2 Ammo Carrier";
+				};
+			};
+		};
+		class Item22
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1785.0161,73.489441,2920.5154};
+					azimut=1.4615099;
+					special="NONE";
+					id=71;
+					side="WEST";
+					vehicle="CZ_Soldier_AT_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""HATG""], [""HAT1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Czech army Heavy AT Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={1788.1904,73.386879,2917.9983};
+					azimut=1.4615099;
+					special="NONE";
+					id=72;
+					side="WEST";
+					vehicle="CZ_Soldier_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HATAG""]] call hull_unit_fnc_init;";
+					description="Czech army Heavy AT Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={1783.2153,73.247566,2917.7815};
+					azimut=1.4615099;
+					special="NONE";
+					id=77;
+					side="WEST";
+					vehicle="CZ_Soldier_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HATAC""]] call hull_unit_fnc_init;";
+					description="Czech army Heavy AT Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item23
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1805.8159,79.480225,2990.4792};
+					azimut=1.4615099;
+					special="NONE";
+					id=73;
+					side="WEST";
+					vehicle="CZ_Soldier_Sniper_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SN""], [""ST1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Czech army Sniper Team 1 Sniper";
+				};
+				class Item1
+				{
+					position[]={1808.9912,79.342255,2987.9617};
+					azimut=1.4615099;
+					special="NONE";
+					id=74;
+					side="WEST";
+					vehicle="CZ_Soldier_Sniper_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""SP""]] call hull_unit_fnc_init;";
+					description="Czech army Sniper Team 1 Spotter";
+				};
+			};
+		};
+		class Item24
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1806.4336,77.223183,2962.8713};
+					azimut=1.4615099;
+					special="NONE";
+					id=75;
+					side="WEST";
+					vehicle="CZ_Soldier_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""ENG""], [""ENG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Czech army Engineer Team 1 Leader";
+				};
+				class Item1
+				{
+					position[]={1809.6055,77.117325,2960.3538};
+					azimut=1.4615099;
+					special="NONE";
+					id=76;
+					side="WEST";
+					vehicle="CZ_Soldier_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""ENGA""]] call hull_unit_fnc_init;";
+					description="Czech army Engineer Team 1 Assistant";
+				};
+			};
+		};
+		class Item25
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1786.0981,76.725937,2965.8735};
+					azimut=0.32468101;
+					special="NONE";
+					id=78;
+					side="WEST";
+					vehicle="CZ_Soldier_MG_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""HMGG""], [""HMG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Czech army Heavy MG Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={1788.9175,76.650719,2963.5483};
+					azimut=0.32468101;
+					special="NONE";
+					id=79;
+					side="WEST";
+					vehicle="CZ_Soldier_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HMGAG""]] call hull_unit_fnc_init;";
+					description="Czech army Heavy MG Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={1783.8755,76.431297,2963.0898};
+					azimut=0.32468101;
+					special="NONE";
+					id=80;
+					side="WEST";
+					vehicle="CZ_Soldier_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HMGAC""]] call hull_unit_fnc_init;";
+					description="Czech army Heavy MG Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item26
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1806.3809,76.512154,2953.8298};
+					azimut=0.32468101;
+					special="NONE";
+					id=81;
+					side="WEST";
+					vehicle="CZ_Soldier_DES_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MTRG""], [""MTR1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Czech army Mortar Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={1809.2002,76.410309,2951.5037};
+					azimut=0.32468101;
+					special="NONE";
+					id=82;
+					side="WEST";
+					vehicle="CZ_Soldier_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MTRAG""]] call hull_unit_fnc_init;";
+					description="Czech army Mortar Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={1804.4795,76.264786,2951.4587};
+					azimut=0.32468101;
+					special="NONE";
+					id=83;
+					side="WEST";
+					vehicle="CZ_Soldier_DES_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MTRAC""]] call hull_unit_fnc_init;";
+					description="Czech army Mortar Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item27
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1786.6963,69.481529,2865.2766};
+					azimut=1.4615099;
+					special="NONE";
+					id=84;
+					side="WEST";
+					vehicle="CZ_Soldier_Pilot_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Czech army Transport Helo 1 Pilot";
+				};
+				class Item1
+				{
+					position[]={1789.4268,69.440224,2863.3953};
+					azimut=1.4615099;
+					special="NONE";
+					id=85;
+					side="WEST";
+					vehicle="CZ_Soldier_Pilot_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="Czech army Transport Helo 1 Crewman";
+				};
+			};
+		};
+		class Item28
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1814.4316,69.707092,2863.1194};
+					azimut=1.4615099;
+					special="NONE";
+					id=86;
+					side="WEST";
+					vehicle="CZ_Soldier_Pilot_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH2"", ""ColorOrange""]] call hull_unit_fnc_init; ";
+					description="Czech army Transport Helo 2 Pilot";
+				};
+				class Item1
+				{
+					position[]={1817.1616,69.628098,2861.238};
+					azimut=1.4615099;
+					special="NONE";
+					id=87;
+					side="WEST";
+					vehicle="CZ_Soldier_Pilot_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="Czech army Transport Helo 2 Crewman";
+				};
+			};
+		};
+		class Item29
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1842.9155,70.039261,2862.5139};
+					azimut=1.4615099;
+					special="NONE";
+					id=88;
+					side="WEST";
+					vehicle="CZ_Soldier_Pilot_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH3"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Czech army Transport Helo 3 Pilot";
+				};
+				class Item1
+				{
+					position[]={1845.6455,69.945732,2860.6326};
+					azimut=1.4615099;
+					special="NONE";
+					id=89;
+					side="WEST";
+					vehicle="CZ_Soldier_Pilot_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="Czech army Transport Helo 3 Crewman";
+				};
+			};
+		};
+		class Item30
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1874.1494,70.411797,2862.5139};
+					azimut=1.4615099;
+					special="NONE";
+					id=90;
+					side="WEST";
+					vehicle="CZ_Soldier_Pilot_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""P""], [""TH4"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="Czech army Transport Helo 4 Pilot";
+				};
+				class Item1
+				{
+					position[]={1876.8794,70.326408,2860.6326};
+					azimut=1.4615099;
+					special="NONE";
+					id=91;
+					side="WEST";
+					vehicle="CZ_Soldier_Pilot_EP1";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""PCM""]] call hull_unit_fnc_init;";
+					description="Czech army Transport Helo 4 Crewman";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=22;
+		class Item0
+		{
+			position[]={1665.7283,72.614723,2977.897};
+			azimut=0.32468101;
+			id=46;
+			side="EMPTY";
+			vehicle="LandRover_CZ_EP1";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item1
+		{
+			position[]={1789.9779,70.799171,2884.6946};
+			azimut=1.4615099;
+			special="NONE";
+			id=92;
+			side="EMPTY";
+			vehicle="Mi171Sh_rockets_CZ_EP1";
+			leader=1;
+			skill=0.5;
+			description="Czech army Alpha 1 Fireteam Leader";
+		};
+		class Item2
+		{
+			position[]={1818.2146,71.351654,2884.6948};
+			azimut=1.4615099;
+			special="NONE";
+			id=93;
+			side="EMPTY";
+			vehicle="Mi171Sh_rockets_CZ_EP1";
+			leader=1;
+			skill=0.5;
+			description="Czech army Alpha 1 Fireteam Leader";
+		};
+		class Item3
+		{
+			position[]={1845.0396,71.615822,2883.7544};
+			azimut=1.4615099;
+			special="NONE";
+			id=94;
+			side="EMPTY";
+			vehicle="Mi171Sh_rockets_CZ_EP1";
+			leader=1;
+			skill=0.5;
+			description="Czech army Alpha 1 Fireteam Leader";
+		};
+		class Item4
+		{
+			position[]={1877.7469,71.999718,2883.0486};
+			azimut=1.4615099;
+			special="NONE";
+			id=95;
+			side="EMPTY";
+			vehicle="Mi171Sh_rockets_CZ_EP1";
+			leader=1;
+			skill=0.5;
+			description="Czech army Alpha 1 Fireteam Leader";
+		};
+		class Item5
+		{
+			position[]={1666.9771,74.305138,3001.8367};
+			azimut=1.4615099;
+			special="NONE";
+			id=96;
+			side="EMPTY";
+			vehicle="LandRover_Special_CZ_EP1";
+			leader=1;
+			skill=0.5;
+			description="Czech army Alpha 1 Fireteam Leader";
+		};
+		class Item6
+		{
+			position[]={1698.5238,73.801865,2976.9072};
+			azimut=0.32468101;
+			id=97;
+			side="EMPTY";
+			vehicle="LandRover_CZ_EP1";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item7
+		{
+			position[]={1731.7695,75.438301,2977.5361};
+			azimut=0.32468101;
+			id=98;
+			side="EMPTY";
+			vehicle="LandRover_CZ_EP1";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item8
+		{
+			position[]={1664.873,70.855087,2953.7261};
+			azimut=0.32468101;
+			id=99;
+			side="EMPTY";
+			vehicle="LandRover_CZ_EP1";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item9
+		{
+			position[]={1697.7584,72.380135,2952.6458};
+			azimut=0.32468101;
+			id=100;
+			side="EMPTY";
+			vehicle="LandRover_CZ_EP1";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item10
+		{
+			position[]={1732.4459,73.882675,2952.915};
+			azimut=0.32468101;
+			id=101;
+			side="EMPTY";
+			vehicle="LandRover_CZ_EP1";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item11
+		{
+			position[]={1732.356,72.403191,2929.6001};
+			azimut=0.32468101;
+			id=102;
+			side="EMPTY";
+			vehicle="LandRover_CZ_EP1";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item12
+		{
+			position[]={1697.3982,70.87381,2929.6001};
+			azimut=0.32468101;
+			id=103;
+			side="EMPTY";
+			vehicle="LandRover_CZ_EP1";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item13
+		{
+			position[]={1664.9635,69.505707,2931.2214};
+			azimut=0.32468101;
+			id=104;
+			side="EMPTY";
+			vehicle="LandRover_CZ_EP1";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item14
+		{
+			position[]={1631.1772,68.451279,2932.0308};
+			azimut=0.32468101;
+			id=105;
+			side="EMPTY";
+			vehicle="LandRover_CZ_EP1";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item15
+		{
+			position[]={1631.3574,69.297409,2953.0962};
+			azimut=0.32468101;
+			id=106;
+			side="EMPTY";
+			vehicle="LandRover_CZ_EP1";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item16
+		{
+			position[]={1629.4655,70.979019,2977.6716};
+			azimut=0.32468101;
+			id=107;
+			side="EMPTY";
+			vehicle="LandRover_CZ_EP1";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item17
+		{
+			position[]={1633.1006,73.295311,3002.9148};
+			azimut=1.4615099;
+			special="NONE";
+			id=108;
+			side="EMPTY";
+			vehicle="LandRover_Special_CZ_EP1";
+			leader=1;
+			skill=0.5;
+			description="Czech army Alpha 1 Fireteam Leader";
+		};
+		class Item18
+		{
+			position[]={1697.2499,75.316734,3002.1047};
+			azimut=1.4615099;
+			special="NONE";
+			id=109;
+			side="EMPTY";
+			vehicle="LandRover_Special_CZ_EP1";
+			leader=1;
+			skill=0.5;
+			description="Czech army Alpha 1 Fireteam Leader";
+		};
+		class Item19
+		{
+			position[]={1732.1174,77.138649,3001.5657};
+			azimut=1.4615099;
+			special="NONE";
+			id=110;
+			side="EMPTY";
+			vehicle="LandRover_Special_CZ_EP1";
+			leader=1;
+			skill=0.5;
+			description="Czech army Alpha 1 Fireteam Leader";
+		};
+		class Item20
+		{
+			position[]={1609.6567,74.568611,3033.5967};
+			azimut=0.32468101;
+			id=111;
+			side="EMPTY";
+			vehicle="LandRover_CZ_EP1";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+		class Item21
+		{
+			position[]={1609.5551,73.394951,3018.5754};
+			azimut=0.32468101;
+			id=112;
+			side="EMPTY";
+			vehicle="LandRover_CZ_EP1";
+			skill=0.2;
+			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"takistan",
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=13119962;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"takistan",
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=15231874;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"takistan",
+		"chernarus"
+	};
+	addOnsAuto[]=
+	{
+		"chernarus"
+	};
+	randomSeed=1525827;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
