@@ -40,7 +40,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=40;
+		items=39;
 		class Item0
 		{
 			side="EAST";
@@ -1971,28 +1971,6 @@ class Mission
 				};
 			};
 		};
-		class Item39
-		{
-			side="CIV";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-115.7624,347.04037,2242.8489};
-					azimut=0.32468101;
-					special="NONE";
-					id=133;
-					side="CIV";
-					vehicle="Citizen1";
-					player="PLAY CDG";
-					leader=1;
-					rank="LIEUTENANT";
-					skill=0.5;
-					description="HC";
-				};
-			};
-		};
 	};
 	class Vehicles
 	{
@@ -2159,7 +2137,7 @@ class Mission
 		{
 			position[]={820.86401,495.37048,876.72668};
 			azimut=0.89087403;
-			id=134;
+			id=133;
 			side="EMPTY";
 			vehicle="ACE_T72B_Base";
 			skill=0.2;
@@ -2168,7 +2146,7 @@ class Mission
 		{
 			position[]={851.27039,500.83377,877.25232};
 			azimut=0.89087403;
-			id=135;
+			id=134;
 			side="EMPTY";
 			vehicle="ACE_T72B_Base";
 			skill=0.2;
@@ -2177,7 +2155,7 @@ class Mission
 		{
 			position[]={888.62079,515.2511,876.20105};
 			azimut=0.89087403;
-			id=136;
+			id=135;
 			side="EMPTY";
 			vehicle="ACE_T72B_Base";
 			skill=0.2;
@@ -2186,7 +2164,7 @@ class Mission
 		{
 			position[]={922.39392,527.91736,875.14893};
 			azimut=0.89087403;
-			id=137;
+			id=136;
 			side="EMPTY";
 			vehicle="ACE_T72B_Base";
 			skill=0.2;
@@ -2195,7 +2173,7 @@ class Mission
 		{
 			position[]={1000.1211,546.10669,870.60919};
 			azimut=0.89087403;
-			id=138;
+			id=137;
 			side="EMPTY";
 			vehicle="ACE_Mi17_RU";
 			skill=0.2;
@@ -2204,7 +2182,7 @@ class Mission
 		{
 			position[]={1031.3691,554.82648,870.71521};
 			azimut=0.89087403;
-			id=139;
+			id=138;
 			side="EMPTY";
 			vehicle="ACE_Mi17_RU";
 			skill=0.2;
@@ -2213,7 +2191,7 @@ class Mission
 		{
 			position[]={1062.4069,565.97156,870.50464};
 			azimut=0.89087403;
-			id=140;
+			id=139;
 			side="EMPTY";
 			vehicle="ACE_Mi17_RU";
 			skill=0.2;

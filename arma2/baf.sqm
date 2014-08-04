@@ -45,7 +45,6 @@ class Mission
 	addOnsAuto[]=
 	{
 		"CACharacters_BAF",
-		"cacharacters2",
 		"cawheeled_d_baf",
 		"CAWheeled_E",
 		"CATracked_BAF",
@@ -68,7 +67,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=40;
+		items=39;
 		class Item0
 		{
 			side="WEST";
@@ -1996,28 +1995,6 @@ class Mission
 					skill=0.5;
 					init="[this, [""PCM""]] call hull_unit_fnc_init;";
 					description="British Army Attack Helo 1 Gunner";
-				};
-			};
-		};
-		class Item39
-		{
-			side="CIV";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-115.7624,347.04037,2242.8489};
-					azimut=0.32468101;
-					special="NONE";
-					id=140;
-					side="CIV";
-					vehicle="Citizen1";
-					player="PLAY CDG";
-					leader=1;
-					rank="LIEUTENANT";
-					skill=0.5;
-					description="HC";
 				};
 			};
 		};

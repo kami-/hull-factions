@@ -46,7 +46,6 @@ class Mission
 	addOnsAuto[]=
 	{
 		"acex_usnavy_men_usmc",
-		"cacharacters2",
 		"CAWheeled_E",
 		"CATracked_E_M2A2_Bradley",
 		"CATracked_E",
@@ -69,7 +68,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=39;
+		items=38;
 		class Item0
 		{
 			side="WEST";
@@ -1951,28 +1950,6 @@ class Mission
 				};
 			};
 		};
-		class Item38
-		{
-			side="CIV";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-115.7624,347.04037,2242.8489};
-					azimut=0.32468101;
-					special="NONE";
-					id=130;
-					side="CIV";
-					vehicle="Citizen1";
-					player="PLAY CDG";
-					leader=1;
-					rank="LIEUTENANT";
-					skill=0.5;
-					description="HC";
-				};
-			};
-		};
 	};
 	class Vehicles
 	{
@@ -2136,7 +2113,7 @@ class Mission
 		{
 			position[]={491.453,433.71771,1189.3638};
 			azimut=1.84738;
-			id=131;
+			id=130;
 			side="EMPTY";
 			vehicle="M2A3_EP1";
 			skill=0.2;
@@ -2146,7 +2123,7 @@ class Mission
 		{
 			position[]={518.14795,420.55038,1190.5525};
 			azimut=1.84738;
-			id=132;
+			id=131;
 			side="EMPTY";
 			vehicle="M2A3_EP1";
 			skill=0.2;
@@ -2156,7 +2133,7 @@ class Mission
 		{
 			position[]={552.66418,405.7421,1189.8728};
 			azimut=1.84738;
-			id=133;
+			id=132;
 			side="EMPTY";
 			vehicle="M2A3_EP1";
 			skill=0.2;
@@ -2166,7 +2143,7 @@ class Mission
 		{
 			position[]={591.72144,394.42017,1185.6959};
 			azimut=1.4615065;
-			id=134;
+			id=133;
 			side="EMPTY";
 			vehicle="MH60S";
 			skill=0.1;
@@ -2175,7 +2152,7 @@ class Mission
 		{
 			position[]={615.12671,392.31845,1185.6393};
 			azimut=1.4615065;
-			id=135;
+			id=134;
 			side="EMPTY";
 			vehicle="MH60S";
 			skill=0.1;
@@ -2184,7 +2161,7 @@ class Mission
 		{
 			position[]={643.6106,393.90015,1185.0341};
 			azimut=1.4615099;
-			id=136;
+			id=135;
 			side="EMPTY";
 			vehicle="MH60S";
 			skill=0.2;
@@ -2193,7 +2170,7 @@ class Mission
 		{
 			position[]={674.84448,399.49261,1185.0341};
 			azimut=1.4615065;
-			id=137;
+			id=136;
 			side="EMPTY";
 			vehicle="MH60S";
 			skill=0.1;

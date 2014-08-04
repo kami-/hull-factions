@@ -5,14 +5,12 @@ class Mission
 	{
 		"takistan",
 		"cacharacters_e",
-		"cacharacters2",
 		"CAWheeled_E_LandRover",
 		"caair_e_mi8"
 	};
 	addOnsAuto[]=
 	{
 		"cacharacters_e",
-		"cacharacters2",
 		"CAWheeled_E_LandRover",
 		"caair_e_mi8",
 		"takistan"
@@ -32,7 +30,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=31;
+		items=30;
 		class Item0
 		{
 			side="WEST";
@@ -1532,26 +1530,6 @@ class Mission
 					skill=0.5;
 					init="[this, [""PCM""]] call hull_unit_fnc_init;";
 					description="Czech army Transport Helo 4 Crewman";
-				};
-			};
-		};
-		class Item30
-		{
-			side="CIV";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-209.12985,356.59506,5515.2549};
-					azimut=0.32468101;
-					id=113;
-					side="CIV";
-					vehicle="Citizen1";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.2;
-					description="HC";
 				};
 			};
 		};

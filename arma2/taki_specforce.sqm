@@ -3,7 +3,7 @@ class Mission
 {
 	addOns[]=
 	{
-				"acex_usnavy_men_usmc",
+		"acex_usnavy_men_usmc",
 		"acex_ru_men_naval",
 		"cacharacters_pmc",
 		"cacharacters_e",

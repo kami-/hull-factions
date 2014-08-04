@@ -8,12 +8,9 @@ class Mission
 		"cacharacters2",
 		"cacharacters_pmc",
 		"acex_ru_c_men",
-		"cacharacters_e",
-		"ace_c_men",
 		"CACharacters_BAF",
 		"rw_characters",
 		"acex_veh_stryker",
-		"CATracked_E",
 		"CAAir",
 		"acex_usnavy_veh_ah1",
 		"CAWheeled",
@@ -28,11 +25,7 @@ class Mission
 		"caair_e_mi8",
 		"CATracked_BAF",
 		"CAAir_BAF",
-		"cawheeled_e_v3s",
 		"CAAir_E",
-		"cawheeled_e_btr40",
-		"cawheeled_e_brdm2",
-		"CAAir_E_UH1H_EP1",
 		"caair_e_ch_47f",
 		"CAAir_E_AH64D",
 		"RW_Wheeled",
@@ -68,7 +61,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=40;
+		items=39;
 		class Item0
 		{
 			side="EAST";
@@ -1996,28 +1989,6 @@ class Mission
 					skill=0.5;
 					init="[this, [""PCM""]] call hull_unit_fnc_init;";
 					description="ChDKZ Insurgents Attack Helo 1 Gunner";
-				};
-			};
-		};
-		class Item39
-		{
-			side="CIV";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-115.7624,347.04037,2242.8489};
-					azimut=0.32468101;
-					special="NONE";
-					id=140;
-					side="CIV";
-					vehicle="Citizen1";
-					player="PLAY CDG";
-					leader=1;
-					rank="LIEUTENANT";
-					skill=0.5;
-					description="HC";
 				};
 			};
 		};

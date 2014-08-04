@@ -5,7 +5,6 @@ class Mission
 	{
 		"acex_usnavy_men_usmc",
 		"acex_ru_men_naval",
-		"cacharacters2",
 		"acex_ru_c_men",
 		"cacharacters_e",
 		"ace_c_men",
@@ -13,13 +12,9 @@ class Mission
 		"rw_characters",
 		"CAWheeled_E",
 		"acex_veh_stryker",
-		"CAAir",
 		"acex_usnavy_veh_ah1",
-		"CAWheeled",
 		"CAWheeled2_Kamaz",
-		"CAAir2",
 		"cawheeled_d_baf",
-		"CATracked",
 		"CAWheeled2_MTVR",
 		"CAWheeled2_LAV25",
 		"CATracked2_BMP3",
@@ -43,7 +38,6 @@ class Mission
 	{
 		"cacharacters_e",
 		"ace_c_men",
-		"cacharacters2",
 		"CAWheeled_E",
 		"caair_e_mi8",
 		"takistan"
@@ -63,7 +57,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=31;
+		items=30;
 		class Item0
 		{
 			side="GUER";
@@ -1545,28 +1539,6 @@ class Mission
 					skill=0.5;
 					init="[this, [""PCM""]] call hull_unit_fnc_init; ";
 					description="UN Transport Helo 4 Crewman";
-				};
-			};
-		};
-		class Item30
-		{
-			side="CIV";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-115.7624,347.04037,2242.8489};
-					azimut=0.32468101;
-					special="NONE";
-					id=105;
-					side="CIV";
-					vehicle="Citizen1";
-					player="PLAY CDG";
-					leader=1;
-					rank="LIEUTENANT";
-					skill=0.5;
-					description="HC";
 				};
 			};
 		};

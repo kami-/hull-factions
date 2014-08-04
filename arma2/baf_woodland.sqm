@@ -6,7 +6,6 @@ class Mission
 		"acex_usnavy_men_usmc",
 		"CACharacters_BAF",
 		"CAWheeled_E",
-		"CATracked_E",
 		"acex_usnavy_veh_ah1",
 		"cawheeled_d_baf",
 		"CATracked2_BMP3",
@@ -24,7 +23,6 @@ class Mission
 	addOnsAuto[]=
 	{
 		"CACharacters_W_BAF",
-		"cacharacters2",
 		"acex_veh_5ton",
 		"CATracked_W_BAF",
 		"CATracked",
@@ -47,7 +45,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=40;
+		items=39;
 		class Item0
 		{
 			side="WEST";
@@ -1975,28 +1973,6 @@ class Mission
 					skill=0.5;
 					init="[this, [""PCM""]] call hull_unit_fnc_init;";
 					description="British Army Attack Helo 1 Gunner";
-				};
-			};
-		};
-		class Item39
-		{
-			side="CIV";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-10.566136,599.909,4653.7275};
-					azimut=0.32468101;
-					special="NONE";
-					id=139;
-					side="CIV";
-					vehicle="Citizen1";
-					player="PLAY CDG";
-					leader=1;
-					rank="LIEUTENANT";
-					skill=0.5;
-					description="HC";
 				};
 			};
 		};

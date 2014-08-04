@@ -16,7 +16,6 @@ class Mission
 	addOnsAuto[]=
 	{
 		"rw_characters",
-		"cacharacters2",
 		"RW_Tracked2_BMP3",
 		"caair",
 		"CAAir2",
@@ -40,7 +39,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=40;
+		items=39;
 		class Item0
 		{
 			side="EAST";
@@ -1969,26 +1968,6 @@ class Mission
 					skill=0.5;
 					init="[this, [""PCM""]] call hull_unit_fnc_init;";
 					description="Russian Army Attack Helo 1 Gunner";
-				};
-			};
-		};
-		class Item39
-		{
-			side="CIV";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-101.65129,348.24222,2230.249};
-					azimut=0.89087403;
-					id=140;
-					side="CIV";
-					vehicle="Citizen1";
-					player="PLAY CDG";
-					leader=1;
-					skill=0.2;
-					description="HC";
 				};
 			};
 		};

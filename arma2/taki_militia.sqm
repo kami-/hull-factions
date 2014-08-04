@@ -49,7 +49,6 @@ class Mission
 	{
 		"cacharacters_e",
 		"cacharacters_pmc",
-		"cacharacters2",
 		"cawheeled_e_btr40",
 		"cawheeled_e_v3s",
 		"cawheeled_e_brdm2",
@@ -73,7 +72,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=40;
+		items=39;
 		class Item0
 		{
 			side="GUER";
@@ -2004,28 +2003,6 @@ class Mission
 				};
 			};
 		};
-		class Item39
-		{
-			side="CIV";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-115.7624,347.04037,2242.8489};
-					azimut=0.32468101;
-					special="NONE";
-					id=137;
-					side="CIV";
-					vehicle="Citizen1";
-					player="PLAY CDG";
-					leader=1;
-					rank="LIEUTENANT";
-					skill=0.5;
-					description="HC";
-				};
-			};
-		};
 	};
 	class Vehicles
 	{
@@ -2228,7 +2205,7 @@ class Mission
 		{
 			position[]={176.09157,587.81281,428.72495};
 			azimut=0.32468101;
-			id=138;
+			id=137;
 			side="EMPTY";
 			vehicle="T72_TK_EP1";
 			skill=0.2;
@@ -2237,7 +2214,7 @@ class Mission
 		{
 			position[]={148.2937,571.10022,429.49094};
 			azimut=0.32468101;
-			id=139;
+			id=138;
 			side="EMPTY";
 			vehicle="T72_TK_EP1";
 			skill=0.2;
@@ -2246,7 +2223,7 @@ class Mission
 		{
 			position[]={122.22122,557.92017,430.06543};
 			azimut=0.32468101;
-			id=140;
+			id=139;
 			side="EMPTY";
 			vehicle="T72_TK_EP1";
 			skill=0.2;
