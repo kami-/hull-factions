@@ -3,12 +3,17 @@ class Mission
 {
 	addOns[]=
 	{
+		"ca_modules_functions",
+		"ace_sys_aitalk",
+		"ace_sys_viewblock",
+		"ace_sys_repair",
+		"ace_sys_wounds",
+		"ace_sys_vehicledamage",
 		"takistan",
 		"cacharacters_e",
-		"chernarus",
-		"caair_e_mi8",
+		"cacharacters2",
 		"CAWheeled_E_LandRover",
-		"cacharacters2"
+		"caair_e_mi8"
 	};
 	addOnsAuto[]=
 	{
@@ -21,8 +26,8 @@ class Mission
 	randomSeed=3165154;
 	class Intel
 	{
-		briefingName="hull-framework";
-		briefingDescription="hull-framework";
+		briefingName="*** Mission Name ***";
+		briefingDescription="*** Mission Description ***";
 		startWeather=0.25;
 		forecastWeather=0.25;
 		year=2008;
@@ -80,7 +85,7 @@ class Mission
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.5;
-					init="[this, [""XO""], [""XO"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					init="[this, [""XO""]] call hull_unit_fnc_init; [this] call hull_marker_fnc_addXoMarker;";
 					description="Czech army Executive commander";
 				};
 				class Item3
@@ -1093,7 +1098,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.5;
-					init="[this, [""MATG""], [""MAT2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					init="[this, [""MATG""], [""MAT1"", ""ColorOrange""]] call hull_unit_fnc_init;";
 					description="Czech army Medium AT Team 1 Gunner";
 				};
 				class Item1
@@ -1708,7 +1713,7 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
 		};
 		class Item13
 		{
@@ -1718,7 +1723,7 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
 		};
 		class Item14
 		{
@@ -1806,8 +1811,7 @@ class Intro
 {
 	addOns[]=
 	{
-		"takistan",
-		"chernarus"
+		"takistan"
 	};
 	addOnsAuto[]=
 	{
@@ -1828,8 +1832,7 @@ class OutroWin
 {
 	addOns[]=
 	{
-		"takistan",
-		"chernarus"
+		"takistan"
 	};
 	addOnsAuto[]=
 	{
@@ -1850,8 +1853,7 @@ class OutroLoose
 {
 	addOns[]=
 	{
-		"takistan",
-		"chernarus"
+		"takistan"
 	};
 	addOnsAuto[]=
 	{
