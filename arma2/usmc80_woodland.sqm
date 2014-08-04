@@ -85,7 +85,7 @@ class Mission
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.5;
-					init="[this, [""XO""], [""XO"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					init="[this, [""XO""]] call hull_unit_fnc_init; [this] call hull_marker_fnc_addXoMarker;";
 					description="USMC Executive officer";
 				};
 				class Item3
@@ -1098,7 +1098,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.5;
-					init="[this, [""MATG""], [""MAT2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					init="[this, [""MATG""], [""MAT1"", ""ColorOrange""]] call hull_unit_fnc_init;";
 					description="USMC Medium AT Team 1 Gunner";
 				};
 				class Item1
