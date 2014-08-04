@@ -285,18 +285,6 @@ class Mission
 			};
 		};
 	};
-	class Markers
-	{
-		items=1;
-		class Item0
-		{
-			position[]={106.41798,311.17209,2316.0652};
-			name="1_3_2_5_1";
-			type="Empty";
-			a=0;
-			b=0;
-		};
-	};
 };
 class Intro
 {

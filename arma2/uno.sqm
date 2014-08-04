@@ -1711,35 +1711,6 @@ class Mission
 			skill=0.2;
 		};
 	};
-	class Markers
-	{
-		items=3;
-		class Item0
-		{
-			position[]={106.41798,311.17209,2316.0652};
-			name="1_3_2_5_1";
-			type="Empty";
-			a=0;
-			b=0;
-		};
-		class Item1
-		{
-			position[]={315.83624,521.80469,727.13904};
-			name="1_2_1_5_1_1_1_1_1_1_1";
-			type="Empty";
-			a=0;
-			b=0;
-		};
-		class Item2
-		{
-			position[]={312.48889,529.6153,711.82458};
-			name="1_2_1_5_1_1_1_1_2_1";
-			text="UNO";
-			type="Empty";
-			a=0;
-			b=0;
-		};
-	};
 };
 class Intro
 {

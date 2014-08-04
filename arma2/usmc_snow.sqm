@@ -2248,43 +2248,6 @@ class Mission
 			skill=0.2;
 		};
 	};
-	class Markers
-	{
-		items=4;
-		class Item0
-		{
-			position[]={106.41798,311.17209,2316.0652};
-			name="1_3_2_5_1";
-			type="Empty";
-			a=0;
-			b=0;
-		};
-		class Item1
-		{
-			position[]={1867.9849,429.20291,1200.9524};
-			name="1_2_1_5_1_1_1_2";
-			type="Empty";
-			a=0;
-			b=0;
-		};
-		class Item2
-		{
-			position[]={1897.4534,428.84189,1205.0483};
-			name="1_2_1_5_1_1_1_3";
-			type="Empty";
-			a=0;
-			b=0;
-		};
-		class Item3
-		{
-			position[]={1908.3936,431.74243,1216.2268};
-			name="1_2_1_5_1_1_1_1_2_2";
-			text="USMC Winter";
-			type="Empty";
-			a=0;
-			b=0;
-		};
-	};
 };
 class Intro
 {
