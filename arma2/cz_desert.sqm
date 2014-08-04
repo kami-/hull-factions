@@ -7,20 +7,22 @@ class Mission
 		"cacharacters_e",
 		"chernarus",
 		"caair_e_mi8",
-		"CAWheeled_E_LandRover"
+		"CAWheeled_E_LandRover",
+		"cacharacters2"
 	};
 	addOnsAuto[]=
 	{
 		"cacharacters_e",
+		"cacharacters2",
 		"CAWheeled_E_LandRover",
 		"caair_e_mi8",
-		"chernarus"
+		"takistan"
 	};
 	randomSeed=3165154;
 	class Intel
 	{
-		briefingName="*** Mission Name ***";
-		briefingDescription="*** Mission Description ***";
+		briefingName="hull-framework";
+		briefingDescription="hull-framework";
 		startWeather=0.25;
 		forecastWeather=0.25;
 		year=2008;
@@ -37,7 +39,7 @@ class Mission
 			side="WEST";
 			class Vehicles
 			{
-				items=2;
+				items=4;
 				class Item0
 				{
 					position[]={1617.0417,74.875946,3031.6743};
@@ -55,7 +57,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={1620.0447,75.070786,3031.8892};
+					position[]={1618.5472,360.38559,3028.3118};
 					azimut=1.4615099;
 					special="NONE";
 					id=1;
@@ -67,32 +69,23 @@ class Mission
 					init="[this, [""Medic""], [""CoM"", ""ColorBlack""]] call hull_unit_fnc_init;";
 					description="Czech army Medic";
 				};
-			};
-		};
-		class Item1
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=2;
-				class Item0
+				class Item2
 				{
-					position[]={1616.28,73.671791,3016.7798};
+					position[]={1621.2277,361.50769,3028.2285};
 					azimut=1.4615099;
 					special="NONE";
 					id=2;
 					side="WEST";
 					vehicle="CZ_Soldier_Office_DES_EP1";
 					player="PLAY CDG";
-					leader=1;
 					rank="LIEUTENANT";
 					skill=0.5;
-					init="[this, [""DC""], [""DC"", ""ColorYellow""]] call hull_unit_fnc_init;";
-					description="Czech army Deputy Commander";
+					init="[this, [""XO""], [""XO"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="Czech army Executive commander";
 				};
-				class Item1
+				class Item3
 				{
-					position[]={1620.0378,73.945328,3017.4609};
+					position[]={1623.9438,362.54532,3028.1946};
 					azimut=1.4615099;
 					special="NONE";
 					id=3;
@@ -106,7 +99,7 @@ class Mission
 				};
 			};
 		};
-		class Item2
+		class Item1
 		{
 			side="WEST";
 			class Vehicles
@@ -143,7 +136,7 @@ class Mission
 				};
 			};
 		};
-		class Item3
+		class Item2
 		{
 			side="WEST";
 			class Vehicles
@@ -206,7 +199,7 @@ class Mission
 				};
 			};
 		};
-		class Item4
+		class Item3
 		{
 			side="WEST";
 			class Vehicles
@@ -269,7 +262,7 @@ class Mission
 				};
 			};
 		};
-		class Item5
+		class Item4
 		{
 			side="WEST";
 			class Vehicles
@@ -332,7 +325,7 @@ class Mission
 				};
 			};
 		};
-		class Item6
+		class Item5
 		{
 			side="WEST";
 			class Vehicles
@@ -369,7 +362,7 @@ class Mission
 				};
 			};
 		};
-		class Item7
+		class Item6
 		{
 			side="WEST";
 			class Vehicles
@@ -432,7 +425,7 @@ class Mission
 				};
 			};
 		};
-		class Item8
+		class Item7
 		{
 			side="WEST";
 			class Vehicles
@@ -495,7 +488,7 @@ class Mission
 				};
 			};
 		};
-		class Item9
+		class Item8
 		{
 			side="WEST";
 			class Vehicles
@@ -558,7 +551,7 @@ class Mission
 				};
 			};
 		};
-		class Item10
+		class Item9
 		{
 			side="WEST";
 			class Vehicles
@@ -595,7 +588,7 @@ class Mission
 				};
 			};
 		};
-		class Item11
+		class Item10
 		{
 			side="WEST";
 			class Vehicles
@@ -658,7 +651,7 @@ class Mission
 				};
 			};
 		};
-		class Item12
+		class Item11
 		{
 			side="WEST";
 			class Vehicles
@@ -721,7 +714,7 @@ class Mission
 				};
 			};
 		};
-		class Item13
+		class Item12
 		{
 			side="WEST";
 			class Vehicles
@@ -784,7 +777,7 @@ class Mission
 				};
 			};
 		};
-		class Item14
+		class Item13
 		{
 			side="WEST";
 			class Vehicles
@@ -821,7 +814,7 @@ class Mission
 				};
 			};
 		};
-		class Item15
+		class Item14
 		{
 			side="WEST";
 			class Vehicles
@@ -884,7 +877,7 @@ class Mission
 				};
 			};
 		};
-		class Item16
+		class Item15
 		{
 			side="WEST";
 			class Vehicles
@@ -947,7 +940,7 @@ class Mission
 				};
 			};
 		};
-		class Item17
+		class Item16
 		{
 			side="WEST";
 			class Vehicles
@@ -1010,7 +1003,7 @@ class Mission
 				};
 			};
 		};
-		class Item18
+		class Item17
 		{
 			side="WEST";
 			class Vehicles
@@ -1046,7 +1039,7 @@ class Mission
 				};
 			};
 		};
-		class Item19
+		class Item18
 		{
 			side="WEST";
 			class Vehicles
@@ -1082,7 +1075,7 @@ class Mission
 				};
 			};
 		};
-		class Item20
+		class Item19
 		{
 			side="WEST";
 			class Vehicles
@@ -1131,7 +1124,7 @@ class Mission
 				};
 			};
 		};
-		class Item21
+		class Item20
 		{
 			side="WEST";
 			class Vehicles
@@ -1180,7 +1173,7 @@ class Mission
 				};
 			};
 		};
-		class Item22
+		class Item21
 		{
 			side="WEST";
 			class Vehicles
@@ -1229,7 +1222,7 @@ class Mission
 				};
 			};
 		};
-		class Item23
+		class Item22
 		{
 			side="WEST";
 			class Vehicles
@@ -1265,7 +1258,7 @@ class Mission
 				};
 			};
 		};
-		class Item24
+		class Item23
 		{
 			side="WEST";
 			class Vehicles
@@ -1301,7 +1294,7 @@ class Mission
 				};
 			};
 		};
-		class Item25
+		class Item24
 		{
 			side="WEST";
 			class Vehicles
@@ -1350,7 +1343,7 @@ class Mission
 				};
 			};
 		};
-		class Item26
+		class Item25
 		{
 			side="WEST";
 			class Vehicles
@@ -1399,7 +1392,7 @@ class Mission
 				};
 			};
 		};
-		class Item27
+		class Item26
 		{
 			side="WEST";
 			class Vehicles
@@ -1435,7 +1428,7 @@ class Mission
 				};
 			};
 		};
-		class Item28
+		class Item27
 		{
 			side="WEST";
 			class Vehicles
@@ -1471,7 +1464,7 @@ class Mission
 				};
 			};
 		};
-		class Item29
+		class Item28
 		{
 			side="WEST";
 			class Vehicles
@@ -1507,7 +1500,7 @@ class Mission
 				};
 			};
 		};
-		class Item30
+		class Item29
 		{
 			side="WEST";
 			class Vehicles
@@ -1543,6 +1536,26 @@ class Mission
 				};
 			};
 		};
+		class Item30
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-209.12985,356.59506,5515.2549};
+					azimut=0.32468101;
+					id=113;
+					side="CIV";
+					vehicle="Citizen1";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.2;
+					description="HC";
+				};
+			};
+		};
 	};
 	class Vehicles
 	{
@@ -1555,7 +1568,7 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
 		};
 		class Item1
 		{
@@ -1615,6 +1628,7 @@ class Mission
 			vehicle="LandRover_Special_CZ_EP1";
 			leader=1;
 			skill=0.5;
+			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
 			description="Czech army Alpha 1 Fireteam Leader";
 		};
 		class Item6
@@ -1625,7 +1639,7 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
 		};
 		class Item7
 		{
@@ -1635,51 +1649,60 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
 		};
 		class Item8
 		{
-			position[]={1664.873,70.855087,2953.7261};
+			position[]={1629.4655,70.979019,2977.6716};
 			azimut=0.32468101;
 			id=99;
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
 		};
 		class Item9
 		{
-			position[]={1697.7584,72.380135,2952.6458};
-			azimut=0.32468101;
+			position[]={1633.1006,73.295311,3002.9148};
+			azimut=1.4615099;
+			special="NONE";
 			id=100;
 			side="EMPTY";
-			vehicle="LandRover_CZ_EP1";
-			skill=0.2;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			vehicle="LandRover_Special_CZ_EP1";
+			leader=1;
+			skill=0.5;
+			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			description="Czech army Alpha 1 Fireteam Leader";
 		};
 		class Item10
 		{
-			position[]={1732.4459,73.882675,2952.915};
-			azimut=0.32468101;
+			position[]={1697.2499,75.316734,3002.1047};
+			azimut=1.4615099;
+			special="NONE";
 			id=101;
 			side="EMPTY";
-			vehicle="LandRover_CZ_EP1";
-			skill=0.2;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			vehicle="LandRover_Special_CZ_EP1";
+			leader=1;
+			skill=0.5;
+			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			description="Czech army Alpha 1 Fireteam Leader";
 		};
 		class Item11
 		{
-			position[]={1732.356,72.403191,2929.6001};
-			azimut=0.32468101;
+			position[]={1732.1174,77.138649,3001.5657};
+			azimut=1.4615099;
+			special="NONE";
 			id=102;
 			side="EMPTY";
-			vehicle="LandRover_CZ_EP1";
-			skill=0.2;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			vehicle="LandRover_Special_CZ_EP1";
+			leader=1;
+			skill=0.5;
+			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			description="Czech army Alpha 1 Fireteam Leader";
 		};
 		class Item12
 		{
-			position[]={1697.3982,70.87381,2929.6001};
+			position[]={1609.6567,74.568611,3033.5967};
 			azimut=0.32468101;
 			id=103;
 			side="EMPTY";
@@ -1689,7 +1712,7 @@ class Mission
 		};
 		class Item13
 		{
-			position[]={1664.9635,69.505707,2931.2214};
+			position[]={1609.5551,73.394951,3018.5754};
 			azimut=0.32468101;
 			id=104;
 			side="EMPTY";
@@ -1699,89 +1722,83 @@ class Mission
 		};
 		class Item14
 		{
-			position[]={1631.1772,68.451279,2932.0308};
+			position[]={1630.937,373.52957,2953.3584};
 			azimut=0.32468101;
 			id=105;
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
 		};
 		class Item15
 		{
-			position[]={1631.3574,69.297409,2953.0962};
+			position[]={1664.3898,387.70041,2952.6475};
 			azimut=0.32468101;
 			id=106;
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
 		};
 		class Item16
 		{
-			position[]={1629.4655,70.979019,2977.6716};
+			position[]={1697.2493,395.1171,2952.4102};
 			azimut=0.32468101;
 			id=107;
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
 		};
 		class Item17
 		{
-			position[]={1633.1006,73.295311,3002.9148};
-			azimut=1.4615099;
-			special="NONE";
+			position[]={1731.5325,395.68326,2951.8181};
+			azimut=0.32468101;
 			id=108;
 			side="EMPTY";
-			vehicle="LandRover_Special_CZ_EP1";
-			leader=1;
-			skill=0.5;
-			description="Czech army Alpha 1 Fireteam Leader";
+			vehicle="LandRover_CZ_EP1";
+			skill=0.2;
+			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
 		};
 		class Item18
 		{
-			position[]={1697.2499,75.316734,3002.1047};
-			azimut=1.4615099;
-			special="NONE";
+			position[]={1629.8693,367.93137,2931.1951};
+			azimut=0.32468101;
 			id=109;
 			side="EMPTY";
-			vehicle="LandRover_Special_CZ_EP1";
-			leader=1;
-			skill=0.5;
-			description="Czech army Alpha 1 Fireteam Leader";
+			vehicle="LandRover_CZ_EP1";
+			skill=0.2;
+			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
 		};
 		class Item19
 		{
-			position[]={1732.1174,77.138649,3001.5657};
-			azimut=1.4615099;
-			special="NONE";
+			position[]={1662.9662,382.68311,2929.6548};
+			azimut=0.32468101;
 			id=110;
 			side="EMPTY";
-			vehicle="LandRover_Special_CZ_EP1";
-			leader=1;
-			skill=0.5;
-			description="Czech army Alpha 1 Fireteam Leader";
+			vehicle="LandRover_CZ_EP1";
+			skill=0.2;
+			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
 		};
 		class Item20
 		{
-			position[]={1609.6567,74.568611,3033.5967};
+			position[]={1696.656,394.72052,2928.8237};
 			azimut=0.32468101;
 			id=111;
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
 		};
 		class Item21
 		{
-			position[]={1609.5551,73.394951,3018.5754};
+			position[]={1731.2948,399.38599,2929.4175};
 			azimut=0.32468101;
 			id=112;
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
 		};
 	};
 };
@@ -1794,7 +1811,7 @@ class Intro
 	};
 	addOnsAuto[]=
 	{
-		"chernarus"
+		"takistan"
 	};
 	randomSeed=13119962;
 	class Intel
@@ -1816,7 +1833,7 @@ class OutroWin
 	};
 	addOnsAuto[]=
 	{
-		"chernarus"
+		"takistan"
 	};
 	randomSeed=15231874;
 	class Intel
@@ -1838,7 +1855,7 @@ class OutroLoose
 	};
 	addOnsAuto[]=
 	{
-		"chernarus"
+		"takistan"
 	};
 	randomSeed=1525827;
 	class Intel
