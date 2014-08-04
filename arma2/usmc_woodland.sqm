@@ -3,32 +3,25 @@ class Mission
 {
 	addOns[]=
 	{
-		"ca_modules_functions",
-		"ace_sys_aitalk",
-		"ace_sys_viewblock",
-		"ace_sys_repair",
-		"ace_sys_wounds",
-		"acex_usnavy_men_usmc",
 		"acex_ru_men_naval",
 		"cacharacters2",
 		"cacharacters_pmc",
+		"acex_ru_c_men",
 		"cacharacters_e",
 		"ace_c_men",
 		"CACharacters_BAF",
 		"rw_characters",
-		"ace_sys_vehicledamage",
-		"CAWheeled_E",
 		"acex_veh_stryker",
-		"CATracked_E",
 		"CAAir",
-		"acex_usnavy_veh_ah1",
 		"CAWheeled",
-		"CAWheeled2_BTR90",
+		"CAWheeled2_Kamaz",
+		"CAAir2",
 		"cawheeled_d_baf",
 		"CATracked",
 		"caair_pmc_ka60",
 		"CAWheeled2_MTVR",
 		"CAWheeled2_LAV25",
+		"CATracked2_BMP3",
 		"CAWheeled2_V3S",
 		"caair_e_mi8",
 		"CATracked_BAF",
@@ -37,14 +30,16 @@ class Mission
 		"CAAir_E",
 		"cawheeled_e_btr40",
 		"cawheeled_e_brdm2",
-		"catracked_e_t55",
 		"CAAir_E_UH1H_EP1",
 		"caair_e_ch_47f",
 		"CAAir_E_AH64D",
 		"RW_Wheeled",
 		"RW_Wheeled2_LAV25",
 		"RW_Tracked",
-		"takistan"
+		"takistan",
+		"acex_veh_t72",
+		"acex_ru_veh_mi17",
+		"ace_c_vehicle"
 	};
 	addOnsAuto[]=
 	{
@@ -59,8 +54,8 @@ class Mission
 	randomSeed=3165154;
 	class Intel
 	{
-		briefingName="hull-framework";
-		briefingDescription="hull-framework";
+		briefingName="hull";
+		briefingDescription="hull";
 		startWeather=0.25;
 		forecastWeather=0.25;
 		year=2008;
@@ -77,7 +72,7 @@ class Mission
 			side="WEST";
 			class Vehicles
 			{
-				items=2;
+				items=4;
 				class Item0
 				{
 					position[]={449.15533,430.67993,1034.2352};
@@ -95,7 +90,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={452.15826,429.87994,1034.4501};
+					position[]={451.18521,430.3891,1031.9431};
 					azimut=1.4615099;
 					special="NONE";
 					id=1;
@@ -107,46 +102,37 @@ class Mission
 					init="[this, [""Medic""], [""CoM"", ""ColorBlack""]] call hull_unit_fnc_init;";
 					description="USMC Medic";
 				};
-			};
-		};
-		class Item1
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=2;
-				class Item0
+				class Item2
 				{
-					position[]={448.39362,432.95999,1019.3407};
+					position[]={454.12939,429.67276,1031.7231};
 					azimut=1.4615099;
 					special="NONE";
 					id=2;
 					side="WEST";
 					vehicle="USMC_Soldier_SL";
 					player="PLAY CDG";
-					leader=1;
 					rank="LIEUTENANT";
 					skill=0.5;
-					init="[this, [""DC""], [""DC"", ""ColorYellow""]] call hull_unit_fnc_init;";
-					description="USMC Deputy Commander";
+					init="[this, [""XO""], [""XO"", ""ColorYellow""]] call hull_unit_fnc_init; [this] call hull_marker_fnc_addXoMarker;";
+					description="USMC Executive officer";
 				};
-				class Item1
+				class Item3
 				{
-					position[]={452.15143,432.07709,1020.0219};
+					position[]={457.22147,428.89307,1031.6367};
 					azimut=1.4615099;
 					special="NONE";
 					id=3;
 					side="WEST";
-					vehicle="USMC_Soldier_Medic";
+					vehicle="USMC_Soldier";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.5;
-					init="[this, [""Medic""], [""DcM"", ""ColorBlack""]] call hull_unit_fnc_init;";
-					description="USMC Medic";
+					init="[this, [""Rifleman""]] call hull_unit_fnc_init;";
+					description="USMC Platoon rifleman";
 				};
 			};
 		};
-		class Item2
+		class Item1
 		{
 			side="WEST";
 			class Vehicles
@@ -183,7 +169,7 @@ class Mission
 				};
 			};
 		};
-		class Item3
+		class Item2
 		{
 			side="WEST";
 			class Vehicles
@@ -246,7 +232,7 @@ class Mission
 				};
 			};
 		};
-		class Item4
+		class Item3
 		{
 			side="WEST";
 			class Vehicles
@@ -309,7 +295,7 @@ class Mission
 				};
 			};
 		};
-		class Item5
+		class Item4
 		{
 			side="WEST";
 			class Vehicles
@@ -372,7 +358,7 @@ class Mission
 				};
 			};
 		};
-		class Item6
+		class Item5
 		{
 			side="WEST";
 			class Vehicles
@@ -409,7 +395,7 @@ class Mission
 				};
 			};
 		};
-		class Item7
+		class Item6
 		{
 			side="WEST";
 			class Vehicles
@@ -472,7 +458,7 @@ class Mission
 				};
 			};
 		};
-		class Item8
+		class Item7
 		{
 			side="WEST";
 			class Vehicles
@@ -535,7 +521,7 @@ class Mission
 				};
 			};
 		};
-		class Item9
+		class Item8
 		{
 			side="WEST";
 			class Vehicles
@@ -598,7 +584,7 @@ class Mission
 				};
 			};
 		};
-		class Item10
+		class Item9
 		{
 			side="WEST";
 			class Vehicles
@@ -635,7 +621,7 @@ class Mission
 				};
 			};
 		};
-		class Item11
+		class Item10
 		{
 			side="WEST";
 			class Vehicles
@@ -698,7 +684,7 @@ class Mission
 				};
 			};
 		};
-		class Item12
+		class Item11
 		{
 			side="WEST";
 			class Vehicles
@@ -761,7 +747,7 @@ class Mission
 				};
 			};
 		};
-		class Item13
+		class Item12
 		{
 			side="WEST";
 			class Vehicles
@@ -824,7 +810,7 @@ class Mission
 				};
 			};
 		};
-		class Item14
+		class Item13
 		{
 			side="WEST";
 			class Vehicles
@@ -861,7 +847,7 @@ class Mission
 				};
 			};
 		};
-		class Item15
+		class Item14
 		{
 			side="WEST";
 			class Vehicles
@@ -924,7 +910,7 @@ class Mission
 				};
 			};
 		};
-		class Item16
+		class Item15
 		{
 			side="WEST";
 			class Vehicles
@@ -987,7 +973,7 @@ class Mission
 				};
 			};
 		};
-		class Item17
+		class Item16
 		{
 			side="WEST";
 			class Vehicles
@@ -1050,7 +1036,7 @@ class Mission
 				};
 			};
 		};
-		class Item18
+		class Item17
 		{
 			side="WEST";
 			class Vehicles
@@ -1086,7 +1072,7 @@ class Mission
 				};
 			};
 		};
-		class Item19
+		class Item18
 		{
 			side="WEST";
 			class Vehicles
@@ -1122,7 +1108,7 @@ class Mission
 				};
 			};
 		};
-		class Item20
+		class Item19
 		{
 			side="WEST";
 			class Vehicles
@@ -1140,7 +1126,7 @@ class Mission
 					leader=1;
 					rank="CORPORAL";
 					skill=0.5;
-					init="[this, [""MATG""], [""MAT2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					init="[this, [""MATG""], [""MAT1"", ""ColorOrange""]] call hull_unit_fnc_init;";
 					description="USMC Medium AT Team 1 Gunner";
 				};
 				class Item1
@@ -1171,7 +1157,7 @@ class Mission
 				};
 			};
 		};
-		class Item21
+		class Item20
 		{
 			side="WEST";
 			class Vehicles
@@ -1220,7 +1206,7 @@ class Mission
 				};
 			};
 		};
-		class Item22
+		class Item21
 		{
 			side="WEST";
 			class Vehicles
@@ -1269,7 +1255,7 @@ class Mission
 				};
 			};
 		};
-		class Item23
+		class Item22
 		{
 			side="WEST";
 			class Vehicles
@@ -1305,7 +1291,7 @@ class Mission
 				};
 			};
 		};
-		class Item24
+		class Item23
 		{
 			side="WEST";
 			class Vehicles
@@ -1341,7 +1327,7 @@ class Mission
 				};
 			};
 		};
-		class Item25
+		class Item24
 		{
 			side="WEST";
 			class Vehicles
@@ -1390,7 +1376,7 @@ class Mission
 				};
 			};
 		};
-		class Item26
+		class Item25
 		{
 			side="WEST";
 			class Vehicles
@@ -1439,7 +1425,7 @@ class Mission
 				};
 			};
 		};
-		class Item27
+		class Item26
 		{
 			side="WEST";
 			class Vehicles
@@ -1488,7 +1474,7 @@ class Mission
 				};
 			};
 		};
-		class Item28
+		class Item27
 		{
 			side="WEST";
 			class Vehicles
@@ -1537,7 +1523,7 @@ class Mission
 				};
 			};
 		};
-		class Item29
+		class Item28
 		{
 			side="WEST";
 			class Vehicles
@@ -1586,7 +1572,7 @@ class Mission
 				};
 			};
 		};
-		class Item30
+		class Item29
 		{
 			side="WEST";
 			class Vehicles
@@ -1635,7 +1621,7 @@ class Mission
 				};
 			};
 		};
-		class Item31
+		class Item30
 		{
 			side="WEST";
 			class Vehicles
@@ -1684,7 +1670,7 @@ class Mission
 				};
 			};
 		};
-		class Item32
+		class Item31
 		{
 			side="WEST";
 			class Vehicles
@@ -1733,7 +1719,7 @@ class Mission
 				};
 			};
 		};
-		class Item33
+		class Item32
 		{
 			side="WEST";
 			class Vehicles
@@ -1782,7 +1768,7 @@ class Mission
 				};
 			};
 		};
-		class Item34
+		class Item33
 		{
 			side="WEST";
 			class Vehicles
@@ -1831,7 +1817,7 @@ class Mission
 				};
 			};
 		};
-		class Item35
+		class Item34
 		{
 			side="WEST";
 			class Vehicles
@@ -1867,7 +1853,7 @@ class Mission
 				};
 			};
 		};
-		class Item36
+		class Item35
 		{
 			side="WEST";
 			class Vehicles
@@ -1903,7 +1889,7 @@ class Mission
 				};
 			};
 		};
-		class Item37
+		class Item36
 		{
 			side="WEST";
 			class Vehicles
@@ -1914,7 +1900,7 @@ class Mission
 					position[]={675.02911,493.71466,865.07507};
 					azimut=1.4615099;
 					special="NONE";
-					id=131;
+					id=129;
 					side="WEST";
 					vehicle="USMC_Soldier_Pilot";
 					player="PLAY CDG";
@@ -1929,7 +1915,7 @@ class Mission
 					position[]={677.75909,494.34033,863.19373};
 					azimut=1.4615099;
 					special="NONE";
-					id=132;
+					id=130;
 					side="WEST";
 					vehicle="USMC_Soldier_Pilot";
 					player="PLAY CDG";
@@ -1939,7 +1925,7 @@ class Mission
 				};
 			};
 		};
-		class Item38
+		class Item37
 		{
 			side="WEST";
 			class Vehicles
@@ -1950,7 +1936,7 @@ class Mission
 					position[]={706.263,491.9075,865.07507};
 					azimut=1.4615099;
 					special="NONE";
-					id=134;
+					id=131;
 					side="WEST";
 					vehicle="USMC_Soldier_Pilot";
 					player="PLAY CDG";
@@ -1965,7 +1951,7 @@ class Mission
 					position[]={708.99298,492.69836,863.19373};
 					azimut=1.4615099;
 					special="NONE";
-					id=135;
+					id=132;
 					side="WEST";
 					vehicle="USMC_Soldier_Pilot";
 					player="PLAY CDG";
@@ -1975,7 +1961,7 @@ class Mission
 				};
 			};
 		};
-		class Item39
+		class Item38
 		{
 			side="WEST";
 			class Vehicles
@@ -1986,7 +1972,7 @@ class Mission
 					position[]={703.09308,474.62149,912.27747};
 					azimut=0.70593703;
 					special="NONE";
-					id=137;
+					id=133;
 					side="WEST";
 					vehicle="USMC_Soldier_Pilot";
 					player="PLAY CDG";
@@ -2001,13 +1987,35 @@ class Mission
 					position[]={705.84698,475.16357,910.4325};
 					azimut=0.70593703;
 					special="NONE";
-					id=138;
+					id=134;
 					side="WEST";
 					vehicle="USMC_Soldier_Pilot";
 					player="PLAY CDG";
 					skill=0.5;
 					init="[this, [""PCM""]] call hull_unit_fnc_init; ";
 					description="USMC Attack Helo 1 Gunner";
+				};
+			};
+		};
+		class Item39
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-115.7624,347.04037,2242.8489};
+					azimut=0.32468101;
+					special="NONE";
+					id=136;
+					side="CIV";
+					vehicle="Citizen1";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.5;
+					description="HC";
 				};
 			};
 		};
@@ -2023,7 +2031,7 @@ class Mission
 			side="EMPTY";
 			vehicle="HMMWV";
 			skill=0.1;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="[this, [""Car"", ""Default""]] call hull_unit_fnc_init;";
 		};
 		class Item1
 		{
@@ -2033,7 +2041,7 @@ class Mission
 			side="EMPTY";
 			vehicle="HMMWV";
 			skill=0.1;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="[this, [""Car"", ""Default""]] call hull_unit_fnc_init;";
 		};
 		class Item2
 		{
@@ -2042,8 +2050,8 @@ class Mission
 			id=48;
 			side="EMPTY";
 			vehicle="HMMWV";
-			skill=0.1;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			skill=0.2;
+			init="[this, [""Car"", ""M4SOC""]] call hull_unit_fnc_init;";
 		};
 		class Item3
 		{
@@ -2052,8 +2060,8 @@ class Mission
 			id=49;
 			side="EMPTY";
 			vehicle="HMMWV";
-			skill=0.1;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			skill=0.2;
+			init="[this, [""Car"", ""M4SOC""]] call hull_unit_fnc_init;";
 		};
 		class Item4
 		{
@@ -2062,8 +2070,8 @@ class Mission
 			id=50;
 			side="EMPTY";
 			vehicle="HMMWV";
-			skill=0.1;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			skill=0.2;
+			init="[this, [""Car"", ""M4SOC""]] call hull_unit_fnc_init;";
 		};
 		class Item5
 		{
@@ -2073,7 +2081,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MTVR";
 			skill=1;
-			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+			init="[this, [""Truck"", ""M4SOC""]] call hull_unit_fnc_init;";
 		};
 		class Item6
 		{
@@ -2083,7 +2091,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MTVR";
 			skill=1;
-			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+			init="[this, [""Truck"", ""M4SOC""]] call hull_unit_fnc_init;";
 		};
 		class Item7
 		{
@@ -2093,7 +2101,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MTVR";
 			skill=1;
-			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+			init="[this, [""Truck"", ""M4SOC""]] call hull_unit_fnc_init;";
 		};
 		class Item8
 		{
@@ -2103,7 +2111,7 @@ class Mission
 			side="EMPTY";
 			vehicle="HMMWV";
 			skill=0.2;
-			init="nul = [""v_car"",this] call f_fnc_assignGear;";
+			init="[this, [""Car"", ""M4SOC""]] call hull_unit_fnc_init;";
 		};
 		class Item9
 		{
@@ -2113,47 +2121,47 @@ class Mission
 			side="EMPTY";
 			vehicle="MTVR";
 			skill=1;
-			init="nul = [""v_tr"",this] call f_fnc_assignGear;";
+			init="[this, [""Truck"", ""M4SOC""]] call hull_unit_fnc_init;";
 		};
 		class Item10
 		{
 			position[]={471.66827,454.88229,906.74548};
-			azimut=1.4615065;
+			azimut=1.4615099;
 			id=102;
 			side="EMPTY";
 			vehicle="LAV25";
-			skill=0.1;
-			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+			skill=0.2;
+			init="[this, [""Armored"", ""M4SOC""]] call hull_unit_fnc_init;";
 		};
 		class Item11
 		{
 			position[]={496.81378,460.35852,906.78943};
-			azimut=1.4615065;
+			azimut=1.4615099;
 			id=103;
 			side="EMPTY";
 			vehicle="LAV25";
-			skill=0.1;
-			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+			skill=0.2;
+			init="[this, [""Armored"", ""M4SOC""]] call hull_unit_fnc_init;";
 		};
 		class Item12
 		{
 			position[]={527.58624,468.75998,905.74988};
-			azimut=1.4615065;
+			azimut=1.4615099;
 			id=104;
 			side="EMPTY";
 			vehicle="LAV25";
-			skill=0.1;
-			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+			skill=0.2;
+			init="[this, [""Armored"", ""M4SOC""]] call hull_unit_fnc_init;";
 		};
 		class Item13
 		{
 			position[]={564.05157,475.94208,907.49182};
-			azimut=0.41288203;
+			azimut=0.412882;
 			id=108;
 			side="EMPTY";
 			vehicle="LAV25";
 			skill=0.2;
-			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
+			init="[this, [""Armored"", ""M4SOC""]] call hull_unit_fnc_init;";
 		};
 		class Item14
 		{
@@ -2193,47 +2201,47 @@ class Mission
 		};
 		class Item18
 		{
-			position[]={621.41339,487.03522,883.45129};
-			azimut=1.4615065;
-			id=129;
+			position[]={705.4798,470.3027,926.20764};
+			azimut=0.70593375;
+			id=135;
 			side="EMPTY";
-			vehicle="MH60S";
+			vehicle="AH1Z";
 			skill=0.1;
 		};
 		class Item19
 		{
-			position[]={644.81866,487.56464,883.39465};
+			position[]={620.36554,487.26147,882.40381};
 			azimut=1.4615065;
-			id=130;
+			id=137;
 			side="EMPTY";
 			vehicle="MH60S";
 			skill=0.1;
 		};
 		class Item20
 		{
-			position[]={673.30255,486.88531,882.78943};
-			azimut=1.4615099;
-			id=133;
-			side="EMPTY";
-			vehicle="MH60S";
-			skill=0.2;
-		};
-		class Item21
-		{
-			position[]={704.53644,484.5415,882.78943};
+			position[]={643.77081,487.88812,882.34717};
 			azimut=1.4615065;
-			id=136;
+			id=138;
 			side="EMPTY";
 			vehicle="MH60S";
 			skill=0.1;
 		};
-		class Item22
+		class Item21
 		{
-			position[]={705.4798,470.3027,926.20764};
-			azimut=0.70593375;
+			position[]={672.2547,487.33618,881.74194};
+			azimut=1.4615099;
 			id=139;
 			side="EMPTY";
-			vehicle="AH1Z";
+			vehicle="MH60S";
+			skill=0.2;
+		};
+		class Item22
+		{
+			position[]={703.48859,484.98233,881.74194};
+			azimut=1.4615065;
+			id=140;
+			side="EMPTY";
+			vehicle="MH60S";
 			skill=0.1;
 		};
 	};
@@ -2258,8 +2266,9 @@ class Mission
 		};
 		class Item2
 		{
-			position[]={315.83624,521.80469,727.13904};
-			name="1_2_1_5_1_1_1_1_1_1_1";
+			position[]={682.2691,462.88867,966.48615};
+			name="1_2_1_5_1_1_1_1_2";
+			text="USMC Woodland";
 			type="Empty";
 			a=0;
 			b=0;
