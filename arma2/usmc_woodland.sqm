@@ -3,43 +3,19 @@ class Mission
 {
 	addOns[]=
 	{
-		"acex_ru_men_naval",
+		"ca_modules_functions",
+		"ace_sys_aitalk",
+		"ace_sys_viewblock",
+		"ace_sys_repair",
+		"ace_sys_wounds",
+		"ace_sys_vehicledamage",
+		"takistan",
 		"cacharacters2",
-		"cacharacters_pmc",
-		"acex_ru_c_men",
-		"cacharacters_e",
-		"ace_c_men",
-		"CACharacters_BAF",
-		"rw_characters",
-		"acex_veh_stryker",
-		"CAAir",
 		"CAWheeled",
-		"CAWheeled2_Kamaz",
-		"CAAir2",
-		"cawheeled_d_baf",
-		"CATracked",
-		"caair_pmc_ka60",
 		"CAWheeled2_MTVR",
 		"CAWheeled2_LAV25",
-		"CATracked2_BMP3",
-		"CAWheeled2_V3S",
-		"caair_e_mi8",
-		"CATracked_BAF",
-		"CAAir_BAF",
-		"cawheeled_e_v3s",
-		"CAAir_E",
-		"cawheeled_e_btr40",
-		"cawheeled_e_brdm2",
-		"CAAir_E_UH1H_EP1",
-		"caair_e_ch_47f",
-		"CAAir_E_AH64D",
-		"RW_Wheeled",
-		"RW_Wheeled2_LAV25",
-		"RW_Tracked",
-		"takistan",
-		"acex_veh_t72",
-		"acex_ru_veh_mi17",
-		"ace_c_vehicle"
+		"CATracked",
+		"CAAir"
 	};
 	addOnsAuto[]=
 	{
@@ -54,8 +30,8 @@ class Mission
 	randomSeed=3165154;
 	class Intel
 	{
-		briefingName="hull";
-		briefingDescription="hull";
+		briefingName="*** Mission Name ***";
+		briefingDescription="*** Mission Description ***";
 		startWeather=0.25;
 		forecastWeather=0.25;
 		year=2008;
@@ -2030,8 +2006,8 @@ class Mission
 			id=46;
 			side="EMPTY";
 			vehicle="HMMWV";
-			skill=0.1;
-			init="[this, [""Car"", ""Default""]] call hull_unit_fnc_init;";
+			skill=0.2;
+			init="[this, [""Car"", ""M4SOC""]] call hull_unit_fnc_init;";
 		};
 		class Item1
 		{
@@ -2040,8 +2016,8 @@ class Mission
 			id=47;
 			side="EMPTY";
 			vehicle="HMMWV";
-			skill=0.1;
-			init="[this, [""Car"", ""Default""]] call hull_unit_fnc_init;";
+			skill=0.2;
+			init="[this, [""Car"", ""M4SOC""]] call hull_unit_fnc_init;";
 		};
 		class Item2
 		{
@@ -2243,35 +2219,6 @@ class Mission
 			side="EMPTY";
 			vehicle="MH60S";
 			skill=0.1;
-		};
-	};
-	class Markers
-	{
-		items=3;
-		class Item0
-		{
-			position[]={106.41798,311.17209,2316.0652};
-			name="1_3_2_5_1";
-			type="Empty";
-			a=0;
-			b=0;
-		};
-		class Item1
-		{
-			position[]={671.32892,466.8721,955.30774};
-			name="1_2_1_5_1_1_1";
-			type="Empty";
-			a=0;
-			b=0;
-		};
-		class Item2
-		{
-			position[]={682.2691,462.88867,966.48615};
-			name="1_2_1_5_1_1_1_1_2";
-			text="USMC Woodland";
-			type="Empty";
-			a=0;
-			b=0;
 		};
 	};
 };

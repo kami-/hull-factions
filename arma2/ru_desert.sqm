@@ -3,45 +3,21 @@ class Mission
 {
 	addOns[]=
 	{
-		"acex_usnavy_men_usmc",
+		"ca_modules_functions",
+		"ace_sys_aitalk",
+		"ace_sys_viewblock",
+		"ace_sys_repair",
+		"ace_sys_wounds",
+		"ace_sys_vehicledamage",
+		"takistan",
 		"acex_ru_men_naval",
 		"cacharacters2",
-		"acex_ru_c_men",
-		"cacharacters_e",
-		"ace_c_men",
-		"CACharacters_BAF",
-		"rw_characters",
-		"CAWheeled_E",
-		"acex_veh_stryker",
-		"CATracked_E",
-		"CAAir",
-		"acex_usnavy_veh_ah1",
 		"CAWheeled",
 		"CAWheeled2_Kamaz",
-		"CAAir2",
-		"CATracked",
-		"CAWheeled2_MTVR",
-		"CAWheeled2_LAV25",
 		"CATracked2_BMP3",
-		"CAWheeled2_V3S",
-		"caair_e_mi8",
-		"CATracked_BAF",
-		"CAAir_BAF",
-		"cawheeled_e_v3s",
-		"CAAir_E",
-		"cawheeled_e_btr40",
-		"cawheeled_e_brdm2",
-		"CAAir_E_UH1H_EP1",
-		"caair_e_ch_47f",
-		"CAAir_E_AH64D",
-		"RW_Wheeled",
-		"RW_Wheeled2_LAV25",
-		"RW_Tracked",
-		"takistan",
-		"CATracked_E_M2A2_Bradley",
 		"acex_veh_t72",
-		"acex_ru_veh_mi17",
-		"ace_c_vehicle"
+		"caair",
+		"CAAir2"
 	};
 	addOnsAuto[]=
 	{
@@ -58,8 +34,8 @@ class Mission
 	randomSeed=3165154;
 	class Intel
 	{
-		briefingName="hull";
-		briefingDescription="hull";
+		briefingName="*** Mission Name ***";
+		briefingDescription="*** Mission Description ***";
 		startWeather=0.25;
 		forecastWeather=0.25;
 		year=2008;
@@ -85,7 +61,7 @@ class Mission
 					id=0;
 					side="EAST";
 					vehicle="ACE_RU_Soldier_SL_D";
-					player="PLAY CDG";
+					player="PLAYER COMMANDER";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.5;
@@ -1053,7 +1029,7 @@ class Mission
 					special="NONE";
 					id=70;
 					side="EAST";
-					vehicle="RU_Soldier_MG";
+					vehicle="ACE_RU_Soldier_MG_D";
 					player="PLAY CDG";
 					leader=1;
 					rank="CORPORAL";
@@ -1064,11 +1040,11 @@ class Mission
 				class Item1
 				{
 					position[]={980.41571,386.10562,1300.3127};
-					azimut=2.4850903;
+					azimut=2.48509;
 					special="NONE";
 					id=71;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="ACE_RU_Soldier_D";
 					player="PLAY CDG";
 					skill=0.5;
 					init="[this, [""MMGAG""]] call hull_unit_fnc_init;";
@@ -1089,7 +1065,7 @@ class Mission
 					special="NONE";
 					id=72;
 					side="EAST";
-					vehicle="RU_Soldier_MG";
+					vehicle="ACE_RU_Soldier_MG_D";
 					player="PLAY CDG";
 					leader=1;
 					rank="CORPORAL";
@@ -1100,11 +1076,11 @@ class Mission
 				class Item1
 				{
 					position[]={980.14667,388.67731,1288.2534};
-					azimut=2.4850903;
+					azimut=2.48509;
 					special="NONE";
 					id=73;
 					side="EAST";
-					vehicle="RU_Soldier";
+					vehicle="ACE_RU_Soldier_D";
 					player="PLAY CDG";
 					skill=0.5;
 					init="[this, [""MMGAG""]] call hull_unit_fnc_init;";
@@ -2247,27 +2223,6 @@ class Mission
 			side="EMPTY";
 			vehicle="ACE_T72B_Base";
 			skill=0.2;
-		};
-	};
-	class Markers
-	{
-		items=2;
-		class Item0
-		{
-			position[]={106.41798,311.17209,2316.0652};
-			name="1_3_2_5_1";
-			type="Empty";
-			a=0;
-			b=0;
-		};
-		class Item1
-		{
-			position[]={994.49432,411.25757,1220.9868};
-			name="1_2_1_5_1_1_1_1_1_1_1_1_1_1_1_1_1";
-			text="Russia army desert";
-			type="Empty";
-			a=0;
-			b=0;
 		};
 	};
 };
