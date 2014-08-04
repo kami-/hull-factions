@@ -3,12 +3,6 @@ class Mission
 {
 	addOns[]=
 	{
-		"ca_modules_functions",
-		"ace_sys_aitalk",
-		"ace_sys_viewblock",
-		"ace_sys_repair",
-		"ace_sys_wounds",
-		"ace_sys_vehicledamage",
 		"takistan",
 		"cacharacters2",
 		"CAWheeled",

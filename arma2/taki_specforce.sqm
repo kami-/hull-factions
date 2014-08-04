@@ -3,15 +3,13 @@ class Mission
 {
 	addOns[]=
 	{
-		"ace_sys_viewblock",
-		"acex_usnavy_men_usmc",
+				"acex_usnavy_men_usmc",
 		"acex_ru_men_naval",
 		"cacharacters_pmc",
 		"cacharacters_e",
 		"ace_c_men",
 		"CACharacters_BAF",
 		"rw_characters",
-		"ace_sys_vehicledamage",
 		"CAWheeled_E",
 		"acex_veh_stryker",
 		"CATracked_E",

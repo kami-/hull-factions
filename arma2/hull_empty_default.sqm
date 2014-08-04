@@ -5,20 +5,12 @@ class Mission
 	{
 		"ca_modules_functions",
 		"ace_sys_aitalk",
-		"ace_sys_viewblock",
 		"ace_sys_repair",
 		"ace_sys_wounds",
-		"ace_sys_vehicledamage",
 		"takistan"
 	};
 	addOnsAuto[]=
 	{
-		"ca_modules_functions",
-		"ace_sys_aitalk",
-		"ace_sys_viewblock",
-		"ace_sys_repair",
-		"ace_sys_wounds",
-		"ace_sys_vehicledamage",
 		"takistan"
 	};
 	randomSeed=3165154;
@@ -33,145 +25,6 @@ class Mission
 		day=11;
 		hour=8;
 		minute=0;
-	};
-	class Groups
-	{
-		items=7;
-		class Item0
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-99.946243,347.26016,2260.3279};
-					id=5;
-					side="LOGIC";
-					vehicle="FunctionsManager";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item1
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=2;
-				class Item0
-				{
-					position[]={-135.52145,344.50854,2289.2983};
-					id=0;
-					side="LOGIC";
-					vehicle="ACE_AITalk_Logic";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.25;
-				};
-				class Item1
-				{
-					position[]={-118.38833,345.73267,2289.6699};
-					id=6;
-					side="LOGIC";
-					vehicle="ACE_Viewblock_EnableAIGrassVB_Mod";
-					lock="UNLOCKED";
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item2
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-161.07159,338.60971,2313.3599};
-					id=1;
-					side="LOGIC";
-					vehicle="ace_sys_repair_tyres";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.25;
-				};
-			};
-		};
-		class Item3
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-134.95184,340.85904,2313.8037};
-					id=2;
-					side="LOGIC";
-					vehicle="ACE_Wounds_Logic";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.25;
-				};
-			};
-		};
-		class Item4
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-115.01464,342.14569,2313.8037};
-					id=3;
-					side="LOGIC";
-					vehicle="ACE_Wounds_EveryoneMedic";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.25;
-				};
-			};
-		};
-		class Item5
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-92.229271,342.77155,2312.6648};
-					id=4;
-					side="LOGIC";
-					vehicle="ACE_Wounds_FullHeal";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.25;
-				};
-			};
-		};
-		class Item6
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-95.511353,346.51346,2288.7151};
-					id=7;
-					side="LOGIC";
-					vehicle="ACE_Vehicledamage_Enable_Cookoff";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.60000002;
-				};
-			};
-		};
 	};
 };
 class Intro
