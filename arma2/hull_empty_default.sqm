@@ -41,7 +41,7 @@ class Mission
 					id=0;
 					side="CIV";
 					vehicle="Citizen1";
-					player="PLAYER COMMANDER";
+					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.5;
