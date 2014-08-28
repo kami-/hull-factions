@@ -104,7 +104,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""Medic""], [""PltM"", ""ColorBlack""]] call hull3_unit_fnc_init;";
-					description="NATO - Platoon medic";
+					description="NATO - Platoon Medic";
 				};
 				class Item2
 				{
@@ -154,7 +154,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, [""SL""], [""ASL"", ""ColorRed""]] call hull3_unit_fnc_init;";
-					description="NATO - Alpha squad leader";
+					description="NATO - Alpha Squad Leader";
 				};
 				class Item1
 				{
@@ -168,7 +168,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""Medic""], [""AM"", ""ColorBlack""]] call hull3_unit_fnc_init;";
-					description="NATO - Alpha squad medic";
+					description="NATO - Alpha Squad Medic";
 				};
 			};
 		};
@@ -191,7 +191,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""FTL""], [""A1"", ""ColorRed""]] call hull3_unit_fnc_init;";
-					description="NATO - Alpha 1 Fireteam leader";
+					description="NATO - Alpha 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -205,7 +205,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""AR""]] call hull3_unit_fnc_init;";
-					description="NATO - Alpha 1 Automatic rifleman";
+					description="NATO - Alpha 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -218,7 +218,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""AAR""]] call hull3_unit_fnc_init;";
-					description="NATO - Alpha 1 Assistant-Automatic rifleman";
+					description="NATO - Alpha 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -254,7 +254,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""FTL""], [""A2"", ""ColorRed""]] call hull3_unit_fnc_init;";
-					description="NATO - Alpha 2 Fireteam leader";
+					description="NATO - Alpha 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -268,7 +268,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""AR""]] call hull3_unit_fnc_init;";
-					description="NATO - Alpha 2 Automatic rifleman";
+					description="NATO - Alpha 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -281,7 +281,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""AAR""]] call hull3_unit_fnc_init;";
-					description="NATO - Alpha 2 Assistant-Automatic rifleman";
+					description="NATO - Alpha 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -317,7 +317,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""FTL""], [""A3"", ""ColorRed""]] call hull3_unit_fnc_init;";
-					description="NATO - Alpha 3 Fireteam leader";
+					description="NATO - Alpha 3 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -331,7 +331,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""AR""]] call hull3_unit_fnc_init;";
-					description="NATO - Alpha 3 Automatic rifleman";
+					description="NATO - Alpha 3 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -344,7 +344,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""AAR""]] call hull3_unit_fnc_init;";
-					description="NATO - Alpha 3 Assistant-Automatic rifleman";
+					description="NATO - Alpha 3 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -393,7 +393,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""Medic""], [""BM"", ""ColorBlack""]] call hull3_unit_fnc_init;";
-					description="NATO - Bravo sqaud medic";
+					description="NATO - Bravo sqaud Medic";
 				};
 			};
 		};
@@ -416,7 +416,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""FTL""], [""B1"", ""ColorBlue""]] call hull3_unit_fnc_init;";
-					description="NATO - Bravo 1 Fireteam leader";
+					description="NATO - Bravo 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -430,7 +430,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""AR""]] call hull3_unit_fnc_init;";
-					description="NATO - Bravo 1 Automatic rifleman";
+					description="NATO - Bravo 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -443,7 +443,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""AAR""]] call hull3_unit_fnc_init;";
-					description="NATO - Bravo 1 Assistant-Automatic rifleman";
+					description="NATO - Bravo 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -479,7 +479,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""FTL""], [""B2"", ""ColorBlue""]] call hull3_unit_fnc_init;";
-					description="NATO - Bravo 2 Fireteam leader";
+					description="NATO - Bravo 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -493,7 +493,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""AR""]] call hull3_unit_fnc_init;";
-					description="NATO - Bravo 2 Automatic rifleman";
+					description="NATO - Bravo 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -506,7 +506,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""AAR""]] call hull3_unit_fnc_init;";
-					description="NATO - Bravo 2 Assistant-Automatic rifleman";
+					description="NATO - Bravo 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -542,7 +542,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""FTL""], [""B3"", ""ColorBlue""]] call hull3_unit_fnc_init;";
-					description="NATO - Bravo 3 Fireteam leader";
+					description="NATO - Bravo 3 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -556,7 +556,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""AR""]] call hull3_unit_fnc_init;";
-					description="NATO - Bravo 3 Automatic rifleman";
+					description="NATO - Bravo 3 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -569,7 +569,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""AAR""]] call hull3_unit_fnc_init;";
-					description="NATO - Bravo 3 Assistant-Automatic rifleman";
+					description="NATO - Bravo 3 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -604,7 +604,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, [""SL""], [""CSL"", ""ColorGreen""]] call hull3_unit_fnc_init;";
-					description="NATO - Charlie squad leader";
+					description="NATO - Charlie Squad Leader";
 				};
 				class Item1
 				{
@@ -618,7 +618,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""Medic""], [""CM"", ""ColorBlack""]] call hull3_unit_fnc_init;";
-					description="NATO - Charlie squad medic";
+					description="NATO - Charlie Squad Medic";
 				};
 			};
 		};
@@ -641,7 +641,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""FTL""], [""C1"", ""ColorGreen""]] call hull3_unit_fnc_init;";
-					description="NATO - Charlie 1 Fireteam leader";
+					description="NATO - Charlie 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -655,7 +655,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""AR""]] call hull3_unit_fnc_init;";
-					description="NATO - Charlie 1 Automatic rifleman";
+					description="NATO - Charlie 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -668,7 +668,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""AAR""]] call hull3_unit_fnc_init;";
-					description="NATO - Charlie 1 Assistant-Automatic rifleman";
+					description="NATO - Charlie 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -704,7 +704,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""FTL""], [""C2"", ""ColorGreen""]] call hull3_unit_fnc_init;";
-					description="NATO - Charlie 2 Fireteam leader";
+					description="NATO - Charlie 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -718,7 +718,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""AR""]] call hull3_unit_fnc_init;";
-					description="NATO - Charlie 2 Automatic rifleman";
+					description="NATO - Charlie 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -731,7 +731,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""AAR""]] call hull3_unit_fnc_init;";
-					description="NATO - Charlie 2 Assistant-Automatic rifleman";
+					description="NATO - Charlie 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -767,7 +767,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""FTL""], [""C3"", ""ColorGreen""]] call hull3_unit_fnc_init;";
-					description="NATO - Charlie 3 Fireteam leader";
+					description="NATO - Charlie 3 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -781,7 +781,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""AR""]] call hull3_unit_fnc_init;";
-					description="NATO - Charlie 3 Automatic rifleman";
+					description="NATO - Charlie 3 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -794,7 +794,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""AAR""]] call hull3_unit_fnc_init;";
-					description="NATO - Charlie 3 Assistant-Automatic rifleman";
+					description="NATO - Charlie 3 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -829,7 +829,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					init="[this, [""SL""], [""DSL"", ""ColorBrown""]] call hull3_unit_fnc_init;";
-					description="NATO - Delta squad leader";
+					description="NATO - Delta Squad Leader";
 				};
 				class Item1
 				{
@@ -843,7 +843,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""Medic""], [""DM"", ""ColorBlack""]] call hull3_unit_fnc_init;";
-					description="NATO - Delta squad medic";
+					description="NATO - Delta Squad Medic";
 				};
 			};
 		};
@@ -866,7 +866,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""FTL""], [""D1"", ""ColorBrown""]] call hull3_unit_fnc_init;";
-					description="NATO - Delta 1 Fireteam leader";
+					description="NATO - Delta 1 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -879,7 +879,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""AR""]] call hull3_unit_fnc_init;";
-					description="NATO - Delta 1 Automatic rifleman";
+					description="NATO - Delta 1 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -892,7 +892,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""AAR""]] call hull3_unit_fnc_init;";
-					description="NATO - Delta 1 Assistant-Automatic rifleman";
+					description="NATO - Delta 1 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -928,7 +928,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""FTL""], [""D2"", ""ColorBrown""]] call hull3_unit_fnc_init;";
-					description="NATO - Delta 2 Fireteam leader";
+					description="NATO - Delta 2 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -942,7 +942,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""AR""]] call hull3_unit_fnc_init;";
-					description="NATO - Delta 2 Automatic rifleman";
+					description="NATO - Delta 2 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -955,7 +955,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""AAR""]] call hull3_unit_fnc_init;";
-					description="NATO - Delta 2 Assistant-Automatic rifleman";
+					description="NATO - Delta 2 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -991,7 +991,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""FTL""], [""D3"", ""ColorBrown""]] call hull3_unit_fnc_init;";
-					description="NATO - Delta 3 Fireteam leader";
+					description="NATO - Delta 3 Fireteam Leader";
 				};
 				class Item1
 				{
@@ -1005,7 +1005,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""AR""]] call hull3_unit_fnc_init;";
-					description="NATO - Delta 3 Automatic rifleman";
+					description="NATO - Delta 3 Automatic Rifleman";
 				};
 				class Item2
 				{
@@ -1018,7 +1018,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""AAR""]] call hull3_unit_fnc_init;";
-					description="NATO - Delta 3 Assistant-Automatic rifleman";
+					description="NATO - Delta 3 Assistant Automatic Rifleman";
 				};
 				class Item3
 				{
@@ -1067,7 +1067,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""MMGAG""]] call hull3_unit_fnc_init;";
-					description="NATO - MMG 1 Assistant-gunner ";
+					description="NATO - MMG 1 Assistant Gunner";
 				};
 			};
 		};
@@ -1103,7 +1103,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""MMGAG""]] call hull3_unit_fnc_init;";
-					description="NATO - MMG 2 Assistant-Gunner";
+					description="NATO - MMG 2 Assistant Gunner";
 				};
 			};
 		};
@@ -1140,7 +1140,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""MATAG""]] call hull3_unit_fnc_init;";
-					description="NATO - MAT 1 Assistant-Gunner";
+					description="NATO - MAT 1 Assistant Gunner";
 				};
 				class Item2
 				{
@@ -1153,7 +1153,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""MATAC""]] call hull3_unit_fnc_init;";
-					description="NATO - MAT 1 Ammo-carrier";
+					description="NATO - MAT 1 Ammo Carrier";
 				};
 			};
 		};
@@ -1190,7 +1190,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""MATAG""]] call hull3_unit_fnc_init;";
-					description="NATO - MAT 2 Assitant-gunner";
+					description="NATO - MAT 2 Assitant Gunner";
 				};
 				class Item2
 				{
@@ -1203,7 +1203,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""MATAC""]] call hull3_unit_fnc_init;";
-					description="NATO - MAT 2 - Ammo-carrier";
+					description="NATO - MAT 2 Ammo Carrier";
 				};
 			};
 		};
@@ -1240,7 +1240,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""HATAG""]] call hull3_unit_fnc_init;";
-					description="NATO - HAT 1 Assistant-Gunner";
+					description="NATO - HAT 1 Assistant Gunner";
 				};
 				class Item2
 				{
@@ -1253,7 +1253,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""HATAC""]] call hull3_unit_fnc_init;";
-					description="NATO - HAT 1 Ammo-carrier";
+					description="NATO - HAT 1 Ammo Carrier";
 				};
 			};
 		};
@@ -1290,7 +1290,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""HATAG""]] call hull3_unit_fnc_init;";
-					description="NATO - HAT 2 Assitant-gunner";
+					description="NATO - HAT 2 Assitant Gunner";
 				};
 				class Item2
 				{
@@ -1303,7 +1303,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""HATAC""]] call hull3_unit_fnc_init;";
-					description="NATO - HAT 2 - Ammo-carrier";
+					description="NATO - HAT 2 Ammo Carrier";
 				};
 			};
 		};
@@ -2061,7 +2061,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					init="[this, [""P""], [""TH2"", ""ColorOrange""]] call hull3_unit_fnc_init;";
-					description="NATO - TH 2 Crew";
+					description="NATO - TH 2 Pilot";
 				};
 				class Item1
 				{

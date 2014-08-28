@@ -1147,7 +1147,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""MATAG""]] call hull3_unit_fnc_init;";
-					description="CSAT - MAT 1 Ammo-carrier";
+					description="CSAT - MAT 1 Ammo Carrier";
 				};
 			};
 		};
@@ -1196,7 +1196,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""MATAC""]] call hull3_unit_fnc_init;";
-					description="CSAT - MAT 2 Ammo-carrier";
+					description="CSAT - MAT 2 Ammo Carrier";
 				};
 			};
 		};
@@ -1232,7 +1232,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""HATAG""]] call hull3_unit_fnc_init;";
-					description="CSAT - HAT 1 Assistant-Gunner";
+					description="CSAT - HAT 1 Assistant Gunner";
 				};
 				class Item2
 				{
@@ -1245,7 +1245,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""HATAC""]] call hull3_unit_fnc_init;";
-					description="CSAT - HAT 1 Ammo-carrier";
+					description="CSAT - HAT 1 Ammo Carrier";
 				};
 			};
 		};
@@ -1281,7 +1281,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""HATAG""]] call hull3_unit_fnc_init;";
-					description="CSAT - HAT 2 Assistant-Gunner";
+					description="CSAT - HAT 2 Assistant Gunner";
 				};
 				class Item2
 				{
@@ -1294,7 +1294,7 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					init="[this, [""HATAC""]] call hull3_unit_fnc_init;";
-					description="CSAT - HAT 2 Ammo-carrier";
+					description="CSAT - HAT 2 Ammo Carrier";
 				};
 			};
 		};
