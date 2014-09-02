@@ -1976,7 +1976,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BTR40_TK_INS_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""AKM""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_TK_INS""]] call hull_unit_fnc_init;";
 		};
 		class Item1
 		{
@@ -1986,7 +1986,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BTR40_TK_INS_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""AKM""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_TK_INS""]] call hull_unit_fnc_init;";
 		};
 		class Item2
 		{
@@ -1996,7 +1996,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BTR40_TK_INS_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""AKM""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_TK_INS""]] call hull_unit_fnc_init;";
 		};
 		class Item3
 		{
@@ -2006,7 +2006,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BTR40_TK_INS_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""AKM""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_TK_INS""]] call hull_unit_fnc_init;";
 		};
 		class Item4
 		{
@@ -2016,7 +2016,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BTR40_TK_INS_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""AKM""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_TK_INS""]] call hull_unit_fnc_init;";
 		};
 		class Item5
 		{
@@ -2026,7 +2026,7 @@ class Mission
 			side="EMPTY";
 			vehicle="V3S_TK_GUE_EP1";
 			skill=0.2;
-			init="[this, [""Truck"", ""AKM""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""BIS_TK_INS""]] call hull_unit_fnc_init;";
 		};
 		class Item6
 		{
@@ -2036,7 +2036,7 @@ class Mission
 			side="EMPTY";
 			vehicle="V3S_TK_GUE_EP1";
 			skill=0.2;
-			init="[this, [""Truck"", ""AKM""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""BIS_TK_INS""]] call hull_unit_fnc_init;";
 		};
 		class Item7
 		{
@@ -2046,7 +2046,7 @@ class Mission
 			side="EMPTY";
 			vehicle="V3S_TK_GUE_EP1";
 			skill=0.2;
-			init="[this, [""Truck"", ""AKM""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""BIS_TK_INS""]] call hull_unit_fnc_init;";
 		};
 		class Item8
 		{
@@ -2056,7 +2056,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BTR40_TK_INS_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""AKM""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_TK_INS""]] call hull_unit_fnc_init;";
 		};
 		class Item9
 		{
@@ -2066,7 +2066,7 @@ class Mission
 			side="EMPTY";
 			vehicle="V3S_TK_GUE_EP1";
 			skill=0.2;
-			init="[this, [""Truck"", ""AKM""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""BIS_TK_INS""]] call hull_unit_fnc_init;";
 		};
 		class Item10
 		{
@@ -2076,7 +2076,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BRDM2_TK_GUE_EP1";
 			skill=0.2;
-			init="[this, [""Armored"", ""AKM""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""BIS_TK_INS""]] call hull_unit_fnc_init;";
 		};
 		class Item11
 		{
@@ -2086,7 +2086,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BRDM2_TK_GUE_EP1";
 			skill=0.2;
-			init="[this, [""Armored"", ""AKM""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""BIS_TK_INS""]] call hull_unit_fnc_init;";
 		};
 		class Item12
 		{
@@ -2096,7 +2096,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BRDM2_TK_GUE_EP1";
 			skill=0.2;
-			init="[this, [""Armored"", ""AKM""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""BIS_TK_INS""]] call hull_unit_fnc_init;";
 		};
 		class Item13
 		{
@@ -2106,7 +2106,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BRDM2_TK_GUE_EP1";
 			skill=0.2;
-			init="[this, [""Armored"", ""AKM""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""BIS_TK_INS""]] call hull_unit_fnc_init;";
 		};
 		class Item14
 		{
