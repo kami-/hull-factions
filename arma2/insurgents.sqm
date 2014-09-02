@@ -75,7 +75,7 @@ class Mission
 					special="NONE";
 					id=0;
 					side="EAST";
-					vehicle="Ins_Commander";
+					vehicle="Ins_Soldier_CO";
 					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
@@ -104,7 +104,7 @@ class Mission
 					special="NONE";
 					id=2;
 					side="EAST";
-					vehicle="Ins_Commander";
+					vehicle="Ins_Soldier_CO";
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.5;
