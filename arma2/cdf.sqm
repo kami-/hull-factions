@@ -2007,7 +2007,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UAZ_CDF";
 			skill=0.2;
-			init="[this, [""Car"", ""AK74""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""CDF""]] call hull_unit_fnc_init;";
 		};
 		class Item1
 		{
@@ -2017,7 +2017,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UAZ_CDF";
 			skill=0.2;
-			init="[this, [""Car"", ""AK74""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""CDF""]] call hull_unit_fnc_init;";
 		};
 		class Item2
 		{
@@ -2027,7 +2027,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UAZ_CDF";
 			skill=0.2;
-			init="[this, [""Car"", ""AK74""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""CDF""]] call hull_unit_fnc_init;";
 		};
 		class Item3
 		{
@@ -2037,7 +2037,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UAZ_CDF";
 			skill=0.2;
-			init="[this, [""Car"", ""AK74""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""CDF""]] call hull_unit_fnc_init;";
 		};
 		class Item4
 		{
@@ -2047,7 +2047,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UAZ_CDF";
 			skill=0.2;
-			init="[this, [""Car"", ""AK74""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""CDF""]] call hull_unit_fnc_init;";
 		};
 		class Item5
 		{
@@ -2057,7 +2057,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UralOpen_CDF";
 			skill=1;
-			init="[this, [""Truck"", ""AK74""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""CDF""]] call hull_unit_fnc_init;";
 		};
 		class Item6
 		{
@@ -2067,7 +2067,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UralOpen_CDF";
 			skill=1;
-			init="[this, [""Truck"", ""AK74""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""CDF""]] call hull_unit_fnc_init;";
 		};
 		class Item7
 		{
@@ -2077,7 +2077,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UralOpen_CDF";
 			skill=1;
-			init="[this, [""Truck"", ""AK74""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""CDF""]] call hull_unit_fnc_init;";
 		};
 		class Item8
 		{
@@ -2087,7 +2087,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UAZ_CDF";
 			skill=0.2;
-			init="[this, [""Car"", ""AK74""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""CDF""]] call hull_unit_fnc_init;";
 		};
 		class Item9
 		{
@@ -2097,7 +2097,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UralOpen_CDF";
 			skill=1;
-			init="[this, [""Truck"", ""AK74""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""CDF""]] call hull_unit_fnc_init;";
 		};
 		class Item10
 		{
@@ -2107,7 +2107,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BMP2_CDF";
 			skill=0.2;
-			init="[this, [""Armored"", ""AK74""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""CDF""]] call hull_unit_fnc_init;";
 		};
 		class Item11
 		{
@@ -2117,7 +2117,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BMP2_CDF";
 			skill=0.2;
-			init="[this, [""Armored"", ""AK74""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""CDF""]] call hull_unit_fnc_init;";
 		};
 		class Item12
 		{
@@ -2127,7 +2127,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BMP2_CDF";
 			skill=0.2;
-			init="[this, [""Armored"", ""AK74""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""CDF""]] call hull_unit_fnc_init;";
 		};
 		class Item13
 		{
@@ -2137,7 +2137,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BMP2_CDF";
 			skill=0.2;
-			init="[this, [""Armored"", ""AK74""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""CDF""]] call hull_unit_fnc_init;";
 		};
 		class Item14
 		{
