@@ -1983,7 +1983,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UAZ_RU";
 			skill=0.2;
-			init="[this, [""Car"", ""A74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item1
 		{
@@ -1993,7 +1993,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UAZ_RU";
 			skill=0.2;
-			init="[this, [""Car"", ""A74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item2
 		{
@@ -2003,7 +2003,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UAZ_RU";
 			skill=0.2;
-			init="[this, [""Car"", ""A74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item3
 		{
@@ -2013,7 +2013,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UAZ_RU";
 			skill=0.2;
-			init="[this, [""Car"", ""A74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item4
 		{
@@ -2023,7 +2023,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UAZ_RU";
 			skill=0.2;
-			init="[this, [""Car"", ""A74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item5
 		{
@@ -2033,7 +2033,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Kamaz";
 			skill=1;
-			init="[this, [""Truck"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item6
 		{
@@ -2043,7 +2043,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Kamaz";
 			skill=1;
-			init="[this, [""Truck"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item7
 		{
@@ -2053,7 +2053,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Kamaz";
 			skill=1;
-			init="[this, [""Truck"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item8
 		{
@@ -2063,7 +2063,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UAZ_RU";
 			skill=0.2;
-			init="[this, [""Car"", ""A74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item9
 		{
@@ -2073,7 +2073,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Kamaz";
 			skill=1;
-			init="[this, [""Truck"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item10
 		{
@@ -2083,7 +2083,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BMP3";
 			skill=0.2;
-			init="[this, [""Armored"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item11
 		{
@@ -2093,7 +2093,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BMP3";
 			skill=0.2;
-			init="[this, [""Armored"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item12
 		{
@@ -2103,7 +2103,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BMP3";
 			skill=0.2;
-			init="[this, [""Armored"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item13
 		{
@@ -2113,7 +2113,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BMP3";
 			skill=0.2;
-			init="[this, [""Armored"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item14
 		{

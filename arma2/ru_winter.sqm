@@ -1983,7 +1983,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RW_BMP3";
 			skill=0.2;
-			init="[this, [""Armored"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item1
 		{
@@ -2038,7 +2038,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RW_BMP3";
 			skill=0.2;
-			init="[this, [""Armored"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item7
 		{
@@ -2048,7 +2048,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RW_BMP3";
 			skill=0.2;
-			init="[this, [""Armored"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item8
 		{
@@ -2058,7 +2058,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RW_BMP3";
 			skill=0.2;
-			init="[this, [""Armored"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item9
 		{
@@ -2068,7 +2068,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RW_Kamaz";
 			skill=1;
-			init="[this, [""Truck"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item10
 		{
@@ -2078,7 +2078,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RW_UAZ_RU";
 			skill=1;
-			init="[this, [""Car"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item11
 		{
@@ -2088,7 +2088,6 @@ class Mission
 			side="EMPTY";
 			vehicle="RW_T90";
 			skill=0.2;
-			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
 		};
 		class Item12
 		{
@@ -2098,7 +2097,6 @@ class Mission
 			side="EMPTY";
 			vehicle="RW_T90";
 			skill=0.2;
-			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
 		};
 		class Item13
 		{
@@ -2108,7 +2106,6 @@ class Mission
 			side="EMPTY";
 			vehicle="RW_T90";
 			skill=0.2;
-			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
 		};
 		class Item14
 		{
@@ -2118,7 +2115,6 @@ class Mission
 			side="EMPTY";
 			vehicle="RW_T90";
 			skill=0.2;
-			init="nul = [""v_ifv"",this] call f_fnc_assignGear;";
 		};
 		class Item15
 		{
@@ -2128,7 +2124,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RW_UAZ_RU";
 			skill=1;
-			init="[this, [""Car"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item16
 		{
@@ -2138,7 +2134,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RW_UAZ_RU";
 			skill=1;
-			init="[this, [""Car"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item17
 		{
@@ -2148,7 +2144,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RW_UAZ_RU";
 			skill=1;
-			init="[this, [""Car"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item18
 		{
@@ -2158,7 +2154,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RW_UAZ_RU";
 			skill=1;
-			init="[this, [""Car"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item19
 		{
@@ -2168,7 +2164,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RW_UAZ_RU";
 			skill=1;
-			init="[this, [""Car"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item20
 		{
@@ -2178,7 +2174,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RW_Kamaz";
 			skill=1;
-			init="[this, [""Truck"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item21
 		{
@@ -2188,7 +2184,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RW_Kamaz";
 			skill=1;
-			init="[this, [""Truck"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""RU""]] call hull_unit_fnc_init;";
 		};
 		class Item22
 		{
@@ -2198,7 +2194,7 @@ class Mission
 			side="EMPTY";
 			vehicle="RW_Kamaz";
 			skill=1;
-			init="[this, [""Truck"", ""AK74M""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""RU""]] call hull_unit_fnc_init;";
 		};
 	};
 };
