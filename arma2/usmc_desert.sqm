@@ -1962,7 +1962,7 @@ class Mission
 			side="EMPTY";
 			vehicle="HMMWV_DES_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""M4SOC""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""USMC""]] call hull_unit_fnc_init;";
 		};
 		class Item1
 		{
@@ -1972,7 +1972,7 @@ class Mission
 			side="EMPTY";
 			vehicle="HMMWV_DES_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""M4SOC""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""USMC""]] call hull_unit_fnc_init;";
 		};
 		class Item2
 		{
@@ -1982,7 +1982,7 @@ class Mission
 			side="EMPTY";
 			vehicle="HMMWV_DES_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""M4SOC""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""USMC""]] call hull_unit_fnc_init;";
 		};
 		class Item3
 		{
@@ -1992,7 +1992,7 @@ class Mission
 			side="EMPTY";
 			vehicle="HMMWV_DES_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""M4SOC""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""USMC""]] call hull_unit_fnc_init;";
 		};
 		class Item4
 		{
@@ -2002,7 +2002,7 @@ class Mission
 			side="EMPTY";
 			vehicle="HMMWV_DES_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""M4SOC""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""USMC""]] call hull_unit_fnc_init;";
 		};
 		class Item5
 		{
@@ -2012,7 +2012,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MTVR_DES_EP1";
 			skill=1;
-			init="[this, [""Truck"", ""M4SOC""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""USMC""]] call hull_unit_fnc_init;";
 		};
 		class Item6
 		{
@@ -2022,7 +2022,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MTVR_DES_EP1";
 			skill=1;
-			init="[this, [""Truck"", ""M4SOC""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""USMC""]] call hull_unit_fnc_init;";
 		};
 		class Item7
 		{
@@ -2032,7 +2032,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MTVR_DES_EP1";
 			skill=1;
-			init="[this, [""Truck"", ""M4SOC""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""USMC""]] call hull_unit_fnc_init;";
 		};
 		class Item8
 		{
@@ -2042,7 +2042,7 @@ class Mission
 			side="EMPTY";
 			vehicle="HMMWV_DES_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""M4SOC""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""USMC""]] call hull_unit_fnc_init;";
 		};
 		class Item9
 		{
@@ -2052,7 +2052,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MTVR_DES_EP1";
 			skill=1;
-			init="[this, [""Truck"", ""M4SOC""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""USMC""]] call hull_unit_fnc_init;";
 		};
 		class Item10
 		{
@@ -2062,7 +2062,7 @@ class Mission
 			side="EMPTY";
 			vehicle="M2A3_EP1";
 			skill=0.2;
-			init="[this, [""Armored"", ""M4SOC""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""USMC""]] call hull_unit_fnc_init;";
 		};
 		class Item11
 		{
@@ -2117,7 +2117,7 @@ class Mission
 			side="EMPTY";
 			vehicle="M2A3_EP1";
 			skill=0.2;
-			init="[this, [""Armored"", ""M4SOC""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""USMC""]] call hull_unit_fnc_init;";
 		};
 		class Item17
 		{
@@ -2127,7 +2127,7 @@ class Mission
 			side="EMPTY";
 			vehicle="M2A3_EP1";
 			skill=0.2;
-			init="[this, [""Armored"", ""M4SOC""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""USMC""]] call hull_unit_fnc_init;";
 		};
 		class Item18
 		{
@@ -2137,7 +2137,7 @@ class Mission
 			side="EMPTY";
 			vehicle="M2A3_EP1";
 			skill=0.2;
-			init="[this, [""Armored"", ""M4SOC""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""USMC""]] call hull_unit_fnc_init;";
 		};
 		class Item19
 		{
