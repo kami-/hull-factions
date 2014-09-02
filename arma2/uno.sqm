@@ -1554,7 +1554,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UAZ_Unarmed_UN_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""M16A2""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_UN""]] call hull_unit_fnc_init;";
 		};
 		class Item1
 		{
@@ -1564,7 +1564,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UAZ_Unarmed_UN_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""M16A2""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_UN""]] call hull_unit_fnc_init;";
 		};
 		class Item2
 		{
@@ -1574,7 +1574,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UAZ_Unarmed_UN_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""M16A2""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_UN""]] call hull_unit_fnc_init;";
 		};
 		class Item3
 		{
@@ -1584,7 +1584,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UAZ_Unarmed_UN_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""M16A2""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_UN""]] call hull_unit_fnc_init;";
 		};
 		class Item4
 		{
@@ -1594,7 +1594,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UAZ_Unarmed_UN_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""M16A2""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_UN""]] call hull_unit_fnc_init;";
 		};
 		class Item5
 		{
@@ -1604,7 +1604,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Ural_UN_EP1";
 			skill=0.2;
-			init="[this, [""Truck"", ""M16A2""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""BIS_UN""]] call hull_unit_fnc_init;";
 		};
 		class Item6
 		{
@@ -1614,7 +1614,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Ural_UN_EP1";
 			skill=0.2;
-			init="[this, [""Truck"", ""M16A2""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""BIS_UN""]] call hull_unit_fnc_init;";
 		};
 		class Item7
 		{
@@ -1624,7 +1624,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Ural_UN_EP1";
 			skill=0.2;
-			init="[this, [""Truck"", ""M16A2""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""BIS_UN""]] call hull_unit_fnc_init;";
 		};
 		class Item8
 		{
@@ -1634,7 +1634,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UAZ_Unarmed_UN_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""M16A2""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_UN""]] call hull_unit_fnc_init;";
 		};
 		class Item9
 		{
@@ -1644,7 +1644,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Ural_UN_EP1";
 			skill=0.2;
-			init="[this, [""Truck"", ""M16A2""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""BIS_UN""]] call hull_unit_fnc_init;";
 		};
 		class Item10
 		{
