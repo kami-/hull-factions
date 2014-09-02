@@ -81,7 +81,7 @@ class Mission
 					player="PLAY CDG";
 					rank="SERGEANT";
 					skill=0.5;
-					init="[this, [""XO""]] call hull_unit_fnc_init; [this] call hull_marker_fnc_addXoMarker;";
+					init="[this, [""XO""], [""XO"", ""ColorBlack""]] call hull_unit_fnc_init;";
 					description="NAPA Executive officer";
 				};
 				class Item3
