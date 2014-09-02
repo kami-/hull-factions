@@ -1545,7 +1545,7 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_CZ""]] call hull_unit_fnc_init;";
 		};
 		class Item1
 		{
@@ -1605,7 +1605,7 @@ class Mission
 			vehicle="LandRover_Special_CZ_EP1";
 			leader=1;
 			skill=0.5;
-			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_CZ""]] call hull_unit_fnc_init;";
 			description="Czech army Alpha 1 Fireteam Leader";
 		};
 		class Item6
@@ -1616,7 +1616,7 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_CZ""]] call hull_unit_fnc_init;";
 		};
 		class Item7
 		{
@@ -1626,7 +1626,7 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_CZ""]] call hull_unit_fnc_init;";
 		};
 		class Item8
 		{
@@ -1636,7 +1636,7 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_CZ""]] call hull_unit_fnc_init;";
 		};
 		class Item9
 		{
@@ -1648,7 +1648,7 @@ class Mission
 			vehicle="LandRover_Special_CZ_EP1";
 			leader=1;
 			skill=0.5;
-			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_CZ""]] call hull_unit_fnc_init;";
 			description="Czech army Alpha 1 Fireteam Leader";
 		};
 		class Item10
@@ -1661,7 +1661,7 @@ class Mission
 			vehicle="LandRover_Special_CZ_EP1";
 			leader=1;
 			skill=0.5;
-			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_CZ""]] call hull_unit_fnc_init;";
 			description="Czech army Alpha 1 Fireteam Leader";
 		};
 		class Item11
@@ -1674,7 +1674,7 @@ class Mission
 			vehicle="LandRover_Special_CZ_EP1";
 			leader=1;
 			skill=0.5;
-			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_CZ""]] call hull_unit_fnc_init;";
 			description="Czech army Alpha 1 Fireteam Leader";
 		};
 		class Item12
@@ -1685,7 +1685,7 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_CZ""]] call hull_unit_fnc_init;";
 		};
 		class Item13
 		{
@@ -1695,7 +1695,7 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_CZ""]] call hull_unit_fnc_init;";
 		};
 		class Item14
 		{
@@ -1705,7 +1705,7 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_CZ""]] call hull_unit_fnc_init;";
 		};
 		class Item15
 		{
@@ -1715,7 +1715,7 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_CZ""]] call hull_unit_fnc_init;";
 		};
 		class Item16
 		{
@@ -1725,7 +1725,7 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_CZ""]] call hull_unit_fnc_init;";
 		};
 		class Item17
 		{
@@ -1735,7 +1735,7 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_CZ""]] call hull_unit_fnc_init;";
 		};
 		class Item18
 		{
@@ -1745,7 +1745,7 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_CZ""]] call hull_unit_fnc_init;";
 		};
 		class Item19
 		{
@@ -1755,7 +1755,7 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_CZ""]] call hull_unit_fnc_init;";
 		};
 		class Item20
 		{
@@ -1765,7 +1765,7 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_CZ""]] call hull_unit_fnc_init;";
 		};
 		class Item21
 		{
@@ -1775,7 +1775,7 @@ class Mission
 			side="EMPTY";
 			vehicle="LandRover_CZ_EP1";
 			skill=0.2;
-			init="[this, [""Car"", ""SA58""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_CZ""]] call hull_unit_fnc_init;";
 		};
 	};
 };
