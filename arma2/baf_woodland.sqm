@@ -1979,7 +1979,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=22;
+		items=23;
 		class Item0
 		{
 			position[]={1209.5938,136.15948,4143.7788};
@@ -1988,7 +1988,7 @@ class Mission
 			side="EMPTY";
 			vehicle="ACE_Truck5t";
 			skill=1;
-			init="[this, [""Truck"", ""L85""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""BIS_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item1
 		{
@@ -1998,7 +1998,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BAF_FV510_W";
 			skill=0.2;
-			init="[this, [""Armored"", ""L85""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""BIS_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item2
 		{
@@ -2062,7 +2062,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BAF_FV510_W";
 			skill=0.2;
-			init="[this, [""Armored"", ""L85""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""BIS_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item9
 		{
@@ -2072,7 +2072,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BAF_FV510_W";
 			skill=0.2;
-			init="[this, [""Armored"", ""L85""]] call hull_unit_fnc_init;";
+			init="[this, [""Armored"", ""BIS_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item10
 		{
@@ -2109,7 +2109,7 @@ class Mission
 			side="EMPTY";
 			vehicle="ACE_Truck5t";
 			skill=1;
-			init="[this, [""Truck"", ""L85""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""BIS_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item14
 		{
@@ -2119,7 +2119,7 @@ class Mission
 			side="EMPTY";
 			vehicle="ACE_Truck5t";
 			skill=1;
-			init="[this, [""Truck"", ""L85""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""BIS_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item15
 		{
@@ -2129,7 +2129,7 @@ class Mission
 			side="EMPTY";
 			vehicle="ACE_Truck5t";
 			skill=1;
-			init="[this, [""Truck"", ""L85""]] call hull_unit_fnc_init;";
+			init="[this, [""Truck"", ""BIS_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item16
 		{
@@ -2139,7 +2139,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BAF_Offroad_W";
 			skill=0.2;
-			init="[this, [""Car"", ""L85""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item17
 		{
@@ -2149,7 +2149,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BAF_Offroad_W";
 			skill=0.2;
-			init="[this, [""Car"", ""L85""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item18
 		{
@@ -2159,7 +2159,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BAF_Offroad_W";
 			skill=0.2;
-			init="[this, [""Car"", ""L85""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item19
 		{
@@ -2169,7 +2169,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BAF_Offroad_W";
 			skill=0.2;
-			init="[this, [""Car"", ""L85""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item20
 		{
@@ -2179,7 +2179,7 @@ class Mission
 			side="EMPTY";
 			vehicle="BAF_Offroad_W";
 			skill=0.2;
-			init="[this, [""Car"", ""L85""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item21
 		{
@@ -2189,7 +2189,17 @@ class Mission
 			side="EMPTY";
 			vehicle="BAF_Offroad_W";
 			skill=0.2;
-			init="[this, [""Car"", ""L85""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""BIS_BAF""]] call hull_unit_fnc_init;";
+		};
+		class Item22
+		{
+			position[]={1204.5725,364.27368,4064.0081};
+			azimut=0.32468101;
+			id=139;
+			side="EMPTY";
+			vehicle="BAF_FV510_W";
+			skill=0.2;
+			init="[this, [""Armored"", ""BIS_BAF""]] call hull_unit_fnc_init;";
 		};
 	};
 };
