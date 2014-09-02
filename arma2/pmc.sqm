@@ -1612,7 +1612,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SUV_PMC_BAF";
 			skill=0.2;
-			init="[this, [""Car"", ""XM8""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""PMC_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item1
 		{
@@ -1622,7 +1622,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SUV_PMC_BAF";
 			skill=0.2;
-			init="[this, [""Car"", ""XM8""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""PMC_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item2
 		{
@@ -1632,7 +1632,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SUV_PMC_BAF";
 			skill=0.2;
-			init="[this, [""Car"", ""XM8""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""PMC_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item3
 		{
@@ -1642,7 +1642,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SUV_PMC_BAF";
 			skill=0.2;
-			init="[this, [""Car"", ""XM8""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""PMC_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item4
 		{
@@ -1652,7 +1652,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SUV_PMC_BAF";
 			skill=0.2;
-			init="[this, [""Car"", ""XM8""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""PMC_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item5
 		{
@@ -1662,7 +1662,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SUV_PMC_BAF";
 			skill=0.2;
-			init="[this, [""Car"", ""XM8""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""PMC_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item6
 		{
@@ -1717,7 +1717,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SUV_PMC_BAF";
 			skill=0.2;
-			init="[this, [""Car"", ""XM8""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""PMC_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item12
 		{
@@ -1727,7 +1727,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SUV_PMC_BAF";
 			skill=0.2;
-			init="[this, [""Car"", ""XM8""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""PMC_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item13
 		{
@@ -1737,7 +1737,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SUV_PMC_BAF";
 			skill=0.2;
-			init="[this, [""Car"", ""XM8""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""PMC_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item14
 		{
@@ -1747,7 +1747,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SUV_PMC_BAF";
 			skill=0.2;
-			init="[this, [""Car"", ""XM8""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""PMC_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item15
 		{
@@ -1757,7 +1757,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SUV_PMC_BAF";
 			skill=0.2;
-			init="[this, [""Car"", ""XM8""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""PMC_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item16
 		{
@@ -1767,7 +1767,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SUV_PMC_BAF";
 			skill=0.2;
-			init="[this, [""Car"", ""XM8""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""PMC_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item17
 		{
@@ -1777,7 +1777,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SUV_PMC_BAF";
 			skill=0.2;
-			init="[this, [""Car"", ""XM8""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""PMC_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item18
 		{
@@ -1787,7 +1787,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SUV_PMC_BAF";
 			skill=0.2;
-			init="[this, [""Car"", ""XM8""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""PMC_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item19
 		{
@@ -1797,7 +1797,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SUV_PMC_BAF";
 			skill=0.2;
-			init="[this, [""Car"", ""XM8""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""PMC_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item20
 		{
@@ -1807,7 +1807,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SUV_PMC_BAF";
 			skill=0.2;
-			init="[this, [""Car"", ""XM8""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""PMC_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item21
 		{
@@ -1817,7 +1817,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SUV_PMC_BAF";
 			skill=0.2;
-			init="[this, [""Car"", ""XM8""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""PMC_BAF""]] call hull_unit_fnc_init;";
 		};
 		class Item22
 		{
@@ -1827,7 +1827,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SUV_PMC_BAF";
 			skill=0.2;
-			init="[this, [""Car"", ""XM8""]] call hull_unit_fnc_init;";
+			init="[this, [""Car"", ""PMC_BAF""]] call hull_unit_fnc_init;";
 		};
 	};
 };
