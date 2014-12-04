@@ -1,0 +1,1942 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"takistan",
+		"i44_base_m",
+		"i44_base_v"
+	};
+	addOnsAuto[]=
+	{
+		"i44_base_m",
+		"i44_base_v",
+		"takistan"
+	};
+	randomSeed=3165154;
+	class Intel
+	{
+		briefingName="*** Mission Name ***";
+		briefingDescription="*** Mission Description ***";
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=8;
+		minute=0;
+	};
+	class Groups
+	{
+		items=32;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={459.72083,527.11029,679.55511};
+					azimut=1.4615099;
+					special="NONE";
+					id=0;
+					side="WEST";
+					vehicle="I44_Man_A_Army_CO_M1Carbine";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.5;
+					init="[this, [""CO""], [""CO"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="US Army Commander";
+				};
+				class Item1
+				{
+					position[]={462.89661,528.28857,677.03656};
+					azimut=1.4615099;
+					special="NONE";
+					id=1;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""CoM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="US Army Medic";
+				};
+				class Item2
+				{
+					position[]={467.15167,528.72021,676.98004};
+					azimut=1.4615099;
+					special="NONE";
+					id=2;
+					side="WEST";
+					vehicle="I44_Man_A_Army_RTO_M1Carbine";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.5;
+					init="[this, [""RTO""], [""RTO"", ""ColorYellow""]] call hull_unit_fnc_init;";
+					description="US Army RTO";
+				};
+				class Item3
+				{
+					position[]={471.65118,529.96515,677.0235};
+					azimut=1.4615099;
+					special="NONE";
+					id=3;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1Garand";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Rifleman""]] call hull_unit_fnc_init;";
+					description="US Army Platoon Rifleman";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={480.83606,546.46936,648.57806};
+					azimut=1.4615099;
+					special="NONE";
+					id=4;
+					side="WEST";
+					vehicle="I44_Man_A_Army_CO_M1Carbine";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""ASL"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="US Army Able Squad Leader";
+				};
+				class Item1
+				{
+					position[]={483.18079,549.0249,645.54437};
+					azimut=1.4615099;
+					special="NONE";
+					id=5;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""AM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="US Army Able Medic";
+				};
+			};
+		};
+		class Item2
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={479.52649,559.19025,625.24164};
+					azimut=1.4615099;
+					special="NONE";
+					id=6;
+					side="WEST";
+					vehicle="I44_Man_A_Army_NCO_M1A1Thompson";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="US Army Able 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={481.87024,561.71338,622.20648};
+					azimut=1.4615099;
+					special="NONE";
+					id=7;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1918A2";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="US Army Able 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={484.61829,562.91785,621.9931};
+					azimut=1.4615099;
+					special="NONE";
+					id=8;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1Garand";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="US Army Able 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={488.0509,564.2467,621.87738};
+					azimut=1.4615099;
+					special="NONE";
+					id=9;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1A1Bazooka";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="US Army Able 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item3
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={479.75598,572.52917,600.50287};
+					azimut=1.4615099;
+					special="NONE";
+					id=10;
+					side="WEST";
+					vehicle="I44_Man_A_Army_NCO_M1A1Thompson";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A2"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="US Army Able 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={482.10071,574.85553,597.4682};
+					azimut=1.4615099;
+					special="NONE";
+					id=11;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1918A2";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="US Army Able 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={484.84875,575.93182,597.25531};
+					azimut=1.4615099;
+					special="NONE";
+					id=12;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1Garand";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="US Army Able 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={488.28235,577.19867,597.13812};
+					azimut=1.4615099;
+					special="NONE";
+					id=13;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1A1Bazooka";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="US Army Able 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item4
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={479.24524,583.53784,577.74164};
+					azimut=1.4615099;
+					special="NONE";
+					id=14;
+					side="WEST";
+					vehicle="I44_Man_A_Army_NCO_M1A1Thompson";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""A3"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="US Army Able 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={481.59094,585.84113,574.70648};
+					azimut=1.4615099;
+					special="NONE";
+					id=15;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1918A2";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="US Army Able 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={484.33899,586.81982,574.49457};
+					azimut=1.4615099;
+					special="NONE";
+					id=16;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1Garand";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="US Army Able 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={487.77258,587.97247,574.37689};
+					azimut=1.4615099;
+					special="NONE";
+					id=17;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1A1Bazooka";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="US Army Able 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item5
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={514.47131,557.8114,648.41791};
+					azimut=1.4615099;
+					special="NONE";
+					id=18;
+					side="WEST";
+					vehicle="I44_Man_A_Army_CO_M1Carbine";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""BSL"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="US Army Baker Squad Leader";
+				};
+				class Item1
+				{
+					position[]={516.81653,560.19922,645.38373};
+					azimut=1.4615099;
+					special="NONE";
+					id=19;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""BM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="US Army Baker Medic";
+				};
+			};
+		};
+		class Item6
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={513.68372,570.98279,624.16254};
+					azimut=1.4615099;
+					special="NONE";
+					id=20;
+					side="WEST";
+					vehicle="I44_Man_A_Army_NCO_M1A1Thompson";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B1"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="US Army Baker 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={516.02893,573.22345,621.12836};
+					azimut=1.4615099;
+					special="NONE";
+					id=21;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1918A2";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="US Army Baker 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={518.77454,574.07648,620.91498};
+					azimut=1.4615099;
+					special="NONE";
+					id=22;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1Garand";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="US Army Baker 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={522.20813,574.99469,620.79877};
+					azimut=1.4615099;
+					special="NONE";
+					id=23;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1A1Bazooka";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="US Army Baker 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item7
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={513.21985,583.59192,599.69379};
+					azimut=1.4615099;
+					special="NONE";
+					id=24;
+					side="WEST";
+					vehicle="I44_Man_A_Army_NCO_M1A1Thompson";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="US Army Baker 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={515.56506,585.64362,596.65912};
+					azimut=1.4615099;
+					special="NONE";
+					id=25;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1918A2";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="US Army Baker 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={518.31262,586.4032,596.44672};
+					azimut=1.4615099;
+					special="NONE";
+					id=26;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1Garand";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="US Army Baker 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={521.74622,587.30725,596.33051};
+					azimut=1.4615099;
+					special="NONE";
+					id=27;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1A1Bazooka";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="US Army Baker 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item8
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={512.46692,594.41418,576.52777};
+					azimut=1.4615099;
+					special="NONE";
+					id=28;
+					side="WEST";
+					vehicle="I44_Man_A_Army_NCO_M1A1Thompson";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""B3"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="US Army Baker 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={514.81311,596.47388,573.49359};
+					azimut=1.4615099;
+					special="NONE";
+					id=29;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1918A2";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="US Army Baker 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={517.55969,597.3252,573.28119};
+					azimut=1.4615099;
+					special="NONE";
+					id=30;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1Garand";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="US Army Baker 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={520.99231,598.27484,573.16351};
+					azimut=1.4615099;
+					special="NONE";
+					id=31;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1A1Bazooka";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="US Army Baker 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item9
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={545.0636,569.01117,647.11371};
+					azimut=1.4615099;
+					special="NONE";
+					id=32;
+					side="WEST";
+					vehicle="I44_Man_A_Army_CO_M1Carbine";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""CSL"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="US Army Charlie Squad Leader";
+				};
+				class Item1
+				{
+					position[]={547.40833,571.26025,644.07806};
+					azimut=1.4615099;
+					special="NONE";
+					id=33;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""CM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="US Army Charlie Medic";
+				};
+			};
+		};
+		class Item10
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={545.09973,579.74219,624.00873};
+					azimut=1.4615099;
+					special="NONE";
+					id=34;
+					side="WEST";
+					vehicle="I44_Man_A_Army_NCO_M1A1Thompson";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C1"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="US Army Charlie 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={547.44641,581.78503,620.97504};
+					azimut=1.4615099;
+					special="NONE";
+					id=35;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1918A2";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="US Army Charlie 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={550.19446,582.70526,620.76166};
+					azimut=1.4615099;
+					special="NONE";
+					id=36;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1Garand";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="US Army Charlie 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={553.62708,583.82184,620.64545};
+					azimut=1.4615099;
+					special="NONE";
+					id=37;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1A1Bazooka";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="US Army Charlie 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item11
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={544.672,591.33423,599.34125};
+					azimut=1.4615099;
+					special="NONE";
+					id=38;
+					side="WEST";
+					vehicle="I44_Man_A_Army_NCO_M1A1Thompson";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C2"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="US Army Charlie 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={547.0177,593.40839,596.30707};
+					azimut=1.4615099;
+					special="NONE";
+					id=39;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1918A2";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="US Army Charlie 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={549.76477,594.14514,596.09369};
+					azimut=1.4615099;
+					special="NONE";
+					id=40;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1Garand";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="US Army Charlie 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={553.19739,594.96381,595.97797};
+					azimut=1.4615099;
+					special="NONE";
+					id=41;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1A1Bazooka";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="US Army Charlie 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item12
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={544.07922,602.69482,576.08197};
+					azimut=1.4615099;
+					special="NONE";
+					id=42;
+					side="WEST";
+					vehicle="I44_Man_A_Army_NCO_M1A1Thompson";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""C3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="US Army Charlie 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={546.42346,604.57489,573.04779};
+					azimut=1.4615099;
+					special="NONE";
+					id=43;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1918A2";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="US Army Charlie 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={549.172,605.2215,572.83539};
+					azimut=1.4615099;
+					special="NONE";
+					id=44;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1Garand";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="US Army Charlie 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={552.60461,605.89764,572.71869};
+					azimut=1.4615099;
+					special="NONE";
+					id=45;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1A1Bazooka";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="US Army Charlie 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item13
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={577.69348,582.03552,646.60712};
+					azimut=1.4615099;
+					special="NONE";
+					id=54;
+					side="WEST";
+					vehicle="I44_Man_A_Army_CO_M1Carbine";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""SL""], [""DSL"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="US Army Dog Squad Leader";
+				};
+				class Item1
+				{
+					position[]={580.03821,583.86664,643.57147};
+					azimut=1.4615099;
+					special="NONE";
+					id=55;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Medic";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""Medic""], [""DM"", ""ColorBlack""]] call hull_unit_fnc_init;";
+					description="US Army Dog Medic";
+				};
+			};
+		};
+		class Item14
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={577.72961,590.02124,623.50214};
+					azimut=1.4615099;
+					special="NONE";
+					id=56;
+					side="WEST";
+					vehicle="I44_Man_A_Army_NCO_M1A1Thompson";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D1"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="US Army Dog 1 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={580.07629,591.68439,620.46844};
+					azimut=1.4615099;
+					special="NONE";
+					id=57;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1918A2";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="US Army Dog 1 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={582.82434,592.45587,620.25507};
+					azimut=1.4615099;
+					special="NONE";
+					id=58;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1Garand";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="US Army Dog 1 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={586.25696,593.2627,620.13885};
+					azimut=1.4615099;
+					special="NONE";
+					id=59;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1A1Bazooka";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="US Army Dog 1 Rifleman (AT)";
+				};
+			};
+		};
+		class Item15
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={577.30188,598.93628,598.83466};
+					azimut=1.4615099;
+					special="NONE";
+					id=60;
+					side="WEST";
+					vehicle="I44_Man_A_Army_NCO_M1A1Thompson";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D2"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="US Army Dog 2 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={579.64758,600.42859,595.80048};
+					azimut=1.4615099;
+					special="NONE";
+					id=61;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1918A2";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="US Army Dog 2 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={582.39465,600.7691,595.5871};
+					azimut=1.4615099;
+					special="NONE";
+					id=62;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1Garand";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="US Army Dog 2 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={585.82727,600.80414,595.47137};
+					azimut=1.4615099;
+					special="NONE";
+					id=63;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1A1Bazooka";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="US Army Dog 2 Rifleman (AT)";
+				};
+			};
+		};
+		class Item16
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={576.70911,608.17499,575.57538};
+					azimut=1.4615099;
+					special="NONE";
+					id=64;
+					side="WEST";
+					vehicle="I44_Man_A_Army_NCO_M1A1Thompson";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""FTL""], [""D3"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="US Army Dog 3 Fireteam Leader";
+				};
+				class Item1
+				{
+					position[]={579.05334,609.13025,572.5412};
+					azimut=1.4615099;
+					special="NONE";
+					id=65;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1918A2";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""AR""]] call hull_unit_fnc_init;";
+					description="US Army Dog 3 Automatic Rifleman";
+				};
+				class Item2
+				{
+					position[]={581.80188,608.91766,572.3288};
+					azimut=1.4615099;
+					special="NONE";
+					id=66;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1Garand";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""AAR""]] call hull_unit_fnc_init;";
+					description="US Army Dog 3 Assistant Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={585.2345,608.05981,572.2121};
+					azimut=1.4615099;
+					special="NONE";
+					id=67;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1A1Bazooka";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""RAT""]] call hull_unit_fnc_init;";
+					description="US Army Dog 3 Rifleman (AT)";
+				};
+			};
+		};
+		class Item17
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={611.63098,592.08807,648.49359};
+					azimut=1.4615099;
+					special="NONE";
+					id=70;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1919A4";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MMGG""], [""MMG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="US Army Medium MG Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={614.80676,593.32269,645.97601};
+					azimut=1.4615099;
+					special="NONE";
+					id=71;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1Garand";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MMGAG""]] call hull_unit_fnc_init;";
+					description="US Army Medium MG Team 1 Assistant Gunner";
+				};
+			};
+		};
+		class Item18
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={610.38831,595.97668,629.82758};
+					azimut=1.4615099;
+					special="NONE";
+					id=72;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1919A4";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MMGG""], [""MMG2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="US Army Medium MG Team 2 Gunner";
+				};
+				class Item1
+				{
+					position[]={613.56409,597.10846,627.31};
+					azimut=1.4615099;
+					special="NONE";
+					id=73;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1Garand";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MMGAG""]] call hull_unit_fnc_init;";
+					description="US Army Medium MG Team 2 Assistant Gunner";
+				};
+			};
+		};
+		class Item19
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={610.96204,600.24158,611.40985};
+					azimut=1.4615099;
+					special="NONE";
+					id=74;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1A1Bazooka";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MATG""], [""MAT1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="US Army Medium AT Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={614.13684,600.73688,608.89227};
+					azimut=1.4615099;
+					special="NONE";
+					id=75;
+					side="WEST";
+					vehicle="I44_Man_A_Army_ATCrew_M3";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAG""]] call hull_unit_fnc_init;";
+					description="US Army Medium AT Team 1 Assistant Gunner";
+				};
+			};
+		};
+		class Item20
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={610.27454,601.18286,592.9223};
+					azimut=1.4615099;
+					special="NONE";
+					id=76;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1A1Bazooka";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""MATG""], [""MAT2"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="US Army Medium AT Team 2 Gunner";
+				};
+				class Item1
+				{
+					position[]={613.44934,600.94122,590.40472};
+					azimut=1.4615099;
+					special="NONE";
+					id=77;
+					side="WEST";
+					vehicle="I44_Man_A_Army_ATCrew_M3";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""MATAG""]] call hull_unit_fnc_init;";
+					description="US Army Medium AT Team 2 Assistant Gunner";
+				};
+			};
+		};
+		class Item21
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={631.29651,595.22516,648.04559};
+					azimut=1.4615099;
+					special="NONE";
+					id=78;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1919A4";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""HMGG""], [""HMG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="US Army Heavy MG Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={634.88245,595.87238,645.54315};
+					azimut=1.4615099;
+					special="NONE";
+					id=79;
+					side="WEST";
+					vehicle="I44_Man_A_Army_MGCrew_AG";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HMGAG""]] call hull_unit_fnc_init;";
+					description="US Army Heavy MG Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={629.46936,595.46454,645.17792};
+					azimut=1.4615099;
+					special="NONE";
+					id=84;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1Garand";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HMGAC""]] call hull_unit_fnc_init;";
+					description="US Army Heavy MG Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item22
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={611.10413,601.02972,572.02802};
+					azimut=1.4615099;
+					special="NONE";
+					id=80;
+					side="WEST";
+					vehicle="I44_Man_A_Army_GunCrew_NCO_M1911A1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""HATG""], [""HAT1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="US Army Heavy AT Team 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={614.27795,599.99634,569.51093};
+					azimut=1.4615099;
+					special="NONE";
+					id=81;
+					side="WEST";
+					vehicle="I44_Man_A_Army_GunCrew_M1Carbine";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HATAG""]] call hull_unit_fnc_init;";
+					description="US Army Heavy AT Team 1 Assistant Gunner";
+				};
+				class Item2
+				{
+					position[]={608.84924,601.76428,569.09296};
+					azimut=1.4615099;
+					special="NONE";
+					id=85;
+					side="WEST";
+					vehicle="I44_Man_A_Army_M1Garand";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""HATAC""]] call hull_unit_fnc_init;";
+					description="US Army Heavy AT Team 1 Ammo Carrier";
+				};
+			};
+		};
+		class Item23
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={633.0094,598.03009,593.2431};
+					azimut=1.4615099;
+					special="NONE";
+					id=82;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Engr_M2DemoCharges";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""ENG""], [""ENG1"", ""ColorOrange""]] call hull_unit_fnc_init;";
+					description="US Army Engineer Team 1 Leader";
+				};
+				class Item1
+				{
+					position[]={636.18127,596.94208,590.72552};
+					azimut=1.4615099;
+					special="NONE";
+					id=83;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Engr_M1Mine";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""ENGA""]] call hull_unit_fnc_init;";
+					description="US Army Engineer Team 1 Assistant";
+				};
+				class Item2
+				{
+					position[]={633.20642,597.41504,590.09149};
+					azimut=1.4615099;
+					special="NONE";
+					id=119;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Engr_M1A1Bangalore";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""ENGB""]] call hull_unit_fnc_init;";
+					description="US Army Engineer Team 1 Assistant";
+				};
+				class Item3
+				{
+					position[]={629.97113,598.21545,590.83673};
+					azimut=1.4615099;
+					special="NONE";
+					id=118;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Engr_M2_2";
+					player="PLAY CDG";
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""ENGFT""]] call hull_unit_fnc_init;";
+					description="US Army Engineer Team 1 Flamethrower";
+				};
+			};
+		};
+		class Item24
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={480.02063,599.09241,539.11346};
+					azimut=1.4615099;
+					special="NONE";
+					id=86;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_NCO_M1911A1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""LA1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="US Army Light Armour 1 Commander";
+				};
+				class Item1
+				{
+					position[]={482.01086,600.34778,536.63007};
+					azimut=1.4615099;
+					special="NONE";
+					id=87;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_Eng";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="US Army Light Armour 1 Driver";
+				};
+				class Item2
+				{
+					position[]={484.99622,600.98572,536.58221};
+					azimut=1.4615099;
+					special="NONE";
+					id=88;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_M3Greasegun";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="US Army Light Armour 1 Gunner";
+				};
+			};
+		};
+		class Item25
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={513.3053,606.95892,539.3078};
+					azimut=1.4615099;
+					special="NONE";
+					id=89;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_NCO_M1911A1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""LA2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="US Army Light Armour 2 Commander";
+				};
+				class Item1
+				{
+					position[]={515.29504,608.04608,536.82391};
+					azimut=1.4615099;
+					special="NONE";
+					id=90;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_Eng";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="US Army Light Armour 2 Driver";
+				};
+				class Item2
+				{
+					position[]={518.2804,608.72168,536.77606};
+					azimut=1.4615099;
+					special="NONE";
+					id=91;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_M3Greasegun";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="US Army Light Armour 2 Gunner";
+				};
+			};
+		};
+		class Item26
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={541.02991,612.22284,539.39178};
+					azimut=1.4615099;
+					special="NONE";
+					id=92;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_NCO_M1911A1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""LA3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="US Army Light Armour 3 Commander";
+				};
+				class Item1
+				{
+					position[]={543.02014,612.77643,536.90839};
+					azimut=1.4615099;
+					special="NONE";
+					id=93;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_Eng";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init; ";
+					description="US Army Light Armour 3 Driver";
+				};
+				class Item2
+				{
+					position[]={546.00549,612.48633,536.86053};
+					azimut=1.4615099;
+					special="NONE";
+					id=94;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_M3Greasegun";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="US Army Light Armour 3 Gunner";
+				};
+			};
+		};
+		class Item27
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={574.41809,608.86133,537.61859};
+					azimut=1.4615099;
+					special="NONE";
+					id=98;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_NCO_M1911A1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""LA4"", ""ColorBrown""]] call hull_unit_fnc_init;";
+					description="US Army Light Armour 4 Commander";
+				};
+				class Item1
+				{
+					position[]={576.40833,607.86328,535.13519};
+					azimut=1.4615099;
+					special="NONE";
+					id=99;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_Eng";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="US Army Light Armour 4 Driver";
+				};
+				class Item2
+				{
+					position[]={579.39368,606.96002,535.08734};
+					azimut=1.4615099;
+					special="NONE";
+					id=100;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_M3Greasegun";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="US Army Light Armour 4 Gunner";
+				};
+			};
+		};
+		class Item28
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={475.07581,610.40155,503.82831};
+					azimut=1.4615099;
+					special="NONE";
+					id=102;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_NCO_M1911A1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""HA1"", ""ColorRed""]] call hull_unit_fnc_init;";
+					description="US Army Heavy Armour 1 Commander";
+				};
+				class Item1
+				{
+					position[]={476.83948,611.24072,501.53387};
+					azimut=1.4615099;
+					special="NONE";
+					id=103;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_Eng";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="US Army Heavy Armour 1 Driver";
+				};
+				class Item2
+				{
+					position[]={479.30725,611.26392,501.68524};
+					azimut=1.4615099;
+					special="NONE";
+					id=104;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_M3Greasegun";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="US Army Heavy Armour 1 Gunner";
+				};
+			};
+		};
+		class Item29
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={508.65878,612.19739,503.02264};
+					azimut=1.4615099;
+					special="NONE";
+					id=106;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_NCO_M1911A1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""HA2"", ""ColorBlue""]] call hull_unit_fnc_init;";
+					description="US Army Heavy Armour 2 Commander";
+				};
+				class Item1
+				{
+					position[]={510.42245,612.48083,500.72821};
+					azimut=1.4615099;
+					special="NONE";
+					id=107;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_Eng";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="US Army Heavy Armour 2 Driver";
+				};
+				class Item2
+				{
+					position[]={512.89026,612.56512,500.87958};
+					azimut=1.4615099;
+					special="NONE";
+					id=108;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_M3Greasegun";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="US Army Heavy Armour 2 Gunner";
+				};
+			};
+		};
+		class Item30
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={535.87512,611.98566,501.19452};
+					azimut=1.4615099;
+					special="NONE";
+					id=110;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_NCO_M1911A1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""HA3"", ""ColorGreen""]] call hull_unit_fnc_init;";
+					description="US Army Heavy Armour 3 Commander";
+				};
+				class Item1
+				{
+					position[]={537.63879,611.28748,498.90009};
+					azimut=1.4615099;
+					special="NONE";
+					id=111;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_Eng";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init;";
+					description="US Army Heavy Armour 3 Driver";
+				};
+				class Item2
+				{
+					position[]={540.10657,610.81573,499.05145};
+					azimut=1.4615099;
+					special="NONE";
+					id=112;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_M3Greasegun";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init;";
+					description="US Army Heavy Armour 3 Gunner";
+				};
+			};
+		};
+		class Item31
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={571.21448,601.05469,499.66034};
+					azimut=1.4615099;
+					special="NONE";
+					id=114;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_NCO_M1911A1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.5;
+					init="[this, [""VC""], [""HA4"", ""ColorBrown""]] call hull_unit_fnc_init; ";
+					description="US Army Heavy Armour 4 Commander";
+				};
+				class Item1
+				{
+					position[]={572.97815,599.573,497.36591};
+					azimut=1.4615099;
+					special="NONE";
+					id=115;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_Eng";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VD""]] call hull_unit_fnc_init; ";
+					description="US Army Heavy Armour 4 Driver";
+				};
+				class Item2
+				{
+					position[]={575.44592,598.51361,497.51727};
+					azimut=1.4615099;
+					special="NONE";
+					id=116;
+					side="WEST";
+					vehicle="I44_Man_A_Army_Crew_M3Greasegun";
+					player="PLAY CDG";
+					skill=0.5;
+					init="[this, [""VG""]] call hull_unit_fnc_init; ";
+					description="US Army Heavy Armour 4 Gunner";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=18;
+		class Item0
+		{
+			position[]={451.83093,524.87714,684.85199};
+			azimut=0.32468101;
+			id=46;
+			side="EMPTY";
+			vehicle="I44_Car_A_WillysMB_M1919_Army";
+			skill=0.2;
+			init="[this, [""Car"", ""I44_A_Army""]] call hull_unit_fnc_init;";
+		};
+		class Item1
+		{
+			position[]={451.60339,532.98273,668.51556};
+			azimut=0.32468101;
+			id=47;
+			side="EMPTY";
+			vehicle="I44_Car_A_WillysMB_M1919_Army";
+			skill=0.2;
+			init="[this, [""Car"", ""I44_A_Army""]] call hull_unit_fnc_init;";
+		};
+		class Item2
+		{
+			position[]={476.48547,542.54987,653.25043};
+			azimut=0.32468101;
+			id=48;
+			side="EMPTY";
+			vehicle="I44_Car_A_WillysMB_M1919_Army";
+			skill=0.2;
+			init="[this, [""Car"", ""I44_A_Army""]] call hull_unit_fnc_init;";
+		};
+		class Item3
+		{
+			position[]={509.27646,554.07202,652.38861};
+			azimut=0.32468101;
+			id=49;
+			side="EMPTY";
+			vehicle="I44_Car_A_WillysMB_M1919_Army";
+			skill=0.2;
+			init="[this, [""Car"", ""I44_A_Army""]] call hull_unit_fnc_init;";
+		};
+		class Item4
+		{
+			position[]={539.91125,564.94733,651.94476};
+			azimut=0.32468101;
+			id=50;
+			side="EMPTY";
+			vehicle="I44_Car_A_WillysMB_M1919_Army";
+			skill=0.2;
+			init="[this, [""Car"", ""I44_A_Army""]] call hull_unit_fnc_init;";
+		};
+		class Item5
+		{
+			position[]={474.67395,555.25433,629.24213};
+			azimut=0.32468101;
+			id=51;
+			side="EMPTY";
+			vehicle="I44_Truck_A_GMC_CCKW_Army";
+			skill=1;
+			init="[this, [""Truck"", ""I44_A_Army""]] call hull_unit_fnc_init;";
+		};
+		class Item6
+		{
+			position[]={506.63098,566.41754,628.70209};
+			azimut=0.32468101;
+			id=52;
+			side="EMPTY";
+			vehicle="I44_Truck_A_GMC_CCKW_Army";
+			skill=1;
+			init="[this, [""Truck"", ""I44_A_Army""]] call hull_unit_fnc_init;";
+		};
+		class Item7
+		{
+			position[]={538.4718,575.5509,628.64154};
+			azimut=0.32468101;
+			id=53;
+			side="EMPTY";
+			vehicle="I44_Truck_A_GMC_CCKW_Army";
+			skill=1;
+			init="[this, [""Truck"", ""I44_A_Army""]] call hull_unit_fnc_init;";
+		};
+		class Item8
+		{
+			position[]={572.54114,578.53735,651.43817};
+			azimut=0.32468101;
+			id=68;
+			side="EMPTY";
+			vehicle="I44_Car_A_WillysMB_M1919_Army";
+			skill=0.2;
+			init="[this, [""Car"", ""I44_A_Army""]] call hull_unit_fnc_init;";
+		};
+		class Item9
+		{
+			position[]={571.10168,586.39111,628.13495};
+			azimut=0.32468101;
+			id=69;
+			side="EMPTY";
+			vehicle="I44_Truck_A_GMC_CCKW_Army";
+			skill=1;
+			init="[this, [""Truck"", ""I44_A_Army""]] call hull_unit_fnc_init;";
+		};
+		class Item10
+		{
+			position[]={483.59192,597.01569,547.88251};
+			azimut=1.4615099;
+			id=95;
+			side="EMPTY";
+			vehicle="I44_HT_A_M3A1_Army";
+			skill=0.2;
+			init="[this, [""Armored"", ""I44_A_Army""]] call hull_unit_fnc_init;";
+		};
+		class Item11
+		{
+			position[]={514.80774,605.20557,547.362};
+			azimut=1.4615099;
+			id=96;
+			side="EMPTY";
+			vehicle="I44_HT_A_M3A1_Army";
+			skill=0.2;
+			init="[this, [""Armored"", ""I44_A_Army""]] call hull_unit_fnc_init;";
+		};
+		class Item12
+		{
+			position[]={544.67151,611.22028,546.72284};
+			azimut=1.4615099;
+			id=97;
+			side="EMPTY";
+			vehicle="I44_HT_A_M3A1_Army";
+			skill=0.2;
+			init="[this, [""Armored"", ""I44_A_Army""]] call hull_unit_fnc_init;";
+		};
+		class Item13
+		{
+			position[]={578.05969,609.28156,544.94965};
+			azimut=1.4615099;
+			id=101;
+			side="EMPTY";
+			vehicle="I44_HT_A_M3A1_Army";
+			skill=0.2;
+			init="[this, [""Armored"", ""I44_A_Army""]] call hull_unit_fnc_init;";
+		};
+		class Item14
+		{
+			position[]={480.68909,608.08069,512.23944};
+			azimut=1.4615065;
+			id=105;
+			side="EMPTY";
+			vehicle="I44_Tank_A_M4A3E8_76_HVSS_Sherman_Army";
+			skill=0.1;
+		};
+		class Item15
+		{
+			position[]={514.27209,612.16089,511.43378};
+			azimut=1.4615099;
+			id=109;
+			side="EMPTY";
+			vehicle="I44_Tank_A_M4A3E8_76_HVSS_Sherman_Army";
+			skill=0.2;
+		};
+		class Item16
+		{
+			position[]={541.4884,612.87915,509.60565};
+			azimut=1.4615099;
+			id=113;
+			side="EMPTY";
+			vehicle="I44_Tank_A_M4A3E8_76_HVSS_Sherman_Army";
+			skill=0.2;
+		};
+		class Item17
+		{
+			position[]={576.82776,600.86401,508.07147};
+			azimut=1.4615099;
+			id=117;
+			side="EMPTY";
+			vehicle="I44_Tank_A_M4A3E8_76_HVSS_Sherman_Army";
+			skill=0.2;
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=13119962;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=15231874;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=1525827;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};

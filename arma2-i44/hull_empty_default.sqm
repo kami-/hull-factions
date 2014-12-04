@@ -1,0 +1,117 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"takistan",
+		"cacharacters2"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters2",
+		"takistan"
+	};
+	randomSeed=3165154;
+	class Intel
+	{
+		briefingName="*** Mission Name ***";
+		briefingDescription="*** Mission Description ***";
+		startWeather=0.25;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=8;
+		minute=0;
+	};
+	class Groups
+	{
+		items=1;
+		class Item0
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-115.7624,347.04037,2242.8489};
+					azimut=0.32468101;
+					special="NONE";
+					id=0;
+					side="CIV";
+					vehicle="Citizen1";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.5;
+					init="this allowDamage false;";
+					description="HC";
+				};
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=13119962;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=15231874;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"takistan"
+	};
+	addOnsAuto[]=
+	{
+		"takistan"
+	};
+	randomSeed=1525827;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.40000001;
+		year=2009;
+		day=28;
+		hour=16;
+		minute=20;
+	};
+};

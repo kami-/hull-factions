@@ -31,6 +31,13 @@
         "USMC 90 desert": "usmc90_desert.sqm",
         "Czech desert": "cz_desert.sqm"
     },
+    "arma2-i44": {
+        "HULL_EMPTY_DEFAULT": "hull_empty_default.sqm",
+        "US Rangers": "us_rangers.sqm",
+        "US Army": "us_army.sqm",
+        "UK Army": "uk_army.sqm",
+        "German Army": "german_army.sqm"
+    },
     "arma3": {
         "HULL_EMPTY_DEFAULT": "hull3_empty_default.sqm",
         "AAF": "aaf.sqm",
