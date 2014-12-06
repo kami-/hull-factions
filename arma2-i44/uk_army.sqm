@@ -4,11 +4,13 @@ class Mission
 	addOns[]=
 	{
 		"takistan",
+		"cacharacters2",
 		"i44_base_m",
 		"i44_base_v"
 	};
 	addOnsAuto[]=
 	{
+		"cacharacters2",
 		"i44_base_m",
 		"i44_base_v",
 		"takistan"
@@ -28,8 +30,31 @@ class Mission
 	};
 	class Groups
 	{
-		items=32;
+		items=33;
 		class Item0
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-115.7624,347.04037,2242.8489};
+					azimut=0.32468101;
+					special="NONE";
+					id=0;
+					side="CIV";
+					vehicle="Citizen1";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.5;
+					init="this allowDamage false;";
+					description="HC";
+				};
+			};
+		};
+		class Item1
 		{
 			side="WEST";
 			class Vehicles
@@ -94,7 +119,7 @@ class Mission
 				};
 			};
 		};
-		class Item1
+		class Item2
 		{
 			side="WEST";
 			class Vehicles
@@ -131,7 +156,7 @@ class Mission
 				};
 			};
 		};
-		class Item2
+		class Item3
 		{
 			side="WEST";
 			class Vehicles
@@ -194,7 +219,7 @@ class Mission
 				};
 			};
 		};
-		class Item3
+		class Item4
 		{
 			side="WEST";
 			class Vehicles
@@ -257,7 +282,7 @@ class Mission
 				};
 			};
 		};
-		class Item4
+		class Item5
 		{
 			side="WEST";
 			class Vehicles
@@ -320,7 +345,7 @@ class Mission
 				};
 			};
 		};
-		class Item5
+		class Item6
 		{
 			side="WEST";
 			class Vehicles
@@ -357,7 +382,7 @@ class Mission
 				};
 			};
 		};
-		class Item6
+		class Item7
 		{
 			side="WEST";
 			class Vehicles
@@ -420,7 +445,7 @@ class Mission
 				};
 			};
 		};
-		class Item7
+		class Item8
 		{
 			side="WEST";
 			class Vehicles
@@ -483,7 +508,7 @@ class Mission
 				};
 			};
 		};
-		class Item8
+		class Item9
 		{
 			side="WEST";
 			class Vehicles
@@ -546,7 +571,7 @@ class Mission
 				};
 			};
 		};
-		class Item9
+		class Item10
 		{
 			side="WEST";
 			class Vehicles
@@ -583,7 +608,7 @@ class Mission
 				};
 			};
 		};
-		class Item10
+		class Item11
 		{
 			side="WEST";
 			class Vehicles
@@ -646,7 +671,7 @@ class Mission
 				};
 			};
 		};
-		class Item11
+		class Item12
 		{
 			side="WEST";
 			class Vehicles
@@ -709,7 +734,7 @@ class Mission
 				};
 			};
 		};
-		class Item12
+		class Item13
 		{
 			side="WEST";
 			class Vehicles
@@ -772,7 +797,7 @@ class Mission
 				};
 			};
 		};
-		class Item13
+		class Item14
 		{
 			side="WEST";
 			class Vehicles
@@ -809,7 +834,7 @@ class Mission
 				};
 			};
 		};
-		class Item14
+		class Item15
 		{
 			side="WEST";
 			class Vehicles
@@ -872,7 +897,7 @@ class Mission
 				};
 			};
 		};
-		class Item15
+		class Item16
 		{
 			side="WEST";
 			class Vehicles
@@ -935,7 +960,7 @@ class Mission
 				};
 			};
 		};
-		class Item16
+		class Item17
 		{
 			side="WEST";
 			class Vehicles
@@ -998,7 +1023,7 @@ class Mission
 				};
 			};
 		};
-		class Item17
+		class Item18
 		{
 			side="WEST";
 			class Vehicles
@@ -1034,7 +1059,7 @@ class Mission
 				};
 			};
 		};
-		class Item18
+		class Item19
 		{
 			side="WEST";
 			class Vehicles
@@ -1070,7 +1095,7 @@ class Mission
 				};
 			};
 		};
-		class Item19
+		class Item20
 		{
 			side="WEST";
 			class Vehicles
@@ -1106,7 +1131,7 @@ class Mission
 				};
 			};
 		};
-		class Item20
+		class Item21
 		{
 			side="WEST";
 			class Vehicles
@@ -1142,7 +1167,7 @@ class Mission
 				};
 			};
 		};
-		class Item21
+		class Item22
 		{
 			side="WEST";
 			class Vehicles
@@ -1191,7 +1216,7 @@ class Mission
 				};
 			};
 		};
-		class Item22
+		class Item23
 		{
 			side="WEST";
 			class Vehicles
@@ -1240,7 +1265,7 @@ class Mission
 				};
 			};
 		};
-		class Item23
+		class Item24
 		{
 			side="WEST";
 			class Vehicles
@@ -1303,7 +1328,7 @@ class Mission
 				};
 			};
 		};
-		class Item24
+		class Item25
 		{
 			side="WEST";
 			class Vehicles
@@ -1352,7 +1377,7 @@ class Mission
 				};
 			};
 		};
-		class Item25
+		class Item26
 		{
 			side="WEST";
 			class Vehicles
@@ -1401,7 +1426,7 @@ class Mission
 				};
 			};
 		};
-		class Item26
+		class Item27
 		{
 			side="WEST";
 			class Vehicles
@@ -1450,7 +1475,7 @@ class Mission
 				};
 			};
 		};
-		class Item27
+		class Item28
 		{
 			side="WEST";
 			class Vehicles
@@ -1499,7 +1524,7 @@ class Mission
 				};
 			};
 		};
-		class Item28
+		class Item29
 		{
 			side="WEST";
 			class Vehicles
@@ -1548,7 +1573,7 @@ class Mission
 				};
 			};
 		};
-		class Item29
+		class Item30
 		{
 			side="WEST";
 			class Vehicles
@@ -1597,7 +1622,7 @@ class Mission
 				};
 			};
 		};
-		class Item30
+		class Item31
 		{
 			side="WEST";
 			class Vehicles
@@ -1646,7 +1671,7 @@ class Mission
 				};
 			};
 		};
-		class Item31
+		class Item32
 		{
 			side="WEST";
 			class Vehicles
@@ -1698,7 +1723,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=18;
+		items=19;
 		class Item0
 		{
 			position[]={544.27466,451.18317,1383.8253};
@@ -1727,10 +1752,11 @@ class Mission
 			side="EMPTY";
 			vehicle="I44_Veh_B_Army_MKIV_Churchill";
 			skill=0.2;
+			init="[this, [""Armored"", ""I44_B_Army""]] call hull_unit_fnc_init;";
 		};
 		class Item3
 		{
-			position[]={467.24969,483.9415,1303.1907};
+			position[]={467.50711,483.91226,1302.8046};
 			azimut=0.32468101;
 			id=103;
 			side="EMPTY";
@@ -1740,7 +1766,7 @@ class Mission
 		};
 		class Item4
 		{
-			position[]={496.00604,472.694,1304.3396};
+			position[]={497.80759,471.47849,1302.9236};
 			azimut=0.32468101;
 			id=104;
 			side="EMPTY";
@@ -1750,30 +1776,33 @@ class Mission
 		};
 		class Item5
 		{
-			position[]={471.67023,471.29562,1257.4243};
+			position[]={471.67017,471.4938,1258.0057};
 			azimut=0.32468101;
 			id=105;
 			side="EMPTY";
 			vehicle="I44_Veh_B_Army_MKIV_Churchill";
 			skill=0.2;
+			init="[this, [""Armored"", ""I44_B_Army""]] call hull_unit_fnc_init;";
 		};
 		class Item6
 		{
-			position[]={498.46088,456.19571,1256.3101};
+			position[]={500.34695,455.54117,1257.4712};
 			azimut=0.32468101;
 			id=106;
 			side="EMPTY";
 			vehicle="I44_Veh_B_Army_MKIV_Churchill";
 			skill=0.2;
+			init="[this, [""Armored"", ""I44_B_Army""]] call hull_unit_fnc_init;";
 		};
 		class Item7
 		{
-			position[]={539.43433,430.05811,1255.3066};
+			position[]={543.20648,427.52744,1255.1616};
 			azimut=0.32468101;
 			id=107;
 			side="EMPTY";
 			vehicle="I44_Veh_B_Army_MKIV_Churchill";
 			skill=0.2;
+			init="[this, [""Armored"", ""I44_B_Army""]] call hull_unit_fnc_init;";
 		};
 		class Item8
 		{
@@ -1867,13 +1896,25 @@ class Mission
 		};
 		class Item17
 		{
-			position[]={539.25342,445.01465,1304.0544};
+			position[]={538.73871,445.07559,1302.7659};
 			azimut=0.32468101;
 			id=117;
 			side="EMPTY";
 			vehicle="I44_Tank_B_Army_UC";
 			skill=0.2;
 			init="[this, [""Armored"", ""I44_B_Army""]] call hull_unit_fnc_init;";
+		};
+		class Item18
+		{
+			position[]={587.08118,417.83301,1348.4519};
+			azimut=0.32468101;
+			special="NONE";
+			id=120;
+			side="EMPTY";
+			vehicle="I44_GunAT_B_QF6pdrMk4_Army";
+			leader=1;
+			skill=0.5;
+			description="UK Army Commander";
 		};
 	};
 };
